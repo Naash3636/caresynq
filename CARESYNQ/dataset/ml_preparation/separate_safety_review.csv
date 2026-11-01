@@ -1,0 +1,10001 @@
+source_row_id,Suicide attempt,Safety_Response_Requires_Review
+1,No,False
+2,Yes,True
+3,No,False
+4,Yes,True
+5,No,False
+6,Not interested to say,False
+7,Yes,True
+8,No,False
+9,Yes,True
+10,No,False
+11,No,False
+12,Not interested to say,False
+13,Not interested to say,False
+14,No,False
+15,Yes,True
+16,Not interested to say,False
+17,Yes,True
+18,No,False
+19,No,False
+20,No,False
+21,Yes,True
+22,No,False
+23,Not interested to say,False
+24,No,False
+25,Yes,True
+26,No,False
+27,No,False
+28,No,False
+29,Yes,True
+30,Not interested to say,False
+31,Yes,True
+32,Not interested to say,False
+33,Yes,True
+34,No,False
+35,Yes,True
+36,No,False
+37,Yes,True
+38,Not interested to say,False
+39,Yes,True
+40,Yes,True
+41,No,False
+42,No,False
+43,No,False
+44,Not interested to say,False
+45,Yes,True
+46,No,False
+47,Not interested to say,False
+48,Yes,True
+49,Not interested to say,False
+50,Yes,True
+51,Not interested to say,False
+52,Yes,True
+53,No,False
+54,No,False
+55,No,False
+56,Yes,True
+57,Yes,True
+58,Not interested to say,False
+59,Not interested to say,False
+60,No,False
+61,No,False
+62,No,False
+63,Not interested to say,False
+64,No,False
+65,No,False
+66,No,False
+67,Not interested to say,False
+68,No,False
+69,No,False
+70,No,False
+71,Yes,True
+72,No,False
+73,No,False
+74,Not interested to say,False
+75,No,False
+76,Yes,True
+77,Yes,True
+78,No,False
+79,Yes,True
+80,No,False
+81,No,False
+82,Yes,True
+83,Yes,True
+84,No,False
+85,Not interested to say,False
+86,Not interested to say,False
+87,No,False
+88,Yes,True
+89,Not interested to say,False
+90,Yes,True
+91,No,False
+92,No,False
+93,Yes,True
+94,Not interested to say,False
+95,No,False
+96,Yes,True
+97,No,False
+98,Not interested to say,False
+99,No,False
+100,Not interested to say,False
+101,Not interested to say,False
+102,No,False
+103,Yes,True
+104,Yes,True
+105,Yes,True
+106,Yes,True
+107,No,False
+108,Not interested to say,False
+109,Yes,True
+110,Yes,True
+111,Yes,True
+112,No,False
+113,Not interested to say,False
+114,Yes,True
+115,No,False
+116,No,False
+117,Yes,True
+118,No,False
+119,Yes,True
+120,Not interested to say,False
+121,Yes,True
+122,No,False
+123,No,False
+124,Yes,True
+125,No,False
+126,Yes,True
+127,No,False
+128,No,False
+129,Not interested to say,False
+130,No,False
+131,Yes,True
+132,No,False
+133,No,False
+134,No,False
+135,Not interested to say,False
+136,Yes,True
+137,No,False
+138,No,False
+139,No,False
+140,Not interested to say,False
+141,Not interested to say,False
+142,Yes,True
+143,No,False
+144,Not interested to say,False
+145,Not interested to say,False
+146,Yes,True
+147,No,False
+148,No,False
+149,Not interested to say,False
+150,No,False
+151,No,False
+152,Yes,True
+153,Not interested to say,False
+154,No,False
+155,Not interested to say,False
+156,No,False
+157,Yes,True
+158,Not interested to say,False
+159,No,False
+160,Yes,True
+161,Yes,True
+162,No,False
+163,Yes,True
+164,Not interested to say,False
+165,No,False
+166,No,False
+167,Yes,True
+168,Yes,True
+169,No,False
+170,No,False
+171,Yes,True
+172,Not interested to say,False
+173,No,False
+174,Yes,True
+175,Yes,True
+176,Yes,True
+177,Yes,True
+178,Yes,True
+179,No,False
+180,No,False
+181,No,False
+182,No,False
+183,Yes,True
+184,Yes,True
+185,No,False
+186,No,False
+187,No,False
+188,Not interested to say,False
+189,No,False
+190,Not interested to say,False
+191,Not interested to say,False
+192,No,False
+193,No,False
+194,No,False
+195,Yes,True
+196,Not interested to say,False
+197,Not interested to say,False
+198,Not interested to say,False
+199,No,False
+200,Not interested to say,False
+201,Not interested to say,False
+202,No,False
+203,Not interested to say,False
+204,Yes,True
+205,Yes,True
+206,No,False
+207,Not interested to say,False
+208,No,False
+209,Yes,True
+210,Yes,True
+211,No,False
+212,Yes,True
+213,No,False
+214,No,False
+215,Yes,True
+216,No,False
+217,Yes,True
+218,Not interested to say,False
+219,Not interested to say,False
+220,No,False
+221,Not interested to say,False
+222,Yes,True
+223,No,False
+224,No,False
+225,Yes,True
+226,Yes,True
+227,No,False
+228,Yes,True
+229,No,False
+230,Not interested to say,False
+231,No,False
+232,Not interested to say,False
+233,No,False
+234,No,False
+235,No,False
+236,Yes,True
+237,No,False
+238,Not interested to say,False
+239,Yes,True
+240,Yes,True
+241,Yes,True
+242,No,False
+243,No,False
+244,No,False
+245,No,False
+246,Not interested to say,False
+247,No,False
+248,Yes,True
+249,Yes,True
+250,Yes,True
+251,Not interested to say,False
+252,No,False
+253,No,False
+254,Not interested to say,False
+255,Yes,True
+256,No,False
+257,No,False
+258,No,False
+259,No,False
+260,No,False
+261,Not interested to say,False
+262,Not interested to say,False
+263,Yes,True
+264,No,False
+265,Yes,True
+266,Not interested to say,False
+267,No,False
+268,Yes,True
+269,Yes,True
+270,No,False
+271,No,False
+272,Yes,True
+273,No,False
+274,Yes,True
+275,Yes,True
+276,Yes,True
+277,No,False
+278,No,False
+279,Not interested to say,False
+280,No,False
+281,Not interested to say,False
+282,No,False
+283,No,False
+284,Yes,True
+285,No,False
+286,Yes,True
+287,No,False
+288,Not interested to say,False
+289,No,False
+290,Not interested to say,False
+291,No,False
+292,Yes,True
+293,No,False
+294,Yes,True
+295,No,False
+296,No,False
+297,Not interested to say,False
+298,Yes,True
+299,No,False
+300,Not interested to say,False
+301,No,False
+302,Yes,True
+303,No,False
+304,No,False
+305,Yes,True
+306,No,False
+307,No,False
+308,No,False
+309,No,False
+310,Yes,True
+311,No,False
+312,Yes,True
+313,No,False
+314,Yes,True
+315,No,False
+316,Not interested to say,False
+317,Not interested to say,False
+318,Yes,True
+319,Yes,True
+320,Yes,True
+321,Yes,True
+322,Yes,True
+323,No,False
+324,Yes,True
+325,No,False
+326,No,False
+327,No,False
+328,Yes,True
+329,No,False
+330,No,False
+331,No,False
+332,No,False
+333,Not interested to say,False
+334,No,False
+335,Yes,True
+336,Not interested to say,False
+337,Yes,True
+338,No,False
+339,No,False
+340,Not interested to say,False
+341,Not interested to say,False
+342,Not interested to say,False
+343,No,False
+344,No,False
+345,Yes,True
+346,No,False
+347,Yes,True
+348,Not interested to say,False
+349,No,False
+350,Not interested to say,False
+351,No,False
+352,Yes,True
+353,No,False
+354,Not interested to say,False
+355,No,False
+356,No,False
+357,Not interested to say,False
+358,Not interested to say,False
+359,Not interested to say,False
+360,No,False
+361,Not interested to say,False
+362,No,False
+363,Not interested to say,False
+364,No,False
+365,No,False
+366,Yes,True
+367,Yes,True
+368,Not interested to say,False
+369,No,False
+370,No,False
+371,No,False
+372,No,False
+373,Yes,True
+374,No,False
+375,Yes,True
+376,Not interested to say,False
+377,Not interested to say,False
+378,Yes,True
+379,Not interested to say,False
+380,Yes,True
+381,No,False
+382,No,False
+383,No,False
+384,Yes,True
+385,No,False
+386,No,False
+387,No,False
+388,Yes,True
+389,No,False
+390,No,False
+391,Not interested to say,False
+392,Not interested to say,False
+393,Yes,True
+394,Not interested to say,False
+395,No,False
+396,No,False
+397,Yes,True
+398,No,False
+399,Yes,True
+400,No,False
+401,Not interested to say,False
+402,Not interested to say,False
+403,Yes,True
+404,Not interested to say,False
+405,No,False
+406,No,False
+407,Yes,True
+408,Yes,True
+409,Yes,True
+410,Yes,True
+411,Yes,True
+412,No,False
+413,No,False
+414,No,False
+415,No,False
+416,Yes,True
+417,Yes,True
+418,No,False
+419,No,False
+420,Yes,True
+421,No,False
+422,Not interested to say,False
+423,No,False
+424,Not interested to say,False
+425,No,False
+426,No,False
+427,No,False
+428,No,False
+429,Not interested to say,False
+430,No,False
+431,No,False
+432,Not interested to say,False
+433,Not interested to say,False
+434,Yes,True
+435,Yes,True
+436,No,False
+437,No,False
+438,Not interested to say,False
+439,No,False
+440,No,False
+441,Not interested to say,False
+442,No,False
+443,Not interested to say,False
+444,No,False
+445,Not interested to say,False
+446,No,False
+447,No,False
+448,No,False
+449,No,False
+450,Not interested to say,False
+451,No,False
+452,Not interested to say,False
+453,No,False
+454,No,False
+455,Yes,True
+456,No,False
+457,No,False
+458,No,False
+459,Yes,True
+460,Yes,True
+461,No,False
+462,No,False
+463,Yes,True
+464,Not interested to say,False
+465,Yes,True
+466,Yes,True
+467,Yes,True
+468,No,False
+469,Yes,True
+470,No,False
+471,Not interested to say,False
+472,No,False
+473,Not interested to say,False
+474,Not interested to say,False
+475,Yes,True
+476,No,False
+477,No,False
+478,Not interested to say,False
+479,Yes,True
+480,Yes,True
+481,Yes,True
+482,Not interested to say,False
+483,Not interested to say,False
+484,Yes,True
+485,Yes,True
+486,No,False
+487,No,False
+488,Not interested to say,False
+489,Yes,True
+490,Yes,True
+491,Not interested to say,False
+492,No,False
+493,Not interested to say,False
+494,Yes,True
+495,No,False
+496,No,False
+497,Yes,True
+498,Not interested to say,False
+499,No,False
+500,No,False
+501,No,False
+502,Yes,True
+503,No,False
+504,No,False
+505,Yes,True
+506,Yes,True
+507,Yes,True
+508,No,False
+509,Yes,True
+510,Not interested to say,False
+511,No,False
+512,No,False
+513,No,False
+514,Not interested to say,False
+515,No,False
+516,No,False
+517,Yes,True
+518,Yes,True
+519,Yes,True
+520,No,False
+521,No,False
+522,No,False
+523,No,False
+524,Not interested to say,False
+525,No,False
+526,No,False
+527,No,False
+528,Not interested to say,False
+529,Yes,True
+530,No,False
+531,No,False
+532,No,False
+533,Yes,True
+534,No,False
+535,Not interested to say,False
+536,No,False
+537,Yes,True
+538,No,False
+539,Yes,True
+540,No,False
+541,No,False
+542,Not interested to say,False
+543,Not interested to say,False
+544,No,False
+545,Yes,True
+546,Not interested to say,False
+547,No,False
+548,No,False
+549,Yes,True
+550,Yes,True
+551,No,False
+552,Yes,True
+553,No,False
+554,No,False
+555,Yes,True
+556,Not interested to say,False
+557,No,False
+558,Not interested to say,False
+559,No,False
+560,Yes,True
+561,No,False
+562,Not interested to say,False
+563,No,False
+564,No,False
+565,No,False
+566,No,False
+567,No,False
+568,No,False
+569,Not interested to say,False
+570,Yes,True
+571,Not interested to say,False
+572,Yes,True
+573,No,False
+574,Yes,True
+575,Yes,True
+576,Not interested to say,False
+577,Yes,True
+578,Yes,True
+579,Not interested to say,False
+580,No,False
+581,No,False
+582,No,False
+583,Yes,True
+584,No,False
+585,Yes,True
+586,Yes,True
+587,No,False
+588,Not interested to say,False
+589,Yes,True
+590,Not interested to say,False
+591,No,False
+592,No,False
+593,Yes,True
+594,Yes,True
+595,Yes,True
+596,No,False
+597,No,False
+598,No,False
+599,Yes,True
+600,Yes,True
+601,Not interested to say,False
+602,Not interested to say,False
+603,Not interested to say,False
+604,No,False
+605,No,False
+606,Yes,True
+607,No,False
+608,Not interested to say,False
+609,No,False
+610,Yes,True
+611,Not interested to say,False
+612,No,False
+613,No,False
+614,Yes,True
+615,No,False
+616,Yes,True
+617,Yes,True
+618,No,False
+619,Yes,True
+620,No,False
+621,No,False
+622,Yes,True
+623,No,False
+624,No,False
+625,No,False
+626,No,False
+627,Yes,True
+628,No,False
+629,Yes,True
+630,Yes,True
+631,Yes,True
+632,No,False
+633,No,False
+634,Not interested to say,False
+635,No,False
+636,No,False
+637,Not interested to say,False
+638,Yes,True
+639,No,False
+640,No,False
+641,No,False
+642,Yes,True
+643,Yes,True
+644,No,False
+645,No,False
+646,No,False
+647,No,False
+648,No,False
+649,Yes,True
+650,Not interested to say,False
+651,No,False
+652,Yes,True
+653,Not interested to say,False
+654,Yes,True
+655,Yes,True
+656,Yes,True
+657,Yes,True
+658,Not interested to say,False
+659,No,False
+660,Yes,True
+661,Not interested to say,False
+662,Yes,True
+663,Yes,True
+664,Yes,True
+665,Yes,True
+666,Not interested to say,False
+667,Yes,True
+668,No,False
+669,Yes,True
+670,Yes,True
+671,No,False
+672,Yes,True
+673,Yes,True
+674,Not interested to say,False
+675,Yes,True
+676,No,False
+677,No,False
+678,No,False
+679,No,False
+680,No,False
+681,No,False
+682,Not interested to say,False
+683,Yes,True
+684,No,False
+685,No,False
+686,No,False
+687,No,False
+688,Yes,True
+689,No,False
+690,No,False
+691,Not interested to say,False
+692,Not interested to say,False
+693,No,False
+694,No,False
+695,Yes,True
+696,No,False
+697,Yes,True
+698,No,False
+699,Yes,True
+700,Yes,True
+701,No,False
+702,Yes,True
+703,No,False
+704,Yes,True
+705,No,False
+706,Not interested to say,False
+707,Not interested to say,False
+708,No,False
+709,Yes,True
+710,Yes,True
+711,Yes,True
+712,Not interested to say,False
+713,No,False
+714,No,False
+715,No,False
+716,No,False
+717,Yes,True
+718,No,False
+719,No,False
+720,No,False
+721,Yes,True
+722,Yes,True
+723,Not interested to say,False
+724,No,False
+725,Not interested to say,False
+726,Yes,True
+727,No,False
+728,No,False
+729,Not interested to say,False
+730,Not interested to say,False
+731,Not interested to say,False
+732,Not interested to say,False
+733,No,False
+734,Not interested to say,False
+735,No,False
+736,Yes,True
+737,Yes,True
+738,Yes,True
+739,Yes,True
+740,Yes,True
+741,Yes,True
+742,Yes,True
+743,Yes,True
+744,Not interested to say,False
+745,No,False
+746,No,False
+747,Yes,True
+748,No,False
+749,Not interested to say,False
+750,No,False
+751,No,False
+752,No,False
+753,Yes,True
+754,No,False
+755,Not interested to say,False
+756,No,False
+757,Not interested to say,False
+758,Yes,True
+759,Yes,True
+760,Not interested to say,False
+761,No,False
+762,No,False
+763,No,False
+764,No,False
+765,Yes,True
+766,Yes,True
+767,No,False
+768,No,False
+769,No,False
+770,Yes,True
+771,Yes,True
+772,Yes,True
+773,Not interested to say,False
+774,Not interested to say,False
+775,Not interested to say,False
+776,No,False
+777,Yes,True
+778,No,False
+779,No,False
+780,No,False
+781,No,False
+782,No,False
+783,No,False
+784,No,False
+785,No,False
+786,No,False
+787,No,False
+788,No,False
+789,Not interested to say,False
+790,Yes,True
+791,No,False
+792,Not interested to say,False
+793,Yes,True
+794,Yes,True
+795,No,False
+796,No,False
+797,No,False
+798,Yes,True
+799,Not interested to say,False
+800,No,False
+801,Not interested to say,False
+802,No,False
+803,Not interested to say,False
+804,Not interested to say,False
+805,Not interested to say,False
+806,No,False
+807,No,False
+808,No,False
+809,Yes,True
+810,No,False
+811,Yes,True
+812,Yes,True
+813,No,False
+814,No,False
+815,No,False
+816,Yes,True
+817,Not interested to say,False
+818,No,False
+819,No,False
+820,Yes,True
+821,Not interested to say,False
+822,Yes,True
+823,No,False
+824,Not interested to say,False
+825,Yes,True
+826,Yes,True
+827,Not interested to say,False
+828,No,False
+829,No,False
+830,No,False
+831,Yes,True
+832,No,False
+833,No,False
+834,No,False
+835,Yes,True
+836,Yes,True
+837,No,False
+838,Not interested to say,False
+839,Not interested to say,False
+840,Not interested to say,False
+841,No,False
+842,No,False
+843,No,False
+844,No,False
+845,Not interested to say,False
+846,No,False
+847,No,False
+848,Yes,True
+849,No,False
+850,No,False
+851,Yes,True
+852,No,False
+853,No,False
+854,Not interested to say,False
+855,No,False
+856,No,False
+857,No,False
+858,No,False
+859,Yes,True
+860,No,False
+861,No,False
+862,Yes,True
+863,Yes,True
+864,No,False
+865,No,False
+866,No,False
+867,No,False
+868,Not interested to say,False
+869,Yes,True
+870,Not interested to say,False
+871,No,False
+872,Not interested to say,False
+873,Yes,True
+874,Yes,True
+875,Yes,True
+876,Not interested to say,False
+877,No,False
+878,No,False
+879,Yes,True
+880,Not interested to say,False
+881,No,False
+882,Not interested to say,False
+883,Yes,True
+884,No,False
+885,No,False
+886,No,False
+887,No,False
+888,No,False
+889,No,False
+890,No,False
+891,Yes,True
+892,Not interested to say,False
+893,Yes,True
+894,No,False
+895,Not interested to say,False
+896,Not interested to say,False
+897,No,False
+898,No,False
+899,No,False
+900,No,False
+901,No,False
+902,No,False
+903,Yes,True
+904,Not interested to say,False
+905,Yes,True
+906,Not interested to say,False
+907,No,False
+908,Not interested to say,False
+909,Not interested to say,False
+910,Not interested to say,False
+911,No,False
+912,Yes,True
+913,Not interested to say,False
+914,No,False
+915,Yes,True
+916,No,False
+917,No,False
+918,Yes,True
+919,Yes,True
+920,No,False
+921,No,False
+922,No,False
+923,Yes,True
+924,Yes,True
+925,Not interested to say,False
+926,No,False
+927,Not interested to say,False
+928,Yes,True
+929,No,False
+930,Not interested to say,False
+931,Not interested to say,False
+932,Not interested to say,False
+933,No,False
+934,Not interested to say,False
+935,Yes,True
+936,Not interested to say,False
+937,Not interested to say,False
+938,No,False
+939,Not interested to say,False
+940,Not interested to say,False
+941,Not interested to say,False
+942,Not interested to say,False
+943,No,False
+944,No,False
+945,Not interested to say,False
+946,Yes,True
+947,No,False
+948,Yes,True
+949,Yes,True
+950,No,False
+951,Yes,True
+952,Not interested to say,False
+953,Not interested to say,False
+954,Yes,True
+955,No,False
+956,Yes,True
+957,No,False
+958,No,False
+959,No,False
+960,No,False
+961,Not interested to say,False
+962,Yes,True
+963,Yes,True
+964,No,False
+965,No,False
+966,Not interested to say,False
+967,Yes,True
+968,Yes,True
+969,No,False
+970,No,False
+971,No,False
+972,No,False
+973,No,False
+974,Not interested to say,False
+975,Not interested to say,False
+976,Yes,True
+977,Yes,True
+978,Yes,True
+979,No,False
+980,Yes,True
+981,No,False
+982,Not interested to say,False
+983,Yes,True
+984,Yes,True
+985,Not interested to say,False
+986,Yes,True
+987,No,False
+988,No,False
+989,Not interested to say,False
+990,Yes,True
+991,No,False
+992,Yes,True
+993,No,False
+994,Not interested to say,False
+995,Yes,True
+996,Yes,True
+997,No,False
+998,No,False
+999,No,False
+1000,Not interested to say,False
+1001,No,False
+1002,No,False
+1003,No,False
+1004,Yes,True
+1005,No,False
+1006,No,False
+1007,Yes,True
+1008,Not interested to say,False
+1009,Yes,True
+1010,No,False
+1011,No,False
+1012,No,False
+1013,Not interested to say,False
+1014,Not interested to say,False
+1015,Not interested to say,False
+1016,No,False
+1017,Yes,True
+1018,Not interested to say,False
+1019,Yes,True
+1020,Yes,True
+1021,Yes,True
+1022,Yes,True
+1023,No,False
+1024,Not interested to say,False
+1025,Not interested to say,False
+1026,No,False
+1027,Yes,True
+1028,No,False
+1029,Not interested to say,False
+1030,Not interested to say,False
+1031,Yes,True
+1032,Not interested to say,False
+1033,No,False
+1034,No,False
+1035,Not interested to say,False
+1036,No,False
+1037,No,False
+1038,Yes,True
+1039,No,False
+1040,No,False
+1041,Yes,True
+1042,No,False
+1043,Not interested to say,False
+1044,No,False
+1045,No,False
+1046,Yes,True
+1047,No,False
+1048,Yes,True
+1049,Yes,True
+1050,No,False
+1051,Not interested to say,False
+1052,No,False
+1053,Not interested to say,False
+1054,Yes,True
+1055,No,False
+1056,No,False
+1057,No,False
+1058,Yes,True
+1059,Yes,True
+1060,No,False
+1061,No,False
+1062,No,False
+1063,No,False
+1064,No,False
+1065,Yes,True
+1066,Not interested to say,False
+1067,No,False
+1068,No,False
+1069,Yes,True
+1070,No,False
+1071,No,False
+1072,Yes,True
+1073,No,False
+1074,Not interested to say,False
+1075,No,False
+1076,No,False
+1077,Not interested to say,False
+1078,Not interested to say,False
+1079,No,False
+1080,Yes,True
+1081,No,False
+1082,Yes,True
+1083,Not interested to say,False
+1084,No,False
+1085,No,False
+1086,No,False
+1087,Not interested to say,False
+1088,No,False
+1089,Not interested to say,False
+1090,Not interested to say,False
+1091,No,False
+1092,Yes,True
+1093,Yes,True
+1094,No,False
+1095,No,False
+1096,Yes,True
+1097,No,False
+1098,Yes,True
+1099,Not interested to say,False
+1100,No,False
+1101,No,False
+1102,Not interested to say,False
+1103,Yes,True
+1104,Yes,True
+1105,No,False
+1106,Not interested to say,False
+1107,Not interested to say,False
+1108,No,False
+1109,Not interested to say,False
+1110,No,False
+1111,Yes,True
+1112,Yes,True
+1113,Not interested to say,False
+1114,No,False
+1115,Yes,True
+1116,Not interested to say,False
+1117,Yes,True
+1118,No,False
+1119,No,False
+1120,Yes,True
+1121,Yes,True
+1122,No,False
+1123,Yes,True
+1124,No,False
+1125,Not interested to say,False
+1126,No,False
+1127,No,False
+1128,Yes,True
+1129,Not interested to say,False
+1130,No,False
+1131,Not interested to say,False
+1132,No,False
+1133,No,False
+1134,Yes,True
+1135,No,False
+1136,Yes,True
+1137,Yes,True
+1138,Not interested to say,False
+1139,No,False
+1140,Not interested to say,False
+1141,No,False
+1142,Yes,True
+1143,No,False
+1144,No,False
+1145,Yes,True
+1146,Not interested to say,False
+1147,Yes,True
+1148,No,False
+1149,No,False
+1150,No,False
+1151,No,False
+1152,No,False
+1153,Not interested to say,False
+1154,Yes,True
+1155,No,False
+1156,No,False
+1157,No,False
+1158,Yes,True
+1159,No,False
+1160,Not interested to say,False
+1161,No,False
+1162,No,False
+1163,Not interested to say,False
+1164,Yes,True
+1165,No,False
+1166,Yes,True
+1167,Not interested to say,False
+1168,Not interested to say,False
+1169,Yes,True
+1170,Yes,True
+1171,No,False
+1172,No,False
+1173,No,False
+1174,No,False
+1175,Yes,True
+1176,No,False
+1177,Yes,True
+1178,No,False
+1179,Yes,True
+1180,Yes,True
+1181,No,False
+1182,No,False
+1183,No,False
+1184,Not interested to say,False
+1185,No,False
+1186,No,False
+1187,No,False
+1188,No,False
+1189,Not interested to say,False
+1190,No,False
+1191,Not interested to say,False
+1192,Not interested to say,False
+1193,Yes,True
+1194,Yes,True
+1195,Yes,True
+1196,Yes,True
+1197,No,False
+1198,No,False
+1199,Not interested to say,False
+1200,Yes,True
+1201,Not interested to say,False
+1202,Not interested to say,False
+1203,Not interested to say,False
+1204,Yes,True
+1205,No,False
+1206,No,False
+1207,Not interested to say,False
+1208,No,False
+1209,No,False
+1210,Yes,True
+1211,Yes,True
+1212,Yes,True
+1213,No,False
+1214,No,False
+1215,Not interested to say,False
+1216,No,False
+1217,Not interested to say,False
+1218,Yes,True
+1219,No,False
+1220,Yes,True
+1221,Not interested to say,False
+1222,Not interested to say,False
+1223,No,False
+1224,Not interested to say,False
+1225,Not interested to say,False
+1226,No,False
+1227,No,False
+1228,No,False
+1229,No,False
+1230,No,False
+1231,No,False
+1232,Yes,True
+1233,No,False
+1234,No,False
+1235,Not interested to say,False
+1236,Not interested to say,False
+1237,No,False
+1238,Not interested to say,False
+1239,No,False
+1240,Yes,True
+1241,No,False
+1242,No,False
+1243,Not interested to say,False
+1244,No,False
+1245,Yes,True
+1246,Not interested to say,False
+1247,Yes,True
+1248,Not interested to say,False
+1249,Not interested to say,False
+1250,Yes,True
+1251,No,False
+1252,Yes,True
+1253,No,False
+1254,No,False
+1255,Yes,True
+1256,Yes,True
+1257,Yes,True
+1258,No,False
+1259,No,False
+1260,Not interested to say,False
+1261,No,False
+1262,Yes,True
+1263,No,False
+1264,Not interested to say,False
+1265,Yes,True
+1266,No,False
+1267,Yes,True
+1268,Not interested to say,False
+1269,Not interested to say,False
+1270,No,False
+1271,Not interested to say,False
+1272,No,False
+1273,Yes,True
+1274,No,False
+1275,No,False
+1276,Not interested to say,False
+1277,Yes,True
+1278,No,False
+1279,Yes,True
+1280,No,False
+1281,Not interested to say,False
+1282,Not interested to say,False
+1283,No,False
+1284,Not interested to say,False
+1285,No,False
+1286,Not interested to say,False
+1287,No,False
+1288,Not interested to say,False
+1289,Not interested to say,False
+1290,Not interested to say,False
+1291,Not interested to say,False
+1292,No,False
+1293,No,False
+1294,Not interested to say,False
+1295,No,False
+1296,No,False
+1297,No,False
+1298,Not interested to say,False
+1299,Yes,True
+1300,No,False
+1301,No,False
+1302,No,False
+1303,Not interested to say,False
+1304,Not interested to say,False
+1305,Not interested to say,False
+1306,No,False
+1307,No,False
+1308,Yes,True
+1309,No,False
+1310,No,False
+1311,Not interested to say,False
+1312,No,False
+1313,No,False
+1314,No,False
+1315,Yes,True
+1316,Not interested to say,False
+1317,No,False
+1318,Not interested to say,False
+1319,No,False
+1320,No,False
+1321,No,False
+1322,Not interested to say,False
+1323,No,False
+1324,No,False
+1325,Not interested to say,False
+1326,Yes,True
+1327,No,False
+1328,Not interested to say,False
+1329,No,False
+1330,No,False
+1331,Not interested to say,False
+1332,No,False
+1333,No,False
+1334,No,False
+1335,Yes,True
+1336,No,False
+1337,Yes,True
+1338,No,False
+1339,No,False
+1340,Not interested to say,False
+1341,Yes,True
+1342,No,False
+1343,Yes,True
+1344,Not interested to say,False
+1345,No,False
+1346,No,False
+1347,No,False
+1348,No,False
+1349,No,False
+1350,No,False
+1351,No,False
+1352,Not interested to say,False
+1353,No,False
+1354,Not interested to say,False
+1355,No,False
+1356,Not interested to say,False
+1357,No,False
+1358,Not interested to say,False
+1359,Not interested to say,False
+1360,Yes,True
+1361,No,False
+1362,Yes,True
+1363,Yes,True
+1364,Yes,True
+1365,No,False
+1366,No,False
+1367,Yes,True
+1368,Not interested to say,False
+1369,No,False
+1370,No,False
+1371,Not interested to say,False
+1372,No,False
+1373,Yes,True
+1374,No,False
+1375,Yes,True
+1376,No,False
+1377,Yes,True
+1378,Yes,True
+1379,Not interested to say,False
+1380,No,False
+1381,No,False
+1382,Yes,True
+1383,No,False
+1384,No,False
+1385,Not interested to say,False
+1386,No,False
+1387,No,False
+1388,Yes,True
+1389,Not interested to say,False
+1390,No,False
+1391,Not interested to say,False
+1392,No,False
+1393,No,False
+1394,Yes,True
+1395,No,False
+1396,Not interested to say,False
+1397,No,False
+1398,Not interested to say,False
+1399,No,False
+1400,Yes,True
+1401,Not interested to say,False
+1402,Yes,True
+1403,Not interested to say,False
+1404,Yes,True
+1405,No,False
+1406,Not interested to say,False
+1407,No,False
+1408,No,False
+1409,Not interested to say,False
+1410,No,False
+1411,Not interested to say,False
+1412,Not interested to say,False
+1413,Yes,True
+1414,Not interested to say,False
+1415,Yes,True
+1416,No,False
+1417,No,False
+1418,Not interested to say,False
+1419,Yes,True
+1420,No,False
+1421,Not interested to say,False
+1422,Not interested to say,False
+1423,Yes,True
+1424,No,False
+1425,No,False
+1426,Not interested to say,False
+1427,No,False
+1428,Not interested to say,False
+1429,No,False
+1430,Not interested to say,False
+1431,Yes,True
+1432,No,False
+1433,No,False
+1434,No,False
+1435,No,False
+1436,Yes,True
+1437,No,False
+1438,Yes,True
+1439,No,False
+1440,No,False
+1441,No,False
+1442,Yes,True
+1443,Yes,True
+1444,No,False
+1445,Yes,True
+1446,Not interested to say,False
+1447,Yes,True
+1448,No,False
+1449,No,False
+1450,No,False
+1451,Yes,True
+1452,Not interested to say,False
+1453,Not interested to say,False
+1454,Yes,True
+1455,Not interested to say,False
+1456,Yes,True
+1457,Not interested to say,False
+1458,Yes,True
+1459,No,False
+1460,No,False
+1461,No,False
+1462,Not interested to say,False
+1463,Not interested to say,False
+1464,Not interested to say,False
+1465,No,False
+1466,No,False
+1467,No,False
+1468,No,False
+1469,Yes,True
+1470,No,False
+1471,No,False
+1472,No,False
+1473,No,False
+1474,Yes,True
+1475,Yes,True
+1476,No,False
+1477,No,False
+1478,No,False
+1479,No,False
+1480,No,False
+1481,Yes,True
+1482,No,False
+1483,Yes,True
+1484,Not interested to say,False
+1485,No,False
+1486,No,False
+1487,Not interested to say,False
+1488,No,False
+1489,No,False
+1490,No,False
+1491,No,False
+1492,No,False
+1493,Not interested to say,False
+1494,Not interested to say,False
+1495,Not interested to say,False
+1496,No,False
+1497,Yes,True
+1498,Yes,True
+1499,Yes,True
+1500,Yes,True
+1501,No,False
+1502,No,False
+1503,Not interested to say,False
+1504,No,False
+1505,No,False
+1506,Yes,True
+1507,Not interested to say,False
+1508,No,False
+1509,No,False
+1510,No,False
+1511,No,False
+1512,No,False
+1513,Yes,True
+1514,No,False
+1515,No,False
+1516,Yes,True
+1517,No,False
+1518,No,False
+1519,Not interested to say,False
+1520,Not interested to say,False
+1521,Yes,True
+1522,Not interested to say,False
+1523,Yes,True
+1524,No,False
+1525,Not interested to say,False
+1526,Yes,True
+1527,Yes,True
+1528,No,False
+1529,No,False
+1530,Yes,True
+1531,Not interested to say,False
+1532,Yes,True
+1533,Yes,True
+1534,Yes,True
+1535,Yes,True
+1536,Yes,True
+1537,No,False
+1538,Yes,True
+1539,Yes,True
+1540,No,False
+1541,Not interested to say,False
+1542,Not interested to say,False
+1543,No,False
+1544,Yes,True
+1545,Yes,True
+1546,No,False
+1547,Not interested to say,False
+1548,Not interested to say,False
+1549,No,False
+1550,No,False
+1551,No,False
+1552,Yes,True
+1553,No,False
+1554,No,False
+1555,No,False
+1556,Yes,True
+1557,No,False
+1558,No,False
+1559,Not interested to say,False
+1560,Not interested to say,False
+1561,Yes,True
+1562,Not interested to say,False
+1563,Not interested to say,False
+1564,No,False
+1565,No,False
+1566,No,False
+1567,Yes,True
+1568,No,False
+1569,No,False
+1570,Not interested to say,False
+1571,No,False
+1572,Not interested to say,False
+1573,No,False
+1574,No,False
+1575,Yes,True
+1576,Not interested to say,False
+1577,Yes,True
+1578,Not interested to say,False
+1579,Not interested to say,False
+1580,Yes,True
+1581,Not interested to say,False
+1582,Not interested to say,False
+1583,Yes,True
+1584,No,False
+1585,Not interested to say,False
+1586,No,False
+1587,Yes,True
+1588,No,False
+1589,Not interested to say,False
+1590,Yes,True
+1591,No,False
+1592,No,False
+1593,Not interested to say,False
+1594,Yes,True
+1595,No,False
+1596,Not interested to say,False
+1597,No,False
+1598,No,False
+1599,No,False
+1600,Yes,True
+1601,Not interested to say,False
+1602,Yes,True
+1603,Not interested to say,False
+1604,No,False
+1605,No,False
+1606,Not interested to say,False
+1607,No,False
+1608,Yes,True
+1609,No,False
+1610,No,False
+1611,No,False
+1612,Not interested to say,False
+1613,No,False
+1614,No,False
+1615,No,False
+1616,Not interested to say,False
+1617,No,False
+1618,Not interested to say,False
+1619,Not interested to say,False
+1620,No,False
+1621,No,False
+1622,No,False
+1623,Yes,True
+1624,Yes,True
+1625,No,False
+1626,Yes,True
+1627,No,False
+1628,No,False
+1629,Not interested to say,False
+1630,No,False
+1631,Not interested to say,False
+1632,Yes,True
+1633,No,False
+1634,Yes,True
+1635,Yes,True
+1636,Not interested to say,False
+1637,No,False
+1638,Yes,True
+1639,Yes,True
+1640,No,False
+1641,Yes,True
+1642,No,False
+1643,No,False
+1644,Yes,True
+1645,No,False
+1646,No,False
+1647,No,False
+1648,No,False
+1649,No,False
+1650,No,False
+1651,Not interested to say,False
+1652,No,False
+1653,No,False
+1654,No,False
+1655,No,False
+1656,No,False
+1657,Yes,True
+1658,Yes,True
+1659,No,False
+1660,Yes,True
+1661,No,False
+1662,Not interested to say,False
+1663,Not interested to say,False
+1664,No,False
+1665,Yes,True
+1666,No,False
+1667,No,False
+1668,Yes,True
+1669,Yes,True
+1670,Yes,True
+1671,Yes,True
+1672,Not interested to say,False
+1673,No,False
+1674,No,False
+1675,Yes,True
+1676,No,False
+1677,No,False
+1678,Yes,True
+1679,No,False
+1680,No,False
+1681,Not interested to say,False
+1682,No,False
+1683,No,False
+1684,Not interested to say,False
+1685,No,False
+1686,No,False
+1687,Yes,True
+1688,Not interested to say,False
+1689,Yes,True
+1690,No,False
+1691,Yes,True
+1692,No,False
+1693,Not interested to say,False
+1694,Yes,True
+1695,No,False
+1696,No,False
+1697,Not interested to say,False
+1698,Yes,True
+1699,Not interested to say,False
+1700,Not interested to say,False
+1701,Yes,True
+1702,No,False
+1703,Yes,True
+1704,Yes,True
+1705,No,False
+1706,Yes,True
+1707,Yes,True
+1708,No,False
+1709,Yes,True
+1710,No,False
+1711,No,False
+1712,No,False
+1713,Not interested to say,False
+1714,Not interested to say,False
+1715,Not interested to say,False
+1716,No,False
+1717,Yes,True
+1718,No,False
+1719,Not interested to say,False
+1720,Not interested to say,False
+1721,No,False
+1722,Yes,True
+1723,No,False
+1724,No,False
+1725,Yes,True
+1726,Yes,True
+1727,No,False
+1728,Yes,True
+1729,Yes,True
+1730,No,False
+1731,Yes,True
+1732,Yes,True
+1733,No,False
+1734,No,False
+1735,Not interested to say,False
+1736,Yes,True
+1737,No,False
+1738,Yes,True
+1739,No,False
+1740,Yes,True
+1741,Not interested to say,False
+1742,No,False
+1743,No,False
+1744,Yes,True
+1745,No,False
+1746,Yes,True
+1747,No,False
+1748,Not interested to say,False
+1749,No,False
+1750,No,False
+1751,Not interested to say,False
+1752,Yes,True
+1753,No,False
+1754,No,False
+1755,No,False
+1756,No,False
+1757,Not interested to say,False
+1758,Yes,True
+1759,No,False
+1760,Yes,True
+1761,Yes,True
+1762,Yes,True
+1763,No,False
+1764,Not interested to say,False
+1765,Not interested to say,False
+1766,Yes,True
+1767,Not interested to say,False
+1768,No,False
+1769,Yes,True
+1770,Yes,True
+1771,No,False
+1772,Not interested to say,False
+1773,No,False
+1774,No,False
+1775,No,False
+1776,No,False
+1777,No,False
+1778,No,False
+1779,Yes,True
+1780,Yes,True
+1781,Not interested to say,False
+1782,Not interested to say,False
+1783,Not interested to say,False
+1784,Yes,True
+1785,Not interested to say,False
+1786,No,False
+1787,Yes,True
+1788,No,False
+1789,Not interested to say,False
+1790,No,False
+1791,No,False
+1792,Not interested to say,False
+1793,Yes,True
+1794,Not interested to say,False
+1795,Yes,True
+1796,Yes,True
+1797,Yes,True
+1798,Yes,True
+1799,No,False
+1800,Not interested to say,False
+1801,No,False
+1802,No,False
+1803,No,False
+1804,No,False
+1805,No,False
+1806,Not interested to say,False
+1807,No,False
+1808,Yes,True
+1809,Yes,True
+1810,No,False
+1811,No,False
+1812,No,False
+1813,Yes,True
+1814,No,False
+1815,No,False
+1816,No,False
+1817,Yes,True
+1818,No,False
+1819,Not interested to say,False
+1820,Not interested to say,False
+1821,Yes,True
+1822,Not interested to say,False
+1823,No,False
+1824,No,False
+1825,No,False
+1826,Not interested to say,False
+1827,Yes,True
+1828,Yes,True
+1829,Not interested to say,False
+1830,No,False
+1831,Yes,True
+1832,No,False
+1833,No,False
+1834,Not interested to say,False
+1835,No,False
+1836,Yes,True
+1837,No,False
+1838,Not interested to say,False
+1839,Yes,True
+1840,No,False
+1841,Yes,True
+1842,Yes,True
+1843,Not interested to say,False
+1844,Not interested to say,False
+1845,No,False
+1846,No,False
+1847,No,False
+1848,Yes,True
+1849,No,False
+1850,Yes,True
+1851,Yes,True
+1852,Yes,True
+1853,Not interested to say,False
+1854,Yes,True
+1855,Yes,True
+1856,No,False
+1857,Yes,True
+1858,No,False
+1859,Yes,True
+1860,No,False
+1861,No,False
+1862,Yes,True
+1863,Yes,True
+1864,Not interested to say,False
+1865,No,False
+1866,Yes,True
+1867,No,False
+1868,No,False
+1869,Not interested to say,False
+1870,No,False
+1871,No,False
+1872,No,False
+1873,No,False
+1874,No,False
+1875,Not interested to say,False
+1876,Yes,True
+1877,No,False
+1878,No,False
+1879,Yes,True
+1880,No,False
+1881,No,False
+1882,Yes,True
+1883,Yes,True
+1884,Yes,True
+1885,No,False
+1886,Yes,True
+1887,Yes,True
+1888,Yes,True
+1889,No,False
+1890,No,False
+1891,No,False
+1892,No,False
+1893,Not interested to say,False
+1894,No,False
+1895,Not interested to say,False
+1896,No,False
+1897,Yes,True
+1898,No,False
+1899,No,False
+1900,No,False
+1901,No,False
+1902,No,False
+1903,Yes,True
+1904,No,False
+1905,Not interested to say,False
+1906,Not interested to say,False
+1907,Yes,True
+1908,No,False
+1909,No,False
+1910,No,False
+1911,No,False
+1912,No,False
+1913,No,False
+1914,No,False
+1915,No,False
+1916,Yes,True
+1917,No,False
+1918,No,False
+1919,Not interested to say,False
+1920,No,False
+1921,No,False
+1922,No,False
+1923,Yes,True
+1924,No,False
+1925,No,False
+1926,Yes,True
+1927,Yes,True
+1928,Yes,True
+1929,Yes,True
+1930,Yes,True
+1931,Yes,True
+1932,No,False
+1933,Not interested to say,False
+1934,Yes,True
+1935,Not interested to say,False
+1936,No,False
+1937,No,False
+1938,Yes,True
+1939,Yes,True
+1940,Yes,True
+1941,Yes,True
+1942,No,False
+1943,No,False
+1944,Not interested to say,False
+1945,Not interested to say,False
+1946,Not interested to say,False
+1947,Yes,True
+1948,Yes,True
+1949,Yes,True
+1950,No,False
+1951,Yes,True
+1952,No,False
+1953,No,False
+1954,Yes,True
+1955,No,False
+1956,Yes,True
+1957,Yes,True
+1958,No,False
+1959,No,False
+1960,No,False
+1961,No,False
+1962,Yes,True
+1963,No,False
+1964,Yes,True
+1965,No,False
+1966,No,False
+1967,No,False
+1968,Yes,True
+1969,Yes,True
+1970,Yes,True
+1971,Yes,True
+1972,No,False
+1973,No,False
+1974,No,False
+1975,Not interested to say,False
+1976,Yes,True
+1977,Yes,True
+1978,Not interested to say,False
+1979,Yes,True
+1980,Not interested to say,False
+1981,No,False
+1982,No,False
+1983,Yes,True
+1984,No,False
+1985,Not interested to say,False
+1986,No,False
+1987,No,False
+1988,Yes,True
+1989,Yes,True
+1990,Yes,True
+1991,No,False
+1992,No,False
+1993,No,False
+1994,Yes,True
+1995,No,False
+1996,No,False
+1997,Yes,True
+1998,No,False
+1999,Not interested to say,False
+2000,Yes,True
+2001,Not interested to say,False
+2002,No,False
+2003,No,False
+2004,Yes,True
+2005,No,False
+2006,Not interested to say,False
+2007,Not interested to say,False
+2008,No,False
+2009,No,False
+2010,No,False
+2011,Not interested to say,False
+2012,No,False
+2013,Yes,True
+2014,No,False
+2015,Not interested to say,False
+2016,No,False
+2017,No,False
+2018,Yes,True
+2019,No,False
+2020,Yes,True
+2021,No,False
+2022,No,False
+2023,Yes,True
+2024,No,False
+2025,Yes,True
+2026,Yes,True
+2027,Yes,True
+2028,Not interested to say,False
+2029,No,False
+2030,No,False
+2031,Yes,True
+2032,No,False
+2033,No,False
+2034,Yes,True
+2035,Yes,True
+2036,Yes,True
+2037,Yes,True
+2038,Yes,True
+2039,Yes,True
+2040,Yes,True
+2041,Yes,True
+2042,No,False
+2043,Not interested to say,False
+2044,No,False
+2045,Yes,True
+2046,Not interested to say,False
+2047,Not interested to say,False
+2048,No,False
+2049,Yes,True
+2050,No,False
+2051,No,False
+2052,Yes,True
+2053,Not interested to say,False
+2054,No,False
+2055,No,False
+2056,Yes,True
+2057,Yes,True
+2058,Yes,True
+2059,Yes,True
+2060,No,False
+2061,Yes,True
+2062,No,False
+2063,Yes,True
+2064,Yes,True
+2065,No,False
+2066,No,False
+2067,No,False
+2068,Not interested to say,False
+2069,No,False
+2070,Yes,True
+2071,Not interested to say,False
+2072,Yes,True
+2073,No,False
+2074,No,False
+2075,Yes,True
+2076,Not interested to say,False
+2077,No,False
+2078,Not interested to say,False
+2079,No,False
+2080,No,False
+2081,Not interested to say,False
+2082,Not interested to say,False
+2083,No,False
+2084,Not interested to say,False
+2085,No,False
+2086,Not interested to say,False
+2087,No,False
+2088,Yes,True
+2089,No,False
+2090,Not interested to say,False
+2091,No,False
+2092,No,False
+2093,No,False
+2094,No,False
+2095,No,False
+2096,Not interested to say,False
+2097,Not interested to say,False
+2098,Yes,True
+2099,No,False
+2100,No,False
+2101,Yes,True
+2102,Yes,True
+2103,No,False
+2104,No,False
+2105,Not interested to say,False
+2106,No,False
+2107,Not interested to say,False
+2108,Not interested to say,False
+2109,No,False
+2110,Yes,True
+2111,No,False
+2112,No,False
+2113,No,False
+2114,No,False
+2115,Not interested to say,False
+2116,No,False
+2117,Not interested to say,False
+2118,Yes,True
+2119,Not interested to say,False
+2120,No,False
+2121,No,False
+2122,No,False
+2123,No,False
+2124,Not interested to say,False
+2125,No,False
+2126,Not interested to say,False
+2127,No,False
+2128,No,False
+2129,Not interested to say,False
+2130,Not interested to say,False
+2131,No,False
+2132,Not interested to say,False
+2133,Yes,True
+2134,Yes,True
+2135,Yes,True
+2136,No,False
+2137,Not interested to say,False
+2138,No,False
+2139,No,False
+2140,Yes,True
+2141,Not interested to say,False
+2142,No,False
+2143,Yes,True
+2144,Not interested to say,False
+2145,Not interested to say,False
+2146,No,False
+2147,Not interested to say,False
+2148,No,False
+2149,No,False
+2150,No,False
+2151,No,False
+2152,No,False
+2153,No,False
+2154,No,False
+2155,No,False
+2156,Yes,True
+2157,Not interested to say,False
+2158,No,False
+2159,Yes,True
+2160,Yes,True
+2161,No,False
+2162,Yes,True
+2163,Yes,True
+2164,Yes,True
+2165,Yes,True
+2166,Yes,True
+2167,Not interested to say,False
+2168,Yes,True
+2169,No,False
+2170,No,False
+2171,Not interested to say,False
+2172,Yes,True
+2173,Yes,True
+2174,No,False
+2175,Yes,True
+2176,Not interested to say,False
+2177,No,False
+2178,Yes,True
+2179,Yes,True
+2180,No,False
+2181,No,False
+2182,Yes,True
+2183,Yes,True
+2184,Yes,True
+2185,Not interested to say,False
+2186,Not interested to say,False
+2187,Yes,True
+2188,No,False
+2189,Not interested to say,False
+2190,No,False
+2191,No,False
+2192,No,False
+2193,Yes,True
+2194,No,False
+2195,No,False
+2196,Yes,True
+2197,Yes,True
+2198,Yes,True
+2199,No,False
+2200,Yes,True
+2201,Yes,True
+2202,Yes,True
+2203,Not interested to say,False
+2204,Yes,True
+2205,No,False
+2206,Not interested to say,False
+2207,No,False
+2208,Not interested to say,False
+2209,Yes,True
+2210,Yes,True
+2211,Yes,True
+2212,Not interested to say,False
+2213,No,False
+2214,Yes,True
+2215,Not interested to say,False
+2216,Yes,True
+2217,Yes,True
+2218,No,False
+2219,Yes,True
+2220,No,False
+2221,No,False
+2222,No,False
+2223,No,False
+2224,No,False
+2225,Yes,True
+2226,Not interested to say,False
+2227,Yes,True
+2228,No,False
+2229,Not interested to say,False
+2230,No,False
+2231,No,False
+2232,No,False
+2233,No,False
+2234,No,False
+2235,Yes,True
+2236,No,False
+2237,Yes,True
+2238,Yes,True
+2239,No,False
+2240,No,False
+2241,Not interested to say,False
+2242,No,False
+2243,No,False
+2244,No,False
+2245,Not interested to say,False
+2246,Yes,True
+2247,Yes,True
+2248,No,False
+2249,Not interested to say,False
+2250,No,False
+2251,Not interested to say,False
+2252,Not interested to say,False
+2253,No,False
+2254,No,False
+2255,Yes,True
+2256,No,False
+2257,No,False
+2258,Yes,True
+2259,No,False
+2260,Yes,True
+2261,Yes,True
+2262,No,False
+2263,Not interested to say,False
+2264,Yes,True
+2265,Yes,True
+2266,Yes,True
+2267,No,False
+2268,Yes,True
+2269,Not interested to say,False
+2270,No,False
+2271,No,False
+2272,Yes,True
+2273,Not interested to say,False
+2274,No,False
+2275,No,False
+2276,No,False
+2277,Not interested to say,False
+2278,No,False
+2279,Not interested to say,False
+2280,No,False
+2281,Yes,True
+2282,No,False
+2283,Yes,True
+2284,Not interested to say,False
+2285,Not interested to say,False
+2286,No,False
+2287,No,False
+2288,Not interested to say,False
+2289,Yes,True
+2290,Not interested to say,False
+2291,No,False
+2292,No,False
+2293,No,False
+2294,No,False
+2295,Not interested to say,False
+2296,No,False
+2297,Yes,True
+2298,Yes,True
+2299,No,False
+2300,Not interested to say,False
+2301,Not interested to say,False
+2302,Yes,True
+2303,Yes,True
+2304,No,False
+2305,Not interested to say,False
+2306,Yes,True
+2307,No,False
+2308,Yes,True
+2309,No,False
+2310,Yes,True
+2311,No,False
+2312,No,False
+2313,No,False
+2314,Not interested to say,False
+2315,No,False
+2316,Not interested to say,False
+2317,Yes,True
+2318,Yes,True
+2319,No,False
+2320,Not interested to say,False
+2321,No,False
+2322,No,False
+2323,Yes,True
+2324,Not interested to say,False
+2325,Yes,True
+2326,Not interested to say,False
+2327,Yes,True
+2328,Yes,True
+2329,Yes,True
+2330,Not interested to say,False
+2331,Not interested to say,False
+2332,Not interested to say,False
+2333,No,False
+2334,Yes,True
+2335,No,False
+2336,Not interested to say,False
+2337,Not interested to say,False
+2338,No,False
+2339,Yes,True
+2340,Yes,True
+2341,Not interested to say,False
+2342,Not interested to say,False
+2343,Not interested to say,False
+2344,Yes,True
+2345,Not interested to say,False
+2346,Yes,True
+2347,No,False
+2348,Not interested to say,False
+2349,Yes,True
+2350,No,False
+2351,Yes,True
+2352,No,False
+2353,Yes,True
+2354,Not interested to say,False
+2355,No,False
+2356,Yes,True
+2357,Yes,True
+2358,Yes,True
+2359,No,False
+2360,Not interested to say,False
+2361,Yes,True
+2362,Yes,True
+2363,No,False
+2364,Yes,True
+2365,No,False
+2366,Not interested to say,False
+2367,Yes,True
+2368,No,False
+2369,Not interested to say,False
+2370,No,False
+2371,Yes,True
+2372,Not interested to say,False
+2373,No,False
+2374,No,False
+2375,Not interested to say,False
+2376,No,False
+2377,Yes,True
+2378,Yes,True
+2379,Not interested to say,False
+2380,Not interested to say,False
+2381,No,False
+2382,No,False
+2383,No,False
+2384,No,False
+2385,No,False
+2386,Yes,True
+2387,No,False
+2388,Yes,True
+2389,No,False
+2390,Yes,True
+2391,Yes,True
+2392,No,False
+2393,No,False
+2394,No,False
+2395,No,False
+2396,No,False
+2397,No,False
+2398,Not interested to say,False
+2399,No,False
+2400,No,False
+2401,No,False
+2402,Not interested to say,False
+2403,Yes,True
+2404,Not interested to say,False
+2405,Not interested to say,False
+2406,No,False
+2407,Not interested to say,False
+2408,Not interested to say,False
+2409,Not interested to say,False
+2410,No,False
+2411,No,False
+2412,No,False
+2413,No,False
+2414,Yes,True
+2415,Not interested to say,False
+2416,Yes,True
+2417,No,False
+2418,Not interested to say,False
+2419,No,False
+2420,Yes,True
+2421,Not interested to say,False
+2422,Yes,True
+2423,Not interested to say,False
+2424,Not interested to say,False
+2425,No,False
+2426,No,False
+2427,Yes,True
+2428,Yes,True
+2429,No,False
+2430,Yes,True
+2431,Yes,True
+2432,No,False
+2433,No,False
+2434,No,False
+2435,Not interested to say,False
+2436,Yes,True
+2437,No,False
+2438,Yes,True
+2439,Yes,True
+2440,Yes,True
+2441,No,False
+2442,No,False
+2443,No,False
+2444,Yes,True
+2445,Yes,True
+2446,Not interested to say,False
+2447,Yes,True
+2448,Not interested to say,False
+2449,Yes,True
+2450,Yes,True
+2451,Yes,True
+2452,Yes,True
+2453,Yes,True
+2454,Yes,True
+2455,No,False
+2456,Not interested to say,False
+2457,No,False
+2458,Yes,True
+2459,Not interested to say,False
+2460,Not interested to say,False
+2461,No,False
+2462,No,False
+2463,No,False
+2464,Yes,True
+2465,Yes,True
+2466,Not interested to say,False
+2467,Yes,True
+2468,No,False
+2469,Not interested to say,False
+2470,Yes,True
+2471,No,False
+2472,No,False
+2473,No,False
+2474,Yes,True
+2475,Yes,True
+2476,Not interested to say,False
+2477,No,False
+2478,No,False
+2479,No,False
+2480,Not interested to say,False
+2481,Yes,True
+2482,Not interested to say,False
+2483,No,False
+2484,No,False
+2485,Yes,True
+2486,Yes,True
+2487,Yes,True
+2488,Not interested to say,False
+2489,Not interested to say,False
+2490,Not interested to say,False
+2491,No,False
+2492,No,False
+2493,No,False
+2494,Yes,True
+2495,Yes,True
+2496,No,False
+2497,Yes,True
+2498,Not interested to say,False
+2499,Not interested to say,False
+2500,Not interested to say,False
+2501,Yes,True
+2502,No,False
+2503,No,False
+2504,No,False
+2505,No,False
+2506,Yes,True
+2507,Not interested to say,False
+2508,No,False
+2509,No,False
+2510,No,False
+2511,Yes,True
+2512,Not interested to say,False
+2513,No,False
+2514,No,False
+2515,Yes,True
+2516,Not interested to say,False
+2517,Yes,True
+2518,Not interested to say,False
+2519,Yes,True
+2520,Yes,True
+2521,No,False
+2522,Yes,True
+2523,Not interested to say,False
+2524,No,False
+2525,Yes,True
+2526,No,False
+2527,No,False
+2528,Yes,True
+2529,Yes,True
+2530,No,False
+2531,No,False
+2532,No,False
+2533,No,False
+2534,Not interested to say,False
+2535,No,False
+2536,No,False
+2537,Not interested to say,False
+2538,Yes,True
+2539,No,False
+2540,No,False
+2541,No,False
+2542,No,False
+2543,No,False
+2544,Yes,True
+2545,No,False
+2546,No,False
+2547,No,False
+2548,Yes,True
+2549,Yes,True
+2550,Yes,True
+2551,No,False
+2552,No,False
+2553,No,False
+2554,No,False
+2555,No,False
+2556,No,False
+2557,No,False
+2558,Not interested to say,False
+2559,No,False
+2560,Not interested to say,False
+2561,Yes,True
+2562,Not interested to say,False
+2563,No,False
+2564,No,False
+2565,Yes,True
+2566,No,False
+2567,No,False
+2568,No,False
+2569,Not interested to say,False
+2570,No,False
+2571,No,False
+2572,No,False
+2573,Yes,True
+2574,Yes,True
+2575,No,False
+2576,No,False
+2577,Not interested to say,False
+2578,No,False
+2579,Yes,True
+2580,Not interested to say,False
+2581,Yes,True
+2582,No,False
+2583,Not interested to say,False
+2584,No,False
+2585,Not interested to say,False
+2586,Not interested to say,False
+2587,Yes,True
+2588,Not interested to say,False
+2589,Yes,True
+2590,No,False
+2591,Yes,True
+2592,Not interested to say,False
+2593,No,False
+2594,Not interested to say,False
+2595,Not interested to say,False
+2596,No,False
+2597,Yes,True
+2598,Not interested to say,False
+2599,Not interested to say,False
+2600,No,False
+2601,No,False
+2602,No,False
+2603,Yes,True
+2604,No,False
+2605,No,False
+2606,No,False
+2607,Not interested to say,False
+2608,No,False
+2609,No,False
+2610,No,False
+2611,No,False
+2612,Not interested to say,False
+2613,No,False
+2614,Not interested to say,False
+2615,Yes,True
+2616,Yes,True
+2617,Yes,True
+2618,No,False
+2619,No,False
+2620,Not interested to say,False
+2621,No,False
+2622,Yes,True
+2623,Yes,True
+2624,No,False
+2625,Yes,True
+2626,Yes,True
+2627,No,False
+2628,Yes,True
+2629,No,False
+2630,Yes,True
+2631,Yes,True
+2632,Not interested to say,False
+2633,No,False
+2634,Yes,True
+2635,No,False
+2636,Yes,True
+2637,No,False
+2638,Yes,True
+2639,Not interested to say,False
+2640,No,False
+2641,No,False
+2642,Not interested to say,False
+2643,Yes,True
+2644,Not interested to say,False
+2645,No,False
+2646,No,False
+2647,Not interested to say,False
+2648,No,False
+2649,No,False
+2650,No,False
+2651,Yes,True
+2652,No,False
+2653,Not interested to say,False
+2654,Not interested to say,False
+2655,Not interested to say,False
+2656,No,False
+2657,Not interested to say,False
+2658,No,False
+2659,No,False
+2660,No,False
+2661,Not interested to say,False
+2662,Not interested to say,False
+2663,Yes,True
+2664,No,False
+2665,No,False
+2666,No,False
+2667,No,False
+2668,Yes,True
+2669,Yes,True
+2670,No,False
+2671,Not interested to say,False
+2672,No,False
+2673,Yes,True
+2674,Not interested to say,False
+2675,Not interested to say,False
+2676,No,False
+2677,No,False
+2678,No,False
+2679,Yes,True
+2680,No,False
+2681,Not interested to say,False
+2682,No,False
+2683,Yes,True
+2684,Yes,True
+2685,No,False
+2686,No,False
+2687,No,False
+2688,No,False
+2689,No,False
+2690,No,False
+2691,Yes,True
+2692,No,False
+2693,No,False
+2694,Yes,True
+2695,No,False
+2696,No,False
+2697,No,False
+2698,No,False
+2699,Not interested to say,False
+2700,No,False
+2701,No,False
+2702,Not interested to say,False
+2703,No,False
+2704,No,False
+2705,No,False
+2706,Not interested to say,False
+2707,No,False
+2708,No,False
+2709,Yes,True
+2710,No,False
+2711,No,False
+2712,Yes,True
+2713,Yes,True
+2714,Not interested to say,False
+2715,Yes,True
+2716,No,False
+2717,Yes,True
+2718,Not interested to say,False
+2719,Yes,True
+2720,Not interested to say,False
+2721,No,False
+2722,No,False
+2723,Yes,True
+2724,Yes,True
+2725,Not interested to say,False
+2726,No,False
+2727,Not interested to say,False
+2728,No,False
+2729,No,False
+2730,Yes,True
+2731,No,False
+2732,Yes,True
+2733,No,False
+2734,Not interested to say,False
+2735,No,False
+2736,No,False
+2737,Yes,True
+2738,Yes,True
+2739,No,False
+2740,No,False
+2741,No,False
+2742,Yes,True
+2743,Not interested to say,False
+2744,No,False
+2745,Yes,True
+2746,No,False
+2747,No,False
+2748,No,False
+2749,No,False
+2750,No,False
+2751,Not interested to say,False
+2752,Not interested to say,False
+2753,No,False
+2754,Yes,True
+2755,No,False
+2756,Not interested to say,False
+2757,Yes,True
+2758,Yes,True
+2759,Not interested to say,False
+2760,No,False
+2761,Not interested to say,False
+2762,No,False
+2763,No,False
+2764,No,False
+2765,Yes,True
+2766,Yes,True
+2767,Not interested to say,False
+2768,No,False
+2769,Yes,True
+2770,Yes,True
+2771,Yes,True
+2772,Not interested to say,False
+2773,Not interested to say,False
+2774,No,False
+2775,No,False
+2776,Yes,True
+2777,No,False
+2778,No,False
+2779,Not interested to say,False
+2780,Not interested to say,False
+2781,No,False
+2782,Yes,True
+2783,No,False
+2784,No,False
+2785,Yes,True
+2786,Yes,True
+2787,Yes,True
+2788,Yes,True
+2789,No,False
+2790,Yes,True
+2791,No,False
+2792,Yes,True
+2793,Not interested to say,False
+2794,Not interested to say,False
+2795,No,False
+2796,No,False
+2797,Not interested to say,False
+2798,No,False
+2799,Yes,True
+2800,Not interested to say,False
+2801,Not interested to say,False
+2802,No,False
+2803,No,False
+2804,No,False
+2805,No,False
+2806,No,False
+2807,No,False
+2808,Not interested to say,False
+2809,Not interested to say,False
+2810,No,False
+2811,No,False
+2812,Not interested to say,False
+2813,Yes,True
+2814,Yes,True
+2815,Not interested to say,False
+2816,Yes,True
+2817,Yes,True
+2818,Not interested to say,False
+2819,Not interested to say,False
+2820,Yes,True
+2821,Yes,True
+2822,Yes,True
+2823,No,False
+2824,No,False
+2825,No,False
+2826,No,False
+2827,No,False
+2828,Yes,True
+2829,Not interested to say,False
+2830,Not interested to say,False
+2831,No,False
+2832,No,False
+2833,No,False
+2834,No,False
+2835,Yes,True
+2836,No,False
+2837,No,False
+2838,Not interested to say,False
+2839,Yes,True
+2840,Yes,True
+2841,No,False
+2842,Yes,True
+2843,No,False
+2844,No,False
+2845,Yes,True
+2846,Yes,True
+2847,Not interested to say,False
+2848,No,False
+2849,Yes,True
+2850,Yes,True
+2851,Yes,True
+2852,No,False
+2853,Yes,True
+2854,Not interested to say,False
+2855,No,False
+2856,No,False
+2857,No,False
+2858,No,False
+2859,No,False
+2860,No,False
+2861,Yes,True
+2862,Yes,True
+2863,No,False
+2864,Yes,True
+2865,Yes,True
+2866,Yes,True
+2867,No,False
+2868,No,False
+2869,Yes,True
+2870,Yes,True
+2871,No,False
+2872,No,False
+2873,No,False
+2874,No,False
+2875,No,False
+2876,No,False
+2877,No,False
+2878,Not interested to say,False
+2879,Yes,True
+2880,Not interested to say,False
+2881,Yes,True
+2882,No,False
+2883,Yes,True
+2884,No,False
+2885,Yes,True
+2886,No,False
+2887,Not interested to say,False
+2888,No,False
+2889,Not interested to say,False
+2890,No,False
+2891,No,False
+2892,No,False
+2893,Not interested to say,False
+2894,Yes,True
+2895,Yes,True
+2896,Yes,True
+2897,Not interested to say,False
+2898,Not interested to say,False
+2899,No,False
+2900,Not interested to say,False
+2901,No,False
+2902,Not interested to say,False
+2903,No,False
+2904,No,False
+2905,No,False
+2906,Not interested to say,False
+2907,Yes,True
+2908,No,False
+2909,Not interested to say,False
+2910,No,False
+2911,No,False
+2912,Not interested to say,False
+2913,Yes,True
+2914,No,False
+2915,Yes,True
+2916,Yes,True
+2917,No,False
+2918,Not interested to say,False
+2919,No,False
+2920,Not interested to say,False
+2921,Yes,True
+2922,No,False
+2923,No,False
+2924,No,False
+2925,Not interested to say,False
+2926,No,False
+2927,Yes,True
+2928,Not interested to say,False
+2929,Yes,True
+2930,No,False
+2931,No,False
+2932,No,False
+2933,Not interested to say,False
+2934,Yes,True
+2935,No,False
+2936,No,False
+2937,Yes,True
+2938,No,False
+2939,Not interested to say,False
+2940,No,False
+2941,Not interested to say,False
+2942,No,False
+2943,No,False
+2944,No,False
+2945,Yes,True
+2946,No,False
+2947,No,False
+2948,Not interested to say,False
+2949,Yes,True
+2950,Yes,True
+2951,Yes,True
+2952,No,False
+2953,Not interested to say,False
+2954,No,False
+2955,Yes,True
+2956,Not interested to say,False
+2957,Yes,True
+2958,Yes,True
+2959,Not interested to say,False
+2960,No,False
+2961,Not interested to say,False
+2962,No,False
+2963,Yes,True
+2964,Not interested to say,False
+2965,No,False
+2966,Yes,True
+2967,Yes,True
+2968,Not interested to say,False
+2969,Not interested to say,False
+2970,Yes,True
+2971,No,False
+2972,Not interested to say,False
+2973,Yes,True
+2974,No,False
+2975,Not interested to say,False
+2976,No,False
+2977,No,False
+2978,Not interested to say,False
+2979,Not interested to say,False
+2980,No,False
+2981,Yes,True
+2982,No,False
+2983,Yes,True
+2984,Yes,True
+2985,Not interested to say,False
+2986,No,False
+2987,Yes,True
+2988,Yes,True
+2989,No,False
+2990,No,False
+2991,No,False
+2992,Yes,True
+2993,Yes,True
+2994,No,False
+2995,No,False
+2996,No,False
+2997,No,False
+2998,Not interested to say,False
+2999,Not interested to say,False
+3000,No,False
+3001,Not interested to say,False
+3002,No,False
+3003,No,False
+3004,Yes,True
+3005,No,False
+3006,Not interested to say,False
+3007,Yes,True
+3008,Yes,True
+3009,No,False
+3010,No,False
+3011,No,False
+3012,Not interested to say,False
+3013,Yes,True
+3014,No,False
+3015,No,False
+3016,Not interested to say,False
+3017,No,False
+3018,Yes,True
+3019,No,False
+3020,Yes,True
+3021,Yes,True
+3022,Yes,True
+3023,Yes,True
+3024,Not interested to say,False
+3025,No,False
+3026,Yes,True
+3027,No,False
+3028,No,False
+3029,Not interested to say,False
+3030,No,False
+3031,Not interested to say,False
+3032,No,False
+3033,Yes,True
+3034,Not interested to say,False
+3035,No,False
+3036,Not interested to say,False
+3037,Yes,True
+3038,No,False
+3039,Not interested to say,False
+3040,No,False
+3041,Yes,True
+3042,Yes,True
+3043,No,False
+3044,No,False
+3045,Not interested to say,False
+3046,No,False
+3047,Yes,True
+3048,No,False
+3049,Yes,True
+3050,No,False
+3051,No,False
+3052,Not interested to say,False
+3053,No,False
+3054,Not interested to say,False
+3055,No,False
+3056,Not interested to say,False
+3057,No,False
+3058,Not interested to say,False
+3059,Yes,True
+3060,Yes,True
+3061,No,False
+3062,Yes,True
+3063,No,False
+3064,Yes,True
+3065,Yes,True
+3066,Not interested to say,False
+3067,No,False
+3068,No,False
+3069,Not interested to say,False
+3070,Not interested to say,False
+3071,Yes,True
+3072,Not interested to say,False
+3073,No,False
+3074,No,False
+3075,Not interested to say,False
+3076,Yes,True
+3077,Yes,True
+3078,No,False
+3079,No,False
+3080,No,False
+3081,Not interested to say,False
+3082,Yes,True
+3083,Yes,True
+3084,Yes,True
+3085,No,False
+3086,Yes,True
+3087,No,False
+3088,No,False
+3089,Yes,True
+3090,No,False
+3091,No,False
+3092,Yes,True
+3093,Yes,True
+3094,No,False
+3095,No,False
+3096,No,False
+3097,Not interested to say,False
+3098,No,False
+3099,Yes,True
+3100,Yes,True
+3101,No,False
+3102,Yes,True
+3103,Yes,True
+3104,No,False
+3105,Yes,True
+3106,Yes,True
+3107,Not interested to say,False
+3108,No,False
+3109,Yes,True
+3110,Yes,True
+3111,Yes,True
+3112,No,False
+3113,Yes,True
+3114,No,False
+3115,No,False
+3116,Yes,True
+3117,No,False
+3118,No,False
+3119,Not interested to say,False
+3120,Yes,True
+3121,No,False
+3122,Not interested to say,False
+3123,Yes,True
+3124,No,False
+3125,Not interested to say,False
+3126,Yes,True
+3127,No,False
+3128,No,False
+3129,Yes,True
+3130,No,False
+3131,Not interested to say,False
+3132,Yes,True
+3133,No,False
+3134,Yes,True
+3135,No,False
+3136,Yes,True
+3137,Yes,True
+3138,No,False
+3139,Not interested to say,False
+3140,No,False
+3141,Not interested to say,False
+3142,Yes,True
+3143,No,False
+3144,Not interested to say,False
+3145,Yes,True
+3146,Not interested to say,False
+3147,Yes,True
+3148,Yes,True
+3149,No,False
+3150,Not interested to say,False
+3151,No,False
+3152,Yes,True
+3153,Yes,True
+3154,Yes,True
+3155,No,False
+3156,No,False
+3157,No,False
+3158,Not interested to say,False
+3159,Yes,True
+3160,No,False
+3161,No,False
+3162,No,False
+3163,Not interested to say,False
+3164,Not interested to say,False
+3165,No,False
+3166,Yes,True
+3167,No,False
+3168,Yes,True
+3169,No,False
+3170,No,False
+3171,Yes,True
+3172,Yes,True
+3173,Not interested to say,False
+3174,No,False
+3175,No,False
+3176,No,False
+3177,No,False
+3178,No,False
+3179,No,False
+3180,Yes,True
+3181,Not interested to say,False
+3182,No,False
+3183,Not interested to say,False
+3184,Not interested to say,False
+3185,No,False
+3186,No,False
+3187,Yes,True
+3188,Not interested to say,False
+3189,No,False
+3190,Yes,True
+3191,Yes,True
+3192,Yes,True
+3193,Not interested to say,False
+3194,Yes,True
+3195,No,False
+3196,No,False
+3197,Yes,True
+3198,Yes,True
+3199,No,False
+3200,No,False
+3201,Yes,True
+3202,Not interested to say,False
+3203,Yes,True
+3204,Yes,True
+3205,No,False
+3206,No,False
+3207,No,False
+3208,Yes,True
+3209,No,False
+3210,No,False
+3211,Yes,True
+3212,Not interested to say,False
+3213,Not interested to say,False
+3214,No,False
+3215,No,False
+3216,No,False
+3217,No,False
+3218,No,False
+3219,Yes,True
+3220,No,False
+3221,No,False
+3222,No,False
+3223,Yes,True
+3224,No,False
+3225,No,False
+3226,Not interested to say,False
+3227,Not interested to say,False
+3228,Yes,True
+3229,Yes,True
+3230,Yes,True
+3231,No,False
+3232,Yes,True
+3233,No,False
+3234,No,False
+3235,No,False
+3236,No,False
+3237,No,False
+3238,Yes,True
+3239,Yes,True
+3240,No,False
+3241,Not interested to say,False
+3242,No,False
+3243,Yes,True
+3244,Yes,True
+3245,Yes,True
+3246,Yes,True
+3247,No,False
+3248,No,False
+3249,Yes,True
+3250,No,False
+3251,No,False
+3252,No,False
+3253,No,False
+3254,Not interested to say,False
+3255,Yes,True
+3256,Yes,True
+3257,No,False
+3258,No,False
+3259,No,False
+3260,Not interested to say,False
+3261,Yes,True
+3262,No,False
+3263,Yes,True
+3264,No,False
+3265,No,False
+3266,No,False
+3267,No,False
+3268,Yes,True
+3269,No,False
+3270,No,False
+3271,Yes,True
+3272,No,False
+3273,Yes,True
+3274,No,False
+3275,No,False
+3276,Yes,True
+3277,Yes,True
+3278,Not interested to say,False
+3279,No,False
+3280,No,False
+3281,Yes,True
+3282,Yes,True
+3283,No,False
+3284,Yes,True
+3285,Yes,True
+3286,No,False
+3287,Yes,True
+3288,No,False
+3289,No,False
+3290,No,False
+3291,No,False
+3292,Not interested to say,False
+3293,No,False
+3294,No,False
+3295,Yes,True
+3296,No,False
+3297,Not interested to say,False
+3298,No,False
+3299,No,False
+3300,No,False
+3301,Yes,True
+3302,Not interested to say,False
+3303,Not interested to say,False
+3304,No,False
+3305,Yes,True
+3306,No,False
+3307,Not interested to say,False
+3308,Yes,True
+3309,No,False
+3310,Not interested to say,False
+3311,No,False
+3312,No,False
+3313,Yes,True
+3314,No,False
+3315,No,False
+3316,Yes,True
+3317,No,False
+3318,Not interested to say,False
+3319,Yes,True
+3320,Yes,True
+3321,No,False
+3322,No,False
+3323,No,False
+3324,Yes,True
+3325,Yes,True
+3326,Yes,True
+3327,No,False
+3328,Yes,True
+3329,Not interested to say,False
+3330,No,False
+3331,Not interested to say,False
+3332,Yes,True
+3333,No,False
+3334,Not interested to say,False
+3335,Not interested to say,False
+3336,No,False
+3337,Not interested to say,False
+3338,No,False
+3339,No,False
+3340,Not interested to say,False
+3341,Not interested to say,False
+3342,Not interested to say,False
+3343,No,False
+3344,No,False
+3345,No,False
+3346,No,False
+3347,No,False
+3348,Not interested to say,False
+3349,Not interested to say,False
+3350,No,False
+3351,No,False
+3352,Yes,True
+3353,No,False
+3354,Yes,True
+3355,No,False
+3356,Yes,True
+3357,No,False
+3358,Yes,True
+3359,No,False
+3360,No,False
+3361,No,False
+3362,Not interested to say,False
+3363,Not interested to say,False
+3364,No,False
+3365,Yes,True
+3366,No,False
+3367,No,False
+3368,Not interested to say,False
+3369,Yes,True
+3370,Yes,True
+3371,Not interested to say,False
+3372,No,False
+3373,Not interested to say,False
+3374,No,False
+3375,No,False
+3376,Yes,True
+3377,No,False
+3378,No,False
+3379,No,False
+3380,No,False
+3381,No,False
+3382,No,False
+3383,Yes,True
+3384,Yes,True
+3385,Yes,True
+3386,Not interested to say,False
+3387,Not interested to say,False
+3388,Yes,True
+3389,No,False
+3390,Not interested to say,False
+3391,Yes,True
+3392,No,False
+3393,No,False
+3394,Yes,True
+3395,Yes,True
+3396,No,False
+3397,Yes,True
+3398,No,False
+3399,Not interested to say,False
+3400,Not interested to say,False
+3401,No,False
+3402,Not interested to say,False
+3403,Yes,True
+3404,No,False
+3405,Not interested to say,False
+3406,No,False
+3407,No,False
+3408,Yes,True
+3409,No,False
+3410,No,False
+3411,No,False
+3412,Yes,True
+3413,No,False
+3414,No,False
+3415,Yes,True
+3416,No,False
+3417,No,False
+3418,Not interested to say,False
+3419,No,False
+3420,Not interested to say,False
+3421,Yes,True
+3422,Yes,True
+3423,No,False
+3424,Yes,True
+3425,No,False
+3426,Yes,True
+3427,Yes,True
+3428,Yes,True
+3429,Not interested to say,False
+3430,Yes,True
+3431,No,False
+3432,Not interested to say,False
+3433,No,False
+3434,Yes,True
+3435,Yes,True
+3436,Yes,True
+3437,Yes,True
+3438,No,False
+3439,No,False
+3440,Yes,True
+3441,No,False
+3442,Yes,True
+3443,No,False
+3444,Yes,True
+3445,Not interested to say,False
+3446,No,False
+3447,Yes,True
+3448,Not interested to say,False
+3449,No,False
+3450,Yes,True
+3451,Yes,True
+3452,Not interested to say,False
+3453,No,False
+3454,Yes,True
+3455,Yes,True
+3456,No,False
+3457,No,False
+3458,No,False
+3459,No,False
+3460,No,False
+3461,Yes,True
+3462,No,False
+3463,No,False
+3464,Not interested to say,False
+3465,No,False
+3466,Yes,True
+3467,Yes,True
+3468,No,False
+3469,Yes,True
+3470,Not interested to say,False
+3471,Not interested to say,False
+3472,Not interested to say,False
+3473,No,False
+3474,Yes,True
+3475,No,False
+3476,No,False
+3477,No,False
+3478,Not interested to say,False
+3479,Not interested to say,False
+3480,No,False
+3481,No,False
+3482,No,False
+3483,Yes,True
+3484,No,False
+3485,Yes,True
+3486,No,False
+3487,No,False
+3488,Not interested to say,False
+3489,Yes,True
+3490,Yes,True
+3491,Yes,True
+3492,No,False
+3493,No,False
+3494,Yes,True
+3495,Yes,True
+3496,No,False
+3497,Yes,True
+3498,Yes,True
+3499,No,False
+3500,Yes,True
+3501,Not interested to say,False
+3502,Yes,True
+3503,No,False
+3504,Yes,True
+3505,No,False
+3506,No,False
+3507,Yes,True
+3508,No,False
+3509,Not interested to say,False
+3510,No,False
+3511,No,False
+3512,Yes,True
+3513,No,False
+3514,No,False
+3515,No,False
+3516,No,False
+3517,Not interested to say,False
+3518,No,False
+3519,No,False
+3520,No,False
+3521,Not interested to say,False
+3522,No,False
+3523,Not interested to say,False
+3524,No,False
+3525,Not interested to say,False
+3526,Not interested to say,False
+3527,Yes,True
+3528,Not interested to say,False
+3529,No,False
+3530,Yes,True
+3531,No,False
+3532,Yes,True
+3533,No,False
+3534,No,False
+3535,No,False
+3536,Not interested to say,False
+3537,No,False
+3538,No,False
+3539,No,False
+3540,Yes,True
+3541,No,False
+3542,Yes,True
+3543,No,False
+3544,Yes,True
+3545,No,False
+3546,Yes,True
+3547,No,False
+3548,No,False
+3549,Not interested to say,False
+3550,No,False
+3551,Yes,True
+3552,No,False
+3553,Yes,True
+3554,No,False
+3555,Yes,True
+3556,No,False
+3557,No,False
+3558,No,False
+3559,No,False
+3560,Yes,True
+3561,Not interested to say,False
+3562,Not interested to say,False
+3563,Yes,True
+3564,Yes,True
+3565,Not interested to say,False
+3566,No,False
+3567,No,False
+3568,No,False
+3569,No,False
+3570,Yes,True
+3571,No,False
+3572,Not interested to say,False
+3573,No,False
+3574,No,False
+3575,Not interested to say,False
+3576,No,False
+3577,Yes,True
+3578,Yes,True
+3579,No,False
+3580,No,False
+3581,Yes,True
+3582,No,False
+3583,No,False
+3584,Not interested to say,False
+3585,Not interested to say,False
+3586,No,False
+3587,No,False
+3588,Not interested to say,False
+3589,No,False
+3590,No,False
+3591,Yes,True
+3592,Yes,True
+3593,Not interested to say,False
+3594,Not interested to say,False
+3595,No,False
+3596,Yes,True
+3597,No,False
+3598,No,False
+3599,No,False
+3600,No,False
+3601,Yes,True
+3602,Yes,True
+3603,No,False
+3604,No,False
+3605,Not interested to say,False
+3606,No,False
+3607,Not interested to say,False
+3608,No,False
+3609,Not interested to say,False
+3610,Yes,True
+3611,No,False
+3612,Not interested to say,False
+3613,No,False
+3614,No,False
+3615,No,False
+3616,Yes,True
+3617,No,False
+3618,No,False
+3619,No,False
+3620,No,False
+3621,Yes,True
+3622,Yes,True
+3623,No,False
+3624,No,False
+3625,No,False
+3626,No,False
+3627,Yes,True
+3628,No,False
+3629,No,False
+3630,No,False
+3631,No,False
+3632,No,False
+3633,No,False
+3634,Not interested to say,False
+3635,Not interested to say,False
+3636,Yes,True
+3637,Yes,True
+3638,Yes,True
+3639,Not interested to say,False
+3640,Not interested to say,False
+3641,Not interested to say,False
+3642,No,False
+3643,No,False
+3644,No,False
+3645,No,False
+3646,Yes,True
+3647,Yes,True
+3648,No,False
+3649,No,False
+3650,Yes,True
+3651,Not interested to say,False
+3652,Not interested to say,False
+3653,Not interested to say,False
+3654,Yes,True
+3655,No,False
+3656,Not interested to say,False
+3657,Yes,True
+3658,No,False
+3659,No,False
+3660,Not interested to say,False
+3661,Yes,True
+3662,No,False
+3663,No,False
+3664,Yes,True
+3665,No,False
+3666,Yes,True
+3667,Not interested to say,False
+3668,Not interested to say,False
+3669,No,False
+3670,No,False
+3671,Not interested to say,False
+3672,Yes,True
+3673,Not interested to say,False
+3674,No,False
+3675,Yes,True
+3676,Yes,True
+3677,Not interested to say,False
+3678,Not interested to say,False
+3679,Not interested to say,False
+3680,No,False
+3681,Yes,True
+3682,No,False
+3683,No,False
+3684,No,False
+3685,No,False
+3686,Yes,True
+3687,No,False
+3688,Not interested to say,False
+3689,Yes,True
+3690,No,False
+3691,No,False
+3692,No,False
+3693,No,False
+3694,No,False
+3695,Yes,True
+3696,No,False
+3697,Yes,True
+3698,No,False
+3699,Not interested to say,False
+3700,Not interested to say,False
+3701,Yes,True
+3702,Not interested to say,False
+3703,No,False
+3704,No,False
+3705,No,False
+3706,Yes,True
+3707,No,False
+3708,Yes,True
+3709,No,False
+3710,No,False
+3711,Yes,True
+3712,No,False
+3713,Not interested to say,False
+3714,Not interested to say,False
+3715,Not interested to say,False
+3716,Yes,True
+3717,No,False
+3718,No,False
+3719,Yes,True
+3720,No,False
+3721,Not interested to say,False
+3722,No,False
+3723,No,False
+3724,No,False
+3725,Not interested to say,False
+3726,No,False
+3727,Not interested to say,False
+3728,Yes,True
+3729,Yes,True
+3730,No,False
+3731,No,False
+3732,No,False
+3733,No,False
+3734,Yes,True
+3735,Not interested to say,False
+3736,No,False
+3737,No,False
+3738,Not interested to say,False
+3739,No,False
+3740,Not interested to say,False
+3741,No,False
+3742,No,False
+3743,Yes,True
+3744,Not interested to say,False
+3745,No,False
+3746,Yes,True
+3747,Yes,True
+3748,No,False
+3749,No,False
+3750,Yes,True
+3751,Yes,True
+3752,Yes,True
+3753,No,False
+3754,Yes,True
+3755,Yes,True
+3756,Yes,True
+3757,Yes,True
+3758,Yes,True
+3759,No,False
+3760,No,False
+3761,Yes,True
+3762,No,False
+3763,Not interested to say,False
+3764,No,False
+3765,No,False
+3766,Not interested to say,False
+3767,No,False
+3768,No,False
+3769,Not interested to say,False
+3770,No,False
+3771,No,False
+3772,Yes,True
+3773,Not interested to say,False
+3774,No,False
+3775,No,False
+3776,Not interested to say,False
+3777,No,False
+3778,Yes,True
+3779,No,False
+3780,Yes,True
+3781,No,False
+3782,No,False
+3783,Yes,True
+3784,No,False
+3785,No,False
+3786,No,False
+3787,No,False
+3788,Not interested to say,False
+3789,Not interested to say,False
+3790,Not interested to say,False
+3791,No,False
+3792,No,False
+3793,Not interested to say,False
+3794,Not interested to say,False
+3795,No,False
+3796,No,False
+3797,Yes,True
+3798,No,False
+3799,No,False
+3800,Yes,True
+3801,Not interested to say,False
+3802,No,False
+3803,Not interested to say,False
+3804,Not interested to say,False
+3805,Yes,True
+3806,Yes,True
+3807,No,False
+3808,No,False
+3809,No,False
+3810,No,False
+3811,Yes,True
+3812,Yes,True
+3813,No,False
+3814,Not interested to say,False
+3815,Not interested to say,False
+3816,No,False
+3817,No,False
+3818,Not interested to say,False
+3819,Not interested to say,False
+3820,Not interested to say,False
+3821,No,False
+3822,Not interested to say,False
+3823,No,False
+3824,Yes,True
+3825,No,False
+3826,No,False
+3827,No,False
+3828,Yes,True
+3829,No,False
+3830,Not interested to say,False
+3831,No,False
+3832,Yes,True
+3833,Yes,True
+3834,Not interested to say,False
+3835,No,False
+3836,Yes,True
+3837,No,False
+3838,Yes,True
+3839,No,False
+3840,Yes,True
+3841,Yes,True
+3842,Yes,True
+3843,Yes,True
+3844,Not interested to say,False
+3845,No,False
+3846,Not interested to say,False
+3847,Yes,True
+3848,No,False
+3849,Yes,True
+3850,No,False
+3851,No,False
+3852,No,False
+3853,No,False
+3854,No,False
+3855,Yes,True
+3856,No,False
+3857,No,False
+3858,No,False
+3859,No,False
+3860,Not interested to say,False
+3861,No,False
+3862,No,False
+3863,No,False
+3864,Not interested to say,False
+3865,Not interested to say,False
+3866,Yes,True
+3867,Not interested to say,False
+3868,Not interested to say,False
+3869,No,False
+3870,No,False
+3871,Yes,True
+3872,No,False
+3873,Not interested to say,False
+3874,Not interested to say,False
+3875,Yes,True
+3876,Not interested to say,False
+3877,No,False
+3878,Not interested to say,False
+3879,Yes,True
+3880,No,False
+3881,Not interested to say,False
+3882,Not interested to say,False
+3883,No,False
+3884,No,False
+3885,No,False
+3886,No,False
+3887,No,False
+3888,No,False
+3889,Yes,True
+3890,Not interested to say,False
+3891,No,False
+3892,Not interested to say,False
+3893,Yes,True
+3894,Not interested to say,False
+3895,No,False
+3896,No,False
+3897,No,False
+3898,No,False
+3899,Not interested to say,False
+3900,No,False
+3901,No,False
+3902,No,False
+3903,Yes,True
+3904,No,False
+3905,Yes,True
+3906,No,False
+3907,Yes,True
+3908,Yes,True
+3909,Yes,True
+3910,Not interested to say,False
+3911,No,False
+3912,No,False
+3913,Yes,True
+3914,No,False
+3915,No,False
+3916,No,False
+3917,Not interested to say,False
+3918,Yes,True
+3919,Not interested to say,False
+3920,Yes,True
+3921,No,False
+3922,Yes,True
+3923,Not interested to say,False
+3924,No,False
+3925,Not interested to say,False
+3926,Yes,True
+3927,Yes,True
+3928,Not interested to say,False
+3929,No,False
+3930,No,False
+3931,Not interested to say,False
+3932,No,False
+3933,Yes,True
+3934,Not interested to say,False
+3935,Yes,True
+3936,Yes,True
+3937,No,False
+3938,Yes,True
+3939,No,False
+3940,Not interested to say,False
+3941,No,False
+3942,No,False
+3943,No,False
+3944,No,False
+3945,Not interested to say,False
+3946,No,False
+3947,No,False
+3948,Yes,True
+3949,No,False
+3950,Yes,True
+3951,No,False
+3952,Not interested to say,False
+3953,No,False
+3954,No,False
+3955,Not interested to say,False
+3956,Yes,True
+3957,No,False
+3958,No,False
+3959,Not interested to say,False
+3960,No,False
+3961,Yes,True
+3962,Yes,True
+3963,Yes,True
+3964,Yes,True
+3965,Not interested to say,False
+3966,No,False
+3967,Yes,True
+3968,Not interested to say,False
+3969,Yes,True
+3970,Yes,True
+3971,Yes,True
+3972,No,False
+3973,Yes,True
+3974,Yes,True
+3975,Not interested to say,False
+3976,No,False
+3977,No,False
+3978,No,False
+3979,No,False
+3980,No,False
+3981,Not interested to say,False
+3982,No,False
+3983,No,False
+3984,No,False
+3985,No,False
+3986,Yes,True
+3987,No,False
+3988,Yes,True
+3989,No,False
+3990,Not interested to say,False
+3991,No,False
+3992,No,False
+3993,Yes,True
+3994,Yes,True
+3995,No,False
+3996,Not interested to say,False
+3997,No,False
+3998,No,False
+3999,No,False
+4000,Not interested to say,False
+4001,No,False
+4002,No,False
+4003,No,False
+4004,No,False
+4005,Not interested to say,False
+4006,No,False
+4007,Not interested to say,False
+4008,Yes,True
+4009,No,False
+4010,No,False
+4011,Yes,True
+4012,Yes,True
+4013,No,False
+4014,No,False
+4015,No,False
+4016,No,False
+4017,No,False
+4018,No,False
+4019,Yes,True
+4020,Yes,True
+4021,No,False
+4022,Yes,True
+4023,Yes,True
+4024,No,False
+4025,Yes,True
+4026,Yes,True
+4027,No,False
+4028,Yes,True
+4029,No,False
+4030,Not interested to say,False
+4031,Yes,True
+4032,Not interested to say,False
+4033,Not interested to say,False
+4034,No,False
+4035,Yes,True
+4036,No,False
+4037,No,False
+4038,No,False
+4039,No,False
+4040,Yes,True
+4041,Yes,True
+4042,Yes,True
+4043,Not interested to say,False
+4044,Yes,True
+4045,Not interested to say,False
+4046,No,False
+4047,Yes,True
+4048,No,False
+4049,No,False
+4050,No,False
+4051,Yes,True
+4052,Yes,True
+4053,Yes,True
+4054,Not interested to say,False
+4055,No,False
+4056,Yes,True
+4057,Not interested to say,False
+4058,No,False
+4059,Yes,True
+4060,Yes,True
+4061,Not interested to say,False
+4062,No,False
+4063,Not interested to say,False
+4064,Not interested to say,False
+4065,Not interested to say,False
+4066,Yes,True
+4067,No,False
+4068,Yes,True
+4069,Yes,True
+4070,No,False
+4071,Not interested to say,False
+4072,Yes,True
+4073,Not interested to say,False
+4074,No,False
+4075,Not interested to say,False
+4076,Not interested to say,False
+4077,Yes,True
+4078,No,False
+4079,Yes,True
+4080,Yes,True
+4081,Not interested to say,False
+4082,Yes,True
+4083,Yes,True
+4084,Not interested to say,False
+4085,Not interested to say,False
+4086,Not interested to say,False
+4087,No,False
+4088,No,False
+4089,Yes,True
+4090,No,False
+4091,No,False
+4092,Not interested to say,False
+4093,No,False
+4094,Not interested to say,False
+4095,No,False
+4096,Yes,True
+4097,No,False
+4098,Not interested to say,False
+4099,No,False
+4100,No,False
+4101,No,False
+4102,No,False
+4103,No,False
+4104,Yes,True
+4105,Yes,True
+4106,No,False
+4107,Yes,True
+4108,No,False
+4109,No,False
+4110,No,False
+4111,No,False
+4112,Not interested to say,False
+4113,No,False
+4114,Yes,True
+4115,No,False
+4116,Not interested to say,False
+4117,No,False
+4118,No,False
+4119,Yes,True
+4120,Yes,True
+4121,Yes,True
+4122,Yes,True
+4123,Yes,True
+4124,No,False
+4125,Yes,True
+4126,No,False
+4127,No,False
+4128,Yes,True
+4129,No,False
+4130,No,False
+4131,No,False
+4132,Yes,True
+4133,No,False
+4134,Not interested to say,False
+4135,No,False
+4136,No,False
+4137,No,False
+4138,No,False
+4139,Not interested to say,False
+4140,Yes,True
+4141,No,False
+4142,Yes,True
+4143,Not interested to say,False
+4144,Yes,True
+4145,No,False
+4146,Not interested to say,False
+4147,No,False
+4148,No,False
+4149,Yes,True
+4150,Not interested to say,False
+4151,Not interested to say,False
+4152,No,False
+4153,Not interested to say,False
+4154,No,False
+4155,Yes,True
+4156,Yes,True
+4157,Not interested to say,False
+4158,Yes,True
+4159,No,False
+4160,No,False
+4161,No,False
+4162,Yes,True
+4163,No,False
+4164,Yes,True
+4165,Yes,True
+4166,Yes,True
+4167,No,False
+4168,Not interested to say,False
+4169,Not interested to say,False
+4170,Yes,True
+4171,No,False
+4172,No,False
+4173,Not interested to say,False
+4174,Yes,True
+4175,No,False
+4176,No,False
+4177,Not interested to say,False
+4178,No,False
+4179,Yes,True
+4180,Not interested to say,False
+4181,No,False
+4182,No,False
+4183,No,False
+4184,No,False
+4185,Yes,True
+4186,Yes,True
+4187,Not interested to say,False
+4188,Yes,True
+4189,Not interested to say,False
+4190,Not interested to say,False
+4191,Yes,True
+4192,No,False
+4193,No,False
+4194,No,False
+4195,Not interested to say,False
+4196,Not interested to say,False
+4197,No,False
+4198,No,False
+4199,No,False
+4200,No,False
+4201,Not interested to say,False
+4202,Yes,True
+4203,Not interested to say,False
+4204,Yes,True
+4205,No,False
+4206,No,False
+4207,Yes,True
+4208,No,False
+4209,No,False
+4210,Yes,True
+4211,No,False
+4212,Yes,True
+4213,Yes,True
+4214,Yes,True
+4215,Not interested to say,False
+4216,Yes,True
+4217,Yes,True
+4218,No,False
+4219,No,False
+4220,Yes,True
+4221,No,False
+4222,No,False
+4223,Not interested to say,False
+4224,No,False
+4225,Not interested to say,False
+4226,No,False
+4227,No,False
+4228,Not interested to say,False
+4229,Not interested to say,False
+4230,Not interested to say,False
+4231,No,False
+4232,No,False
+4233,No,False
+4234,Yes,True
+4235,Yes,True
+4236,No,False
+4237,Yes,True
+4238,Not interested to say,False
+4239,Yes,True
+4240,Not interested to say,False
+4241,No,False
+4242,Yes,True
+4243,Not interested to say,False
+4244,Yes,True
+4245,No,False
+4246,Yes,True
+4247,No,False
+4248,Not interested to say,False
+4249,Yes,True
+4250,Yes,True
+4251,No,False
+4252,Not interested to say,False
+4253,Not interested to say,False
+4254,No,False
+4255,No,False
+4256,No,False
+4257,Not interested to say,False
+4258,Yes,True
+4259,Not interested to say,False
+4260,No,False
+4261,No,False
+4262,No,False
+4263,Yes,True
+4264,No,False
+4265,Yes,True
+4266,No,False
+4267,Yes,True
+4268,Not interested to say,False
+4269,Not interested to say,False
+4270,No,False
+4271,No,False
+4272,No,False
+4273,Not interested to say,False
+4274,Yes,True
+4275,No,False
+4276,Yes,True
+4277,Not interested to say,False
+4278,Yes,True
+4279,No,False
+4280,Not interested to say,False
+4281,Yes,True
+4282,Not interested to say,False
+4283,No,False
+4284,No,False
+4285,No,False
+4286,Not interested to say,False
+4287,Not interested to say,False
+4288,Yes,True
+4289,Not interested to say,False
+4290,Yes,True
+4291,No,False
+4292,No,False
+4293,No,False
+4294,No,False
+4295,Yes,True
+4296,No,False
+4297,Yes,True
+4298,No,False
+4299,Yes,True
+4300,No,False
+4301,Yes,True
+4302,Yes,True
+4303,No,False
+4304,No,False
+4305,Yes,True
+4306,No,False
+4307,No,False
+4308,No,False
+4309,No,False
+4310,Not interested to say,False
+4311,Yes,True
+4312,Not interested to say,False
+4313,No,False
+4314,Not interested to say,False
+4315,Yes,True
+4316,Yes,True
+4317,Yes,True
+4318,Yes,True
+4319,Not interested to say,False
+4320,Not interested to say,False
+4321,Yes,True
+4322,Yes,True
+4323,Not interested to say,False
+4324,No,False
+4325,No,False
+4326,No,False
+4327,Yes,True
+4328,No,False
+4329,Yes,True
+4330,Not interested to say,False
+4331,Yes,True
+4332,No,False
+4333,Not interested to say,False
+4334,Not interested to say,False
+4335,Yes,True
+4336,Yes,True
+4337,No,False
+4338,Yes,True
+4339,Not interested to say,False
+4340,No,False
+4341,No,False
+4342,No,False
+4343,Yes,True
+4344,No,False
+4345,Yes,True
+4346,Yes,True
+4347,No,False
+4348,No,False
+4349,No,False
+4350,No,False
+4351,No,False
+4352,Yes,True
+4353,No,False
+4354,No,False
+4355,Not interested to say,False
+4356,Yes,True
+4357,No,False
+4358,Yes,True
+4359,Not interested to say,False
+4360,Yes,True
+4361,Yes,True
+4362,Not interested to say,False
+4363,Not interested to say,False
+4364,Yes,True
+4365,Yes,True
+4366,No,False
+4367,Yes,True
+4368,Yes,True
+4369,Yes,True
+4370,Not interested to say,False
+4371,Not interested to say,False
+4372,No,False
+4373,Yes,True
+4374,Not interested to say,False
+4375,Yes,True
+4376,Not interested to say,False
+4377,No,False
+4378,No,False
+4379,Not interested to say,False
+4380,Not interested to say,False
+4381,Not interested to say,False
+4382,Not interested to say,False
+4383,Yes,True
+4384,No,False
+4385,No,False
+4386,Yes,True
+4387,Not interested to say,False
+4388,Not interested to say,False
+4389,Yes,True
+4390,No,False
+4391,No,False
+4392,No,False
+4393,No,False
+4394,No,False
+4395,Not interested to say,False
+4396,No,False
+4397,No,False
+4398,No,False
+4399,Yes,True
+4400,No,False
+4401,Not interested to say,False
+4402,No,False
+4403,No,False
+4404,Not interested to say,False
+4405,Yes,True
+4406,Yes,True
+4407,No,False
+4408,Not interested to say,False
+4409,No,False
+4410,Not interested to say,False
+4411,Not interested to say,False
+4412,Not interested to say,False
+4413,No,False
+4414,No,False
+4415,No,False
+4416,Not interested to say,False
+4417,No,False
+4418,Yes,True
+4419,Yes,True
+4420,No,False
+4421,Yes,True
+4422,No,False
+4423,No,False
+4424,Not interested to say,False
+4425,Yes,True
+4426,No,False
+4427,Not interested to say,False
+4428,Not interested to say,False
+4429,No,False
+4430,No,False
+4431,No,False
+4432,No,False
+4433,No,False
+4434,No,False
+4435,Yes,True
+4436,No,False
+4437,No,False
+4438,No,False
+4439,Yes,True
+4440,Not interested to say,False
+4441,Not interested to say,False
+4442,Yes,True
+4443,Not interested to say,False
+4444,No,False
+4445,No,False
+4446,Yes,True
+4447,No,False
+4448,No,False
+4449,Yes,True
+4450,Not interested to say,False
+4451,Yes,True
+4452,Yes,True
+4453,Not interested to say,False
+4454,No,False
+4455,Yes,True
+4456,No,False
+4457,Yes,True
+4458,Yes,True
+4459,No,False
+4460,Yes,True
+4461,Yes,True
+4462,No,False
+4463,No,False
+4464,No,False
+4465,Not interested to say,False
+4466,Yes,True
+4467,Not interested to say,False
+4468,No,False
+4469,Yes,True
+4470,Yes,True
+4471,Not interested to say,False
+4472,No,False
+4473,Yes,True
+4474,Yes,True
+4475,No,False
+4476,Yes,True
+4477,No,False
+4478,No,False
+4479,Yes,True
+4480,Not interested to say,False
+4481,Yes,True
+4482,No,False
+4483,Not interested to say,False
+4484,No,False
+4485,No,False
+4486,No,False
+4487,No,False
+4488,No,False
+4489,No,False
+4490,Yes,True
+4491,No,False
+4492,No,False
+4493,Not interested to say,False
+4494,Yes,True
+4495,No,False
+4496,Yes,True
+4497,No,False
+4498,Not interested to say,False
+4499,No,False
+4500,Yes,True
+4501,Yes,True
+4502,Yes,True
+4503,Yes,True
+4504,No,False
+4505,Yes,True
+4506,No,False
+4507,Yes,True
+4508,Not interested to say,False
+4509,No,False
+4510,No,False
+4511,Yes,True
+4512,No,False
+4513,No,False
+4514,No,False
+4515,Yes,True
+4516,No,False
+4517,Not interested to say,False
+4518,Yes,True
+4519,No,False
+4520,No,False
+4521,Not interested to say,False
+4522,Yes,True
+4523,Yes,True
+4524,No,False
+4525,Yes,True
+4526,Not interested to say,False
+4527,Yes,True
+4528,Not interested to say,False
+4529,Yes,True
+4530,No,False
+4531,Not interested to say,False
+4532,Not interested to say,False
+4533,No,False
+4534,No,False
+4535,No,False
+4536,No,False
+4537,Yes,True
+4538,Not interested to say,False
+4539,Yes,True
+4540,No,False
+4541,Yes,True
+4542,No,False
+4543,Yes,True
+4544,Yes,True
+4545,Yes,True
+4546,No,False
+4547,No,False
+4548,No,False
+4549,Not interested to say,False
+4550,Yes,True
+4551,Yes,True
+4552,Not interested to say,False
+4553,No,False
+4554,Yes,True
+4555,No,False
+4556,No,False
+4557,Not interested to say,False
+4558,Yes,True
+4559,Not interested to say,False
+4560,No,False
+4561,Not interested to say,False
+4562,Yes,True
+4563,Not interested to say,False
+4564,Not interested to say,False
+4565,No,False
+4566,No,False
+4567,Not interested to say,False
+4568,Not interested to say,False
+4569,No,False
+4570,No,False
+4571,Not interested to say,False
+4572,No,False
+4573,Yes,True
+4574,Not interested to say,False
+4575,Yes,True
+4576,Yes,True
+4577,Not interested to say,False
+4578,Yes,True
+4579,Not interested to say,False
+4580,Yes,True
+4581,Not interested to say,False
+4582,No,False
+4583,No,False
+4584,No,False
+4585,No,False
+4586,Not interested to say,False
+4587,No,False
+4588,Yes,True
+4589,Not interested to say,False
+4590,No,False
+4591,No,False
+4592,Yes,True
+4593,No,False
+4594,No,False
+4595,Yes,True
+4596,No,False
+4597,Not interested to say,False
+4598,Yes,True
+4599,Not interested to say,False
+4600,Yes,True
+4601,Not interested to say,False
+4602,Yes,True
+4603,Yes,True
+4604,Yes,True
+4605,Not interested to say,False
+4606,Yes,True
+4607,No,False
+4608,Yes,True
+4609,No,False
+4610,Not interested to say,False
+4611,Yes,True
+4612,No,False
+4613,No,False
+4614,Yes,True
+4615,No,False
+4616,Not interested to say,False
+4617,Yes,True
+4618,Not interested to say,False
+4619,No,False
+4620,No,False
+4621,No,False
+4622,No,False
+4623,Not interested to say,False
+4624,No,False
+4625,Yes,True
+4626,Not interested to say,False
+4627,Not interested to say,False
+4628,No,False
+4629,No,False
+4630,No,False
+4631,No,False
+4632,Yes,True
+4633,No,False
+4634,Not interested to say,False
+4635,Not interested to say,False
+4636,Yes,True
+4637,No,False
+4638,No,False
+4639,No,False
+4640,Not interested to say,False
+4641,No,False
+4642,No,False
+4643,Not interested to say,False
+4644,No,False
+4645,Not interested to say,False
+4646,No,False
+4647,No,False
+4648,Yes,True
+4649,Yes,True
+4650,Yes,True
+4651,Not interested to say,False
+4652,Yes,True
+4653,Not interested to say,False
+4654,Not interested to say,False
+4655,Not interested to say,False
+4656,No,False
+4657,No,False
+4658,Yes,True
+4659,No,False
+4660,Yes,True
+4661,No,False
+4662,Yes,True
+4663,No,False
+4664,No,False
+4665,No,False
+4666,No,False
+4667,No,False
+4668,No,False
+4669,No,False
+4670,No,False
+4671,Yes,True
+4672,No,False
+4673,No,False
+4674,Yes,True
+4675,Yes,True
+4676,No,False
+4677,Yes,True
+4678,No,False
+4679,Not interested to say,False
+4680,Yes,True
+4681,No,False
+4682,Not interested to say,False
+4683,Yes,True
+4684,Yes,True
+4685,Yes,True
+4686,No,False
+4687,No,False
+4688,Not interested to say,False
+4689,No,False
+4690,No,False
+4691,Yes,True
+4692,Yes,True
+4693,Yes,True
+4694,Not interested to say,False
+4695,Yes,True
+4696,Not interested to say,False
+4697,No,False
+4698,No,False
+4699,Yes,True
+4700,Not interested to say,False
+4701,No,False
+4702,No,False
+4703,Yes,True
+4704,Not interested to say,False
+4705,Yes,True
+4706,Yes,True
+4707,No,False
+4708,Yes,True
+4709,Not interested to say,False
+4710,No,False
+4711,No,False
+4712,No,False
+4713,No,False
+4714,Yes,True
+4715,No,False
+4716,No,False
+4717,Yes,True
+4718,No,False
+4719,Not interested to say,False
+4720,Yes,True
+4721,Yes,True
+4722,No,False
+4723,No,False
+4724,No,False
+4725,No,False
+4726,No,False
+4727,Not interested to say,False
+4728,Not interested to say,False
+4729,No,False
+4730,No,False
+4731,No,False
+4732,Not interested to say,False
+4733,No,False
+4734,No,False
+4735,Not interested to say,False
+4736,Yes,True
+4737,Yes,True
+4738,No,False
+4739,Yes,True
+4740,No,False
+4741,Yes,True
+4742,No,False
+4743,No,False
+4744,Yes,True
+4745,Yes,True
+4746,No,False
+4747,No,False
+4748,No,False
+4749,Yes,True
+4750,No,False
+4751,Not interested to say,False
+4752,Not interested to say,False
+4753,No,False
+4754,Yes,True
+4755,No,False
+4756,No,False
+4757,Yes,True
+4758,Not interested to say,False
+4759,Not interested to say,False
+4760,No,False
+4761,No,False
+4762,Yes,True
+4763,No,False
+4764,No,False
+4765,No,False
+4766,No,False
+4767,Yes,True
+4768,Yes,True
+4769,No,False
+4770,Yes,True
+4771,Yes,True
+4772,No,False
+4773,No,False
+4774,Yes,True
+4775,No,False
+4776,No,False
+4777,No,False
+4778,No,False
+4779,Not interested to say,False
+4780,Yes,True
+4781,No,False
+4782,Not interested to say,False
+4783,Yes,True
+4784,Not interested to say,False
+4785,Not interested to say,False
+4786,No,False
+4787,Yes,True
+4788,Yes,True
+4789,No,False
+4790,No,False
+4791,No,False
+4792,No,False
+4793,No,False
+4794,No,False
+4795,Yes,True
+4796,Not interested to say,False
+4797,Not interested to say,False
+4798,Not interested to say,False
+4799,Yes,True
+4800,No,False
+4801,No,False
+4802,Yes,True
+4803,No,False
+4804,No,False
+4805,No,False
+4806,No,False
+4807,No,False
+4808,No,False
+4809,Not interested to say,False
+4810,No,False
+4811,Yes,True
+4812,No,False
+4813,Not interested to say,False
+4814,Not interested to say,False
+4815,No,False
+4816,Yes,True
+4817,No,False
+4818,No,False
+4819,Yes,True
+4820,Yes,True
+4821,Not interested to say,False
+4822,Not interested to say,False
+4823,Not interested to say,False
+4824,No,False
+4825,Not interested to say,False
+4826,Yes,True
+4827,No,False
+4828,No,False
+4829,Not interested to say,False
+4830,No,False
+4831,Yes,True
+4832,No,False
+4833,No,False
+4834,No,False
+4835,No,False
+4836,Yes,True
+4837,No,False
+4838,Yes,True
+4839,Yes,True
+4840,Yes,True
+4841,No,False
+4842,No,False
+4843,No,False
+4844,Not interested to say,False
+4845,Not interested to say,False
+4846,Yes,True
+4847,No,False
+4848,Not interested to say,False
+4849,Not interested to say,False
+4850,Yes,True
+4851,Not interested to say,False
+4852,Yes,True
+4853,Yes,True
+4854,Yes,True
+4855,No,False
+4856,No,False
+4857,No,False
+4858,Not interested to say,False
+4859,Yes,True
+4860,Not interested to say,False
+4861,Yes,True
+4862,Not interested to say,False
+4863,No,False
+4864,Yes,True
+4865,Not interested to say,False
+4866,No,False
+4867,Yes,True
+4868,Yes,True
+4869,No,False
+4870,No,False
+4871,No,False
+4872,Yes,True
+4873,Yes,True
+4874,No,False
+4875,No,False
+4876,No,False
+4877,No,False
+4878,Yes,True
+4879,Not interested to say,False
+4880,Yes,True
+4881,Not interested to say,False
+4882,Yes,True
+4883,Yes,True
+4884,No,False
+4885,No,False
+4886,No,False
+4887,No,False
+4888,No,False
+4889,Yes,True
+4890,No,False
+4891,No,False
+4892,Yes,True
+4893,Yes,True
+4894,No,False
+4895,Not interested to say,False
+4896,No,False
+4897,No,False
+4898,No,False
+4899,No,False
+4900,Not interested to say,False
+4901,Yes,True
+4902,Yes,True
+4903,No,False
+4904,Not interested to say,False
+4905,Not interested to say,False
+4906,No,False
+4907,No,False
+4908,Not interested to say,False
+4909,Not interested to say,False
+4910,No,False
+4911,Yes,True
+4912,No,False
+4913,No,False
+4914,No,False
+4915,Yes,True
+4916,Yes,True
+4917,No,False
+4918,Yes,True
+4919,Not interested to say,False
+4920,Yes,True
+4921,Yes,True
+4922,Not interested to say,False
+4923,Yes,True
+4924,No,False
+4925,Not interested to say,False
+4926,Yes,True
+4927,Not interested to say,False
+4928,No,False
+4929,No,False
+4930,No,False
+4931,Yes,True
+4932,Yes,True
+4933,No,False
+4934,No,False
+4935,No,False
+4936,No,False
+4937,No,False
+4938,Yes,True
+4939,No,False
+4940,No,False
+4941,Yes,True
+4942,No,False
+4943,Not interested to say,False
+4944,Yes,True
+4945,Yes,True
+4946,No,False
+4947,No,False
+4948,No,False
+4949,Not interested to say,False
+4950,Yes,True
+4951,No,False
+4952,Not interested to say,False
+4953,No,False
+4954,Yes,True
+4955,No,False
+4956,No,False
+4957,No,False
+4958,Not interested to say,False
+4959,No,False
+4960,No,False
+4961,No,False
+4962,No,False
+4963,No,False
+4964,Not interested to say,False
+4965,No,False
+4966,No,False
+4967,No,False
+4968,Not interested to say,False
+4969,Yes,True
+4970,No,False
+4971,Yes,True
+4972,Not interested to say,False
+4973,Yes,True
+4974,No,False
+4975,No,False
+4976,No,False
+4977,Not interested to say,False
+4978,Yes,True
+4979,No,False
+4980,Not interested to say,False
+4981,No,False
+4982,Not interested to say,False
+4983,No,False
+4984,No,False
+4985,No,False
+4986,No,False
+4987,Yes,True
+4988,Not interested to say,False
+4989,Yes,True
+4990,Yes,True
+4991,No,False
+4992,Yes,True
+4993,No,False
+4994,Yes,True
+4995,No,False
+4996,Yes,True
+4997,Yes,True
+4998,Not interested to say,False
+4999,No,False
+5000,No,False
+5001,Yes,True
+5002,Yes,True
+5003,No,False
+5004,No,False
+5005,Yes,True
+5006,Not interested to say,False
+5007,Not interested to say,False
+5008,Not interested to say,False
+5009,Not interested to say,False
+5010,No,False
+5011,Not interested to say,False
+5012,Not interested to say,False
+5013,No,False
+5014,Not interested to say,False
+5015,Yes,True
+5016,Not interested to say,False
+5017,No,False
+5018,No,False
+5019,No,False
+5020,No,False
+5021,Not interested to say,False
+5022,Not interested to say,False
+5023,No,False
+5024,Yes,True
+5025,Not interested to say,False
+5026,No,False
+5027,Yes,True
+5028,Yes,True
+5029,Not interested to say,False
+5030,Not interested to say,False
+5031,No,False
+5032,No,False
+5033,Yes,True
+5034,Yes,True
+5035,Yes,True
+5036,No,False
+5037,Yes,True
+5038,No,False
+5039,Not interested to say,False
+5040,Not interested to say,False
+5041,Yes,True
+5042,No,False
+5043,No,False
+5044,Yes,True
+5045,No,False
+5046,No,False
+5047,Yes,True
+5048,Not interested to say,False
+5049,Yes,True
+5050,Not interested to say,False
+5051,Yes,True
+5052,No,False
+5053,No,False
+5054,No,False
+5055,No,False
+5056,Yes,True
+5057,No,False
+5058,No,False
+5059,Not interested to say,False
+5060,No,False
+5061,No,False
+5062,No,False
+5063,No,False
+5064,Not interested to say,False
+5065,Not interested to say,False
+5066,No,False
+5067,Yes,True
+5068,No,False
+5069,Not interested to say,False
+5070,Not interested to say,False
+5071,No,False
+5072,No,False
+5073,Not interested to say,False
+5074,Yes,True
+5075,Yes,True
+5076,Yes,True
+5077,Not interested to say,False
+5078,Yes,True
+5079,No,False
+5080,No,False
+5081,Not interested to say,False
+5082,No,False
+5083,No,False
+5084,No,False
+5085,Yes,True
+5086,No,False
+5087,No,False
+5088,No,False
+5089,No,False
+5090,Yes,True
+5091,Yes,True
+5092,Yes,True
+5093,No,False
+5094,Not interested to say,False
+5095,Yes,True
+5096,No,False
+5097,Yes,True
+5098,Yes,True
+5099,No,False
+5100,Yes,True
+5101,Yes,True
+5102,Not interested to say,False
+5103,Yes,True
+5104,Not interested to say,False
+5105,Not interested to say,False
+5106,Yes,True
+5107,No,False
+5108,No,False
+5109,Not interested to say,False
+5110,No,False
+5111,No,False
+5112,No,False
+5113,Not interested to say,False
+5114,Yes,True
+5115,No,False
+5116,Yes,True
+5117,No,False
+5118,Yes,True
+5119,Yes,True
+5120,Yes,True
+5121,Yes,True
+5122,No,False
+5123,No,False
+5124,Yes,True
+5125,No,False
+5126,Yes,True
+5127,Not interested to say,False
+5128,Yes,True
+5129,Yes,True
+5130,Not interested to say,False
+5131,Yes,True
+5132,Not interested to say,False
+5133,No,False
+5134,Not interested to say,False
+5135,Yes,True
+5136,No,False
+5137,No,False
+5138,No,False
+5139,No,False
+5140,No,False
+5141,Yes,True
+5142,Yes,True
+5143,Yes,True
+5144,Yes,True
+5145,No,False
+5146,No,False
+5147,Yes,True
+5148,No,False
+5149,No,False
+5150,Yes,True
+5151,Yes,True
+5152,No,False
+5153,Yes,True
+5154,No,False
+5155,No,False
+5156,Yes,True
+5157,No,False
+5158,No,False
+5159,Yes,True
+5160,No,False
+5161,Yes,True
+5162,Not interested to say,False
+5163,No,False
+5164,No,False
+5165,No,False
+5166,Yes,True
+5167,Not interested to say,False
+5168,No,False
+5169,Not interested to say,False
+5170,Not interested to say,False
+5171,Yes,True
+5172,Not interested to say,False
+5173,Yes,True
+5174,No,False
+5175,Yes,True
+5176,No,False
+5177,Not interested to say,False
+5178,Yes,True
+5179,Not interested to say,False
+5180,Yes,True
+5181,Yes,True
+5182,Not interested to say,False
+5183,Yes,True
+5184,Yes,True
+5185,Not interested to say,False
+5186,No,False
+5187,No,False
+5188,Yes,True
+5189,Not interested to say,False
+5190,Not interested to say,False
+5191,No,False
+5192,Not interested to say,False
+5193,Yes,True
+5194,Yes,True
+5195,No,False
+5196,No,False
+5197,No,False
+5198,Yes,True
+5199,No,False
+5200,Yes,True
+5201,Yes,True
+5202,Yes,True
+5203,No,False
+5204,Not interested to say,False
+5205,No,False
+5206,Not interested to say,False
+5207,Not interested to say,False
+5208,No,False
+5209,No,False
+5210,Not interested to say,False
+5211,No,False
+5212,No,False
+5213,No,False
+5214,No,False
+5215,Yes,True
+5216,No,False
+5217,Yes,True
+5218,No,False
+5219,Yes,True
+5220,No,False
+5221,No,False
+5222,No,False
+5223,Not interested to say,False
+5224,No,False
+5225,No,False
+5226,Yes,True
+5227,No,False
+5228,Yes,True
+5229,No,False
+5230,Not interested to say,False
+5231,No,False
+5232,No,False
+5233,Not interested to say,False
+5234,Yes,True
+5235,Yes,True
+5236,Yes,True
+5237,No,False
+5238,Not interested to say,False
+5239,Not interested to say,False
+5240,No,False
+5241,Yes,True
+5242,No,False
+5243,Yes,True
+5244,Not interested to say,False
+5245,No,False
+5246,Yes,True
+5247,No,False
+5248,Not interested to say,False
+5249,Yes,True
+5250,No,False
+5251,Not interested to say,False
+5252,No,False
+5253,Not interested to say,False
+5254,No,False
+5255,No,False
+5256,No,False
+5257,Yes,True
+5258,No,False
+5259,Yes,True
+5260,No,False
+5261,Yes,True
+5262,No,False
+5263,Yes,True
+5264,Not interested to say,False
+5265,No,False
+5266,No,False
+5267,Not interested to say,False
+5268,No,False
+5269,Not interested to say,False
+5270,Yes,True
+5271,No,False
+5272,No,False
+5273,No,False
+5274,Not interested to say,False
+5275,No,False
+5276,Not interested to say,False
+5277,Yes,True
+5278,Not interested to say,False
+5279,Yes,True
+5280,Yes,True
+5281,Yes,True
+5282,No,False
+5283,No,False
+5284,Yes,True
+5285,No,False
+5286,Not interested to say,False
+5287,Yes,True
+5288,No,False
+5289,No,False
+5290,No,False
+5291,Yes,True
+5292,Yes,True
+5293,No,False
+5294,Not interested to say,False
+5295,Yes,True
+5296,No,False
+5297,Not interested to say,False
+5298,Yes,True
+5299,Yes,True
+5300,No,False
+5301,No,False
+5302,No,False
+5303,Not interested to say,False
+5304,Not interested to say,False
+5305,No,False
+5306,No,False
+5307,Yes,True
+5308,No,False
+5309,Yes,True
+5310,Yes,True
+5311,Not interested to say,False
+5312,No,False
+5313,No,False
+5314,Yes,True
+5315,Yes,True
+5316,No,False
+5317,Yes,True
+5318,No,False
+5319,Yes,True
+5320,Yes,True
+5321,No,False
+5322,No,False
+5323,Yes,True
+5324,No,False
+5325,No,False
+5326,No,False
+5327,No,False
+5328,Not interested to say,False
+5329,Yes,True
+5330,Not interested to say,False
+5331,No,False
+5332,No,False
+5333,Not interested to say,False
+5334,No,False
+5335,Not interested to say,False
+5336,Yes,True
+5337,Yes,True
+5338,No,False
+5339,Yes,True
+5340,Not interested to say,False
+5341,Yes,True
+5342,Not interested to say,False
+5343,Not interested to say,False
+5344,Not interested to say,False
+5345,No,False
+5346,No,False
+5347,Not interested to say,False
+5348,Not interested to say,False
+5349,Not interested to say,False
+5350,No,False
+5351,Not interested to say,False
+5352,Yes,True
+5353,No,False
+5354,Yes,True
+5355,Yes,True
+5356,Yes,True
+5357,No,False
+5358,Yes,True
+5359,Yes,True
+5360,No,False
+5361,No,False
+5362,No,False
+5363,No,False
+5364,Yes,True
+5365,No,False
+5366,No,False
+5367,No,False
+5368,No,False
+5369,Yes,True
+5370,Not interested to say,False
+5371,No,False
+5372,Not interested to say,False
+5373,Yes,True
+5374,Not interested to say,False
+5375,Yes,True
+5376,No,False
+5377,Yes,True
+5378,Yes,True
+5379,No,False
+5380,No,False
+5381,No,False
+5382,Yes,True
+5383,Yes,True
+5384,No,False
+5385,Not interested to say,False
+5386,Yes,True
+5387,No,False
+5388,Yes,True
+5389,Yes,True
+5390,No,False
+5391,Not interested to say,False
+5392,Yes,True
+5393,Not interested to say,False
+5394,Not interested to say,False
+5395,Yes,True
+5396,Not interested to say,False
+5397,No,False
+5398,No,False
+5399,No,False
+5400,No,False
+5401,No,False
+5402,Not interested to say,False
+5403,Yes,True
+5404,No,False
+5405,No,False
+5406,Yes,True
+5407,No,False
+5408,No,False
+5409,No,False
+5410,No,False
+5411,No,False
+5412,Not interested to say,False
+5413,Not interested to say,False
+5414,No,False
+5415,Not interested to say,False
+5416,No,False
+5417,Yes,True
+5418,No,False
+5419,Yes,True
+5420,No,False
+5421,No,False
+5422,No,False
+5423,No,False
+5424,Yes,True
+5425,Yes,True
+5426,No,False
+5427,Yes,True
+5428,No,False
+5429,No,False
+5430,Not interested to say,False
+5431,No,False
+5432,Not interested to say,False
+5433,Yes,True
+5434,No,False
+5435,Not interested to say,False
+5436,No,False
+5437,Yes,True
+5438,Yes,True
+5439,No,False
+5440,Not interested to say,False
+5441,Yes,True
+5442,No,False
+5443,Not interested to say,False
+5444,No,False
+5445,Yes,True
+5446,No,False
+5447,No,False
+5448,No,False
+5449,No,False
+5450,No,False
+5451,Not interested to say,False
+5452,Yes,True
+5453,No,False
+5454,Yes,True
+5455,No,False
+5456,No,False
+5457,Not interested to say,False
+5458,Not interested to say,False
+5459,Yes,True
+5460,Not interested to say,False
+5461,Not interested to say,False
+5462,No,False
+5463,No,False
+5464,Yes,True
+5465,Not interested to say,False
+5466,No,False
+5467,No,False
+5468,Yes,True
+5469,Not interested to say,False
+5470,No,False
+5471,Yes,True
+5472,Not interested to say,False
+5473,No,False
+5474,No,False
+5475,No,False
+5476,Yes,True
+5477,Yes,True
+5478,Not interested to say,False
+5479,No,False
+5480,No,False
+5481,Not interested to say,False
+5482,Not interested to say,False
+5483,Yes,True
+5484,Yes,True
+5485,Yes,True
+5486,Yes,True
+5487,Not interested to say,False
+5488,Not interested to say,False
+5489,Yes,True
+5490,Not interested to say,False
+5491,No,False
+5492,No,False
+5493,Yes,True
+5494,Not interested to say,False
+5495,No,False
+5496,No,False
+5497,No,False
+5498,Yes,True
+5499,Not interested to say,False
+5500,No,False
+5501,Yes,True
+5502,Not interested to say,False
+5503,No,False
+5504,No,False
+5505,Not interested to say,False
+5506,Yes,True
+5507,No,False
+5508,Not interested to say,False
+5509,No,False
+5510,Yes,True
+5511,Yes,True
+5512,Not interested to say,False
+5513,No,False
+5514,Not interested to say,False
+5515,Yes,True
+5516,Yes,True
+5517,Yes,True
+5518,Not interested to say,False
+5519,Not interested to say,False
+5520,No,False
+5521,Not interested to say,False
+5522,No,False
+5523,No,False
+5524,No,False
+5525,Yes,True
+5526,Yes,True
+5527,Yes,True
+5528,No,False
+5529,Yes,True
+5530,Not interested to say,False
+5531,Yes,True
+5532,Not interested to say,False
+5533,No,False
+5534,Not interested to say,False
+5535,Not interested to say,False
+5536,Not interested to say,False
+5537,No,False
+5538,No,False
+5539,Not interested to say,False
+5540,No,False
+5541,No,False
+5542,No,False
+5543,No,False
+5544,No,False
+5545,Yes,True
+5546,No,False
+5547,No,False
+5548,Yes,True
+5549,Yes,True
+5550,Not interested to say,False
+5551,No,False
+5552,Yes,True
+5553,No,False
+5554,Not interested to say,False
+5555,Not interested to say,False
+5556,No,False
+5557,Yes,True
+5558,Yes,True
+5559,No,False
+5560,Not interested to say,False
+5561,Not interested to say,False
+5562,Yes,True
+5563,Not interested to say,False
+5564,Yes,True
+5565,Not interested to say,False
+5566,Yes,True
+5567,No,False
+5568,No,False
+5569,Yes,True
+5570,No,False
+5571,Not interested to say,False
+5572,Yes,True
+5573,Not interested to say,False
+5574,Yes,True
+5575,Yes,True
+5576,No,False
+5577,No,False
+5578,Yes,True
+5579,No,False
+5580,Not interested to say,False
+5581,Yes,True
+5582,Not interested to say,False
+5583,Yes,True
+5584,Not interested to say,False
+5585,Yes,True
+5586,No,False
+5587,No,False
+5588,No,False
+5589,No,False
+5590,No,False
+5591,Not interested to say,False
+5592,Yes,True
+5593,No,False
+5594,No,False
+5595,Yes,True
+5596,Yes,True
+5597,No,False
+5598,Yes,True
+5599,Not interested to say,False
+5600,No,False
+5601,No,False
+5602,No,False
+5603,No,False
+5604,Not interested to say,False
+5605,No,False
+5606,No,False
+5607,Not interested to say,False
+5608,No,False
+5609,Not interested to say,False
+5610,No,False
+5611,Not interested to say,False
+5612,Not interested to say,False
+5613,No,False
+5614,Yes,True
+5615,Yes,True
+5616,No,False
+5617,No,False
+5618,Not interested to say,False
+5619,No,False
+5620,Not interested to say,False
+5621,Yes,True
+5622,No,False
+5623,Yes,True
+5624,No,False
+5625,Not interested to say,False
+5626,No,False
+5627,Yes,True
+5628,Not interested to say,False
+5629,Not interested to say,False
+5630,No,False
+5631,Yes,True
+5632,Yes,True
+5633,Not interested to say,False
+5634,Yes,True
+5635,No,False
+5636,Not interested to say,False
+5637,Not interested to say,False
+5638,Yes,True
+5639,Yes,True
+5640,Not interested to say,False
+5641,Not interested to say,False
+5642,No,False
+5643,No,False
+5644,No,False
+5645,Yes,True
+5646,No,False
+5647,Yes,True
+5648,No,False
+5649,No,False
+5650,No,False
+5651,No,False
+5652,Yes,True
+5653,Not interested to say,False
+5654,No,False
+5655,Yes,True
+5656,Not interested to say,False
+5657,No,False
+5658,Yes,True
+5659,Yes,True
+5660,No,False
+5661,Yes,True
+5662,No,False
+5663,Not interested to say,False
+5664,Not interested to say,False
+5665,Not interested to say,False
+5666,Yes,True
+5667,Not interested to say,False
+5668,No,False
+5669,No,False
+5670,Yes,True
+5671,No,False
+5672,No,False
+5673,Not interested to say,False
+5674,Not interested to say,False
+5675,No,False
+5676,Not interested to say,False
+5677,No,False
+5678,Not interested to say,False
+5679,Not interested to say,False
+5680,Not interested to say,False
+5681,Yes,True
+5682,No,False
+5683,No,False
+5684,Yes,True
+5685,Not interested to say,False
+5686,Yes,True
+5687,No,False
+5688,No,False
+5689,No,False
+5690,Yes,True
+5691,Yes,True
+5692,No,False
+5693,No,False
+5694,No,False
+5695,Yes,True
+5696,Yes,True
+5697,Yes,True
+5698,No,False
+5699,Not interested to say,False
+5700,Not interested to say,False
+5701,No,False
+5702,No,False
+5703,No,False
+5704,No,False
+5705,Yes,True
+5706,No,False
+5707,No,False
+5708,No,False
+5709,Not interested to say,False
+5710,Yes,True
+5711,Yes,True
+5712,Not interested to say,False
+5713,Yes,True
+5714,Not interested to say,False
+5715,No,False
+5716,Yes,True
+5717,No,False
+5718,No,False
+5719,No,False
+5720,Yes,True
+5721,Not interested to say,False
+5722,No,False
+5723,Not interested to say,False
+5724,No,False
+5725,Yes,True
+5726,Yes,True
+5727,Yes,True
+5728,No,False
+5729,Not interested to say,False
+5730,No,False
+5731,No,False
+5732,Yes,True
+5733,No,False
+5734,No,False
+5735,No,False
+5736,Yes,True
+5737,No,False
+5738,No,False
+5739,No,False
+5740,No,False
+5741,Not interested to say,False
+5742,Not interested to say,False
+5743,No,False
+5744,No,False
+5745,No,False
+5746,No,False
+5747,No,False
+5748,No,False
+5749,No,False
+5750,Yes,True
+5751,Not interested to say,False
+5752,No,False
+5753,No,False
+5754,Yes,True
+5755,Yes,True
+5756,Not interested to say,False
+5757,No,False
+5758,No,False
+5759,Yes,True
+5760,No,False
+5761,No,False
+5762,No,False
+5763,No,False
+5764,No,False
+5765,Yes,True
+5766,Not interested to say,False
+5767,Not interested to say,False
+5768,Yes,True
+5769,Not interested to say,False
+5770,Yes,True
+5771,Not interested to say,False
+5772,Yes,True
+5773,No,False
+5774,Not interested to say,False
+5775,No,False
+5776,Yes,True
+5777,No,False
+5778,Yes,True
+5779,No,False
+5780,No,False
+5781,Yes,True
+5782,Yes,True
+5783,No,False
+5784,Yes,True
+5785,Yes,True
+5786,Not interested to say,False
+5787,Not interested to say,False
+5788,Yes,True
+5789,Yes,True
+5790,No,False
+5791,Not interested to say,False
+5792,No,False
+5793,No,False
+5794,No,False
+5795,Yes,True
+5796,No,False
+5797,No,False
+5798,Yes,True
+5799,No,False
+5800,No,False
+5801,Yes,True
+5802,No,False
+5803,Yes,True
+5804,Yes,True
+5805,No,False
+5806,No,False
+5807,No,False
+5808,Not interested to say,False
+5809,No,False
+5810,No,False
+5811,Not interested to say,False
+5812,No,False
+5813,No,False
+5814,Yes,True
+5815,No,False
+5816,No,False
+5817,Yes,True
+5818,No,False
+5819,Not interested to say,False
+5820,Yes,True
+5821,No,False
+5822,No,False
+5823,No,False
+5824,Yes,True
+5825,Yes,True
+5826,No,False
+5827,Yes,True
+5828,Yes,True
+5829,Not interested to say,False
+5830,No,False
+5831,Not interested to say,False
+5832,Yes,True
+5833,No,False
+5834,No,False
+5835,Yes,True
+5836,Not interested to say,False
+5837,Yes,True
+5838,No,False
+5839,Not interested to say,False
+5840,Not interested to say,False
+5841,Yes,True
+5842,Yes,True
+5843,No,False
+5844,No,False
+5845,No,False
+5846,Yes,True
+5847,Yes,True
+5848,Not interested to say,False
+5849,No,False
+5850,Not interested to say,False
+5851,No,False
+5852,No,False
+5853,Yes,True
+5854,No,False
+5855,No,False
+5856,No,False
+5857,No,False
+5858,No,False
+5859,Yes,True
+5860,No,False
+5861,No,False
+5862,No,False
+5863,Not interested to say,False
+5864,Not interested to say,False
+5865,No,False
+5866,No,False
+5867,Not interested to say,False
+5868,No,False
+5869,Not interested to say,False
+5870,Yes,True
+5871,Yes,True
+5872,Not interested to say,False
+5873,No,False
+5874,No,False
+5875,Yes,True
+5876,Yes,True
+5877,No,False
+5878,No,False
+5879,No,False
+5880,Yes,True
+5881,No,False
+5882,No,False
+5883,No,False
+5884,No,False
+5885,Yes,True
+5886,No,False
+5887,Yes,True
+5888,No,False
+5889,No,False
+5890,Yes,True
+5891,No,False
+5892,Yes,True
+5893,Not interested to say,False
+5894,No,False
+5895,Not interested to say,False
+5896,Not interested to say,False
+5897,No,False
+5898,Not interested to say,False
+5899,Not interested to say,False
+5900,No,False
+5901,No,False
+5902,Not interested to say,False
+5903,Not interested to say,False
+5904,Yes,True
+5905,Yes,True
+5906,Yes,True
+5907,Yes,True
+5908,Yes,True
+5909,No,False
+5910,No,False
+5911,Yes,True
+5912,No,False
+5913,No,False
+5914,No,False
+5915,No,False
+5916,Not interested to say,False
+5917,Yes,True
+5918,No,False
+5919,Not interested to say,False
+5920,No,False
+5921,Yes,True
+5922,Yes,True
+5923,No,False
+5924,Not interested to say,False
+5925,No,False
+5926,Not interested to say,False
+5927,Yes,True
+5928,Yes,True
+5929,Not interested to say,False
+5930,Yes,True
+5931,Yes,True
+5932,Not interested to say,False
+5933,Yes,True
+5934,No,False
+5935,No,False
+5936,Yes,True
+5937,No,False
+5938,Yes,True
+5939,No,False
+5940,No,False
+5941,No,False
+5942,Yes,True
+5943,No,False
+5944,No,False
+5945,Not interested to say,False
+5946,Yes,True
+5947,Yes,True
+5948,Yes,True
+5949,Yes,True
+5950,No,False
+5951,No,False
+5952,Not interested to say,False
+5953,Yes,True
+5954,No,False
+5955,Yes,True
+5956,Not interested to say,False
+5957,No,False
+5958,No,False
+5959,No,False
+5960,No,False
+5961,No,False
+5962,Not interested to say,False
+5963,Yes,True
+5964,No,False
+5965,No,False
+5966,Not interested to say,False
+5967,Yes,True
+5968,No,False
+5969,No,False
+5970,Not interested to say,False
+5971,Yes,True
+5972,Yes,True
+5973,Yes,True
+5974,No,False
+5975,No,False
+5976,Yes,True
+5977,Not interested to say,False
+5978,Not interested to say,False
+5979,No,False
+5980,No,False
+5981,No,False
+5982,No,False
+5983,Yes,True
+5984,Yes,True
+5985,No,False
+5986,Yes,True
+5987,No,False
+5988,Not interested to say,False
+5989,Yes,True
+5990,Yes,True
+5991,Not interested to say,False
+5992,No,False
+5993,Not interested to say,False
+5994,No,False
+5995,Yes,True
+5996,Yes,True
+5997,No,False
+5998,No,False
+5999,Not interested to say,False
+6000,No,False
+6001,No,False
+6002,Yes,True
+6003,Yes,True
+6004,No,False
+6005,Yes,True
+6006,No,False
+6007,Not interested to say,False
+6008,Not interested to say,False
+6009,No,False
+6010,Yes,True
+6011,No,False
+6012,Yes,True
+6013,Yes,True
+6014,No,False
+6015,No,False
+6016,Yes,True
+6017,No,False
+6018,Yes,True
+6019,Yes,True
+6020,Yes,True
+6021,Not interested to say,False
+6022,Not interested to say,False
+6023,No,False
+6024,Yes,True
+6025,No,False
+6026,Yes,True
+6027,Yes,True
+6028,Yes,True
+6029,Not interested to say,False
+6030,Yes,True
+6031,Not interested to say,False
+6032,Not interested to say,False
+6033,No,False
+6034,Yes,True
+6035,Yes,True
+6036,No,False
+6037,No,False
+6038,No,False
+6039,Not interested to say,False
+6040,Not interested to say,False
+6041,No,False
+6042,Yes,True
+6043,No,False
+6044,No,False
+6045,Not interested to say,False
+6046,Not interested to say,False
+6047,No,False
+6048,No,False
+6049,Not interested to say,False
+6050,No,False
+6051,Yes,True
+6052,Not interested to say,False
+6053,Not interested to say,False
+6054,Yes,True
+6055,Yes,True
+6056,No,False
+6057,No,False
+6058,Yes,True
+6059,No,False
+6060,No,False
+6061,No,False
+6062,No,False
+6063,Yes,True
+6064,No,False
+6065,Yes,True
+6066,Yes,True
+6067,Not interested to say,False
+6068,No,False
+6069,Yes,True
+6070,No,False
+6071,Not interested to say,False
+6072,Yes,True
+6073,No,False
+6074,No,False
+6075,Not interested to say,False
+6076,No,False
+6077,No,False
+6078,No,False
+6079,Yes,True
+6080,Yes,True
+6081,No,False
+6082,Not interested to say,False
+6083,Yes,True
+6084,Not interested to say,False
+6085,Yes,True
+6086,Not interested to say,False
+6087,No,False
+6088,Yes,True
+6089,Yes,True
+6090,Yes,True
+6091,Yes,True
+6092,Yes,True
+6093,Yes,True
+6094,Not interested to say,False
+6095,Not interested to say,False
+6096,No,False
+6097,No,False
+6098,No,False
+6099,Yes,True
+6100,No,False
+6101,No,False
+6102,Not interested to say,False
+6103,Yes,True
+6104,No,False
+6105,Yes,True
+6106,Yes,True
+6107,No,False
+6108,No,False
+6109,Yes,True
+6110,No,False
+6111,No,False
+6112,Yes,True
+6113,No,False
+6114,Not interested to say,False
+6115,Yes,True
+6116,No,False
+6117,Yes,True
+6118,Not interested to say,False
+6119,No,False
+6120,No,False
+6121,Not interested to say,False
+6122,Not interested to say,False
+6123,Not interested to say,False
+6124,Not interested to say,False
+6125,No,False
+6126,Yes,True
+6127,No,False
+6128,No,False
+6129,Yes,True
+6130,Not interested to say,False
+6131,Yes,True
+6132,Yes,True
+6133,Not interested to say,False
+6134,No,False
+6135,No,False
+6136,No,False
+6137,Yes,True
+6138,Yes,True
+6139,No,False
+6140,Yes,True
+6141,No,False
+6142,Not interested to say,False
+6143,No,False
+6144,No,False
+6145,No,False
+6146,Yes,True
+6147,No,False
+6148,No,False
+6149,No,False
+6150,No,False
+6151,Yes,True
+6152,Not interested to say,False
+6153,No,False
+6154,Yes,True
+6155,Yes,True
+6156,No,False
+6157,Not interested to say,False
+6158,No,False
+6159,No,False
+6160,Not interested to say,False
+6161,Yes,True
+6162,Not interested to say,False
+6163,Yes,True
+6164,Not interested to say,False
+6165,No,False
+6166,No,False
+6167,No,False
+6168,Not interested to say,False
+6169,Not interested to say,False
+6170,No,False
+6171,No,False
+6172,Not interested to say,False
+6173,No,False
+6174,No,False
+6175,Yes,True
+6176,No,False
+6177,No,False
+6178,No,False
+6179,Yes,True
+6180,Yes,True
+6181,Yes,True
+6182,Yes,True
+6183,No,False
+6184,Not interested to say,False
+6185,Yes,True
+6186,No,False
+6187,Yes,True
+6188,Yes,True
+6189,No,False
+6190,Not interested to say,False
+6191,Yes,True
+6192,No,False
+6193,No,False
+6194,Not interested to say,False
+6195,Not interested to say,False
+6196,Not interested to say,False
+6197,Not interested to say,False
+6198,Yes,True
+6199,Yes,True
+6200,Not interested to say,False
+6201,Yes,True
+6202,No,False
+6203,No,False
+6204,No,False
+6205,Not interested to say,False
+6206,Yes,True
+6207,Not interested to say,False
+6208,Yes,True
+6209,Yes,True
+6210,Yes,True
+6211,No,False
+6212,No,False
+6213,Yes,True
+6214,No,False
+6215,Not interested to say,False
+6216,Yes,True
+6217,No,False
+6218,No,False
+6219,Not interested to say,False
+6220,No,False
+6221,Yes,True
+6222,Not interested to say,False
+6223,No,False
+6224,No,False
+6225,Yes,True
+6226,No,False
+6227,No,False
+6228,Yes,True
+6229,Yes,True
+6230,Yes,True
+6231,Not interested to say,False
+6232,No,False
+6233,No,False
+6234,Yes,True
+6235,Yes,True
+6236,No,False
+6237,Yes,True
+6238,No,False
+6239,No,False
+6240,Not interested to say,False
+6241,No,False
+6242,No,False
+6243,Not interested to say,False
+6244,Yes,True
+6245,No,False
+6246,Not interested to say,False
+6247,Not interested to say,False
+6248,No,False
+6249,Not interested to say,False
+6250,Yes,True
+6251,No,False
+6252,Yes,True
+6253,Not interested to say,False
+6254,Yes,True
+6255,No,False
+6256,Yes,True
+6257,Yes,True
+6258,No,False
+6259,No,False
+6260,No,False
+6261,Not interested to say,False
+6262,Not interested to say,False
+6263,No,False
+6264,Yes,True
+6265,No,False
+6266,No,False
+6267,Not interested to say,False
+6268,Not interested to say,False
+6269,No,False
+6270,No,False
+6271,No,False
+6272,No,False
+6273,Yes,True
+6274,No,False
+6275,Yes,True
+6276,No,False
+6277,Yes,True
+6278,Not interested to say,False
+6279,No,False
+6280,Not interested to say,False
+6281,No,False
+6282,Not interested to say,False
+6283,Not interested to say,False
+6284,No,False
+6285,Not interested to say,False
+6286,Not interested to say,False
+6287,Not interested to say,False
+6288,No,False
+6289,No,False
+6290,No,False
+6291,No,False
+6292,No,False
+6293,Yes,True
+6294,No,False
+6295,No,False
+6296,Yes,True
+6297,No,False
+6298,Not interested to say,False
+6299,Yes,True
+6300,Yes,True
+6301,Not interested to say,False
+6302,Yes,True
+6303,No,False
+6304,Yes,True
+6305,Yes,True
+6306,Yes,True
+6307,Yes,True
+6308,No,False
+6309,Yes,True
+6310,Yes,True
+6311,No,False
+6312,Yes,True
+6313,Yes,True
+6314,Not interested to say,False
+6315,No,False
+6316,Yes,True
+6317,Not interested to say,False
+6318,Yes,True
+6319,No,False
+6320,No,False
+6321,No,False
+6322,Yes,True
+6323,Not interested to say,False
+6324,Yes,True
+6325,No,False
+6326,No,False
+6327,No,False
+6328,Yes,True
+6329,Not interested to say,False
+6330,Not interested to say,False
+6331,No,False
+6332,No,False
+6333,Not interested to say,False
+6334,No,False
+6335,No,False
+6336,No,False
+6337,No,False
+6338,Yes,True
+6339,Yes,True
+6340,No,False
+6341,Yes,True
+6342,No,False
+6343,Not interested to say,False
+6344,Not interested to say,False
+6345,Not interested to say,False
+6346,No,False
+6347,Not interested to say,False
+6348,No,False
+6349,No,False
+6350,No,False
+6351,Not interested to say,False
+6352,No,False
+6353,Yes,True
+6354,No,False
+6355,Yes,True
+6356,Not interested to say,False
+6357,Yes,True
+6358,Not interested to say,False
+6359,Yes,True
+6360,Yes,True
+6361,Not interested to say,False
+6362,Not interested to say,False
+6363,No,False
+6364,Yes,True
+6365,No,False
+6366,Yes,True
+6367,Not interested to say,False
+6368,No,False
+6369,No,False
+6370,Not interested to say,False
+6371,Yes,True
+6372,Yes,True
+6373,Not interested to say,False
+6374,No,False
+6375,No,False
+6376,Not interested to say,False
+6377,No,False
+6378,Yes,True
+6379,No,False
+6380,No,False
+6381,Not interested to say,False
+6382,No,False
+6383,Yes,True
+6384,No,False
+6385,Yes,True
+6386,Yes,True
+6387,No,False
+6388,Yes,True
+6389,Yes,True
+6390,No,False
+6391,No,False
+6392,No,False
+6393,No,False
+6394,No,False
+6395,No,False
+6396,No,False
+6397,Not interested to say,False
+6398,Yes,True
+6399,No,False
+6400,No,False
+6401,Yes,True
+6402,Yes,True
+6403,Yes,True
+6404,No,False
+6405,No,False
+6406,No,False
+6407,Not interested to say,False
+6408,Yes,True
+6409,No,False
+6410,No,False
+6411,No,False
+6412,Yes,True
+6413,No,False
+6414,Not interested to say,False
+6415,Yes,True
+6416,Yes,True
+6417,Yes,True
+6418,Yes,True
+6419,No,False
+6420,Yes,True
+6421,No,False
+6422,Not interested to say,False
+6423,Yes,True
+6424,No,False
+6425,No,False
+6426,Yes,True
+6427,Not interested to say,False
+6428,Not interested to say,False
+6429,Yes,True
+6430,No,False
+6431,No,False
+6432,Not interested to say,False
+6433,Yes,True
+6434,Not interested to say,False
+6435,Yes,True
+6436,Yes,True
+6437,Not interested to say,False
+6438,Not interested to say,False
+6439,Yes,True
+6440,Not interested to say,False
+6441,No,False
+6442,Yes,True
+6443,No,False
+6444,Yes,True
+6445,No,False
+6446,No,False
+6447,No,False
+6448,Not interested to say,False
+6449,No,False
+6450,No,False
+6451,Yes,True
+6452,No,False
+6453,Yes,True
+6454,No,False
+6455,No,False
+6456,Not interested to say,False
+6457,No,False
+6458,No,False
+6459,Not interested to say,False
+6460,Yes,True
+6461,No,False
+6462,Not interested to say,False
+6463,Yes,True
+6464,Yes,True
+6465,Not interested to say,False
+6466,Yes,True
+6467,No,False
+6468,Yes,True
+6469,No,False
+6470,No,False
+6471,No,False
+6472,Yes,True
+6473,Not interested to say,False
+6474,No,False
+6475,Not interested to say,False
+6476,Yes,True
+6477,Not interested to say,False
+6478,No,False
+6479,No,False
+6480,Not interested to say,False
+6481,Not interested to say,False
+6482,Yes,True
+6483,No,False
+6484,No,False
+6485,Yes,True
+6486,No,False
+6487,No,False
+6488,Yes,True
+6489,No,False
+6490,Yes,True
+6491,No,False
+6492,Yes,True
+6493,No,False
+6494,No,False
+6495,Yes,True
+6496,Not interested to say,False
+6497,Not interested to say,False
+6498,No,False
+6499,No,False
+6500,Yes,True
+6501,No,False
+6502,No,False
+6503,No,False
+6504,No,False
+6505,Not interested to say,False
+6506,Yes,True
+6507,No,False
+6508,Not interested to say,False
+6509,No,False
+6510,No,False
+6511,Not interested to say,False
+6512,No,False
+6513,Not interested to say,False
+6514,No,False
+6515,No,False
+6516,No,False
+6517,No,False
+6518,No,False
+6519,Yes,True
+6520,No,False
+6521,Yes,True
+6522,No,False
+6523,No,False
+6524,No,False
+6525,Yes,True
+6526,Yes,True
+6527,Yes,True
+6528,No,False
+6529,Yes,True
+6530,Yes,True
+6531,Not interested to say,False
+6532,No,False
+6533,No,False
+6534,No,False
+6535,No,False
+6536,No,False
+6537,Yes,True
+6538,Yes,True
+6539,No,False
+6540,Yes,True
+6541,Yes,True
+6542,Not interested to say,False
+6543,No,False
+6544,No,False
+6545,No,False
+6546,No,False
+6547,Not interested to say,False
+6548,No,False
+6549,Yes,True
+6550,No,False
+6551,No,False
+6552,Not interested to say,False
+6553,Yes,True
+6554,Not interested to say,False
+6555,No,False
+6556,No,False
+6557,No,False
+6558,Yes,True
+6559,No,False
+6560,No,False
+6561,No,False
+6562,No,False
+6563,Yes,True
+6564,Yes,True
+6565,Not interested to say,False
+6566,Yes,True
+6567,Yes,True
+6568,Yes,True
+6569,No,False
+6570,Not interested to say,False
+6571,Yes,True
+6572,Yes,True
+6573,No,False
+6574,Yes,True
+6575,Yes,True
+6576,No,False
+6577,Yes,True
+6578,Yes,True
+6579,No,False
+6580,Yes,True
+6581,No,False
+6582,Yes,True
+6583,Yes,True
+6584,No,False
+6585,Not interested to say,False
+6586,Not interested to say,False
+6587,Yes,True
+6588,No,False
+6589,Not interested to say,False
+6590,No,False
+6591,No,False
+6592,No,False
+6593,Not interested to say,False
+6594,Not interested to say,False
+6595,No,False
+6596,No,False
+6597,No,False
+6598,No,False
+6599,No,False
+6600,Not interested to say,False
+6601,Not interested to say,False
+6602,Not interested to say,False
+6603,Not interested to say,False
+6604,No,False
+6605,Yes,True
+6606,No,False
+6607,Not interested to say,False
+6608,Yes,True
+6609,Yes,True
+6610,No,False
+6611,Yes,True
+6612,Yes,True
+6613,No,False
+6614,No,False
+6615,Yes,True
+6616,No,False
+6617,No,False
+6618,No,False
+6619,No,False
+6620,No,False
+6621,Yes,True
+6622,No,False
+6623,Not interested to say,False
+6624,No,False
+6625,No,False
+6626,No,False
+6627,No,False
+6628,Not interested to say,False
+6629,Yes,True
+6630,No,False
+6631,Yes,True
+6632,No,False
+6633,Not interested to say,False
+6634,Yes,True
+6635,No,False
+6636,Yes,True
+6637,Not interested to say,False
+6638,No,False
+6639,No,False
+6640,Not interested to say,False
+6641,No,False
+6642,Not interested to say,False
+6643,Not interested to say,False
+6644,No,False
+6645,No,False
+6646,No,False
+6647,No,False
+6648,No,False
+6649,Yes,True
+6650,No,False
+6651,No,False
+6652,Yes,True
+6653,No,False
+6654,Yes,True
+6655,No,False
+6656,Yes,True
+6657,Yes,True
+6658,Yes,True
+6659,No,False
+6660,No,False
+6661,No,False
+6662,No,False
+6663,Not interested to say,False
+6664,No,False
+6665,Yes,True
+6666,No,False
+6667,No,False
+6668,No,False
+6669,Not interested to say,False
+6670,No,False
+6671,No,False
+6672,Yes,True
+6673,No,False
+6674,No,False
+6675,Yes,True
+6676,Yes,True
+6677,Not interested to say,False
+6678,No,False
+6679,Yes,True
+6680,No,False
+6681,Yes,True
+6682,Yes,True
+6683,Yes,True
+6684,No,False
+6685,Not interested to say,False
+6686,Yes,True
+6687,Yes,True
+6688,No,False
+6689,No,False
+6690,No,False
+6691,Not interested to say,False
+6692,Not interested to say,False
+6693,Yes,True
+6694,Yes,True
+6695,Not interested to say,False
+6696,Yes,True
+6697,No,False
+6698,Not interested to say,False
+6699,Yes,True
+6700,No,False
+6701,Yes,True
+6702,No,False
+6703,No,False
+6704,Yes,True
+6705,Yes,True
+6706,No,False
+6707,Not interested to say,False
+6708,Not interested to say,False
+6709,Yes,True
+6710,Yes,True
+6711,Not interested to say,False
+6712,Yes,True
+6713,Yes,True
+6714,Yes,True
+6715,No,False
+6716,Not interested to say,False
+6717,Yes,True
+6718,Yes,True
+6719,No,False
+6720,Not interested to say,False
+6721,No,False
+6722,No,False
+6723,Not interested to say,False
+6724,No,False
+6725,No,False
+6726,No,False
+6727,Yes,True
+6728,Not interested to say,False
+6729,Yes,True
+6730,No,False
+6731,No,False
+6732,Yes,True
+6733,No,False
+6734,Yes,True
+6735,No,False
+6736,Yes,True
+6737,Not interested to say,False
+6738,No,False
+6739,No,False
+6740,No,False
+6741,Yes,True
+6742,Not interested to say,False
+6743,Yes,True
+6744,No,False
+6745,Not interested to say,False
+6746,Yes,True
+6747,Yes,True
+6748,Yes,True
+6749,No,False
+6750,No,False
+6751,Yes,True
+6752,Not interested to say,False
+6753,Not interested to say,False
+6754,No,False
+6755,Not interested to say,False
+6756,No,False
+6757,Not interested to say,False
+6758,No,False
+6759,No,False
+6760,No,False
+6761,Yes,True
+6762,Yes,True
+6763,No,False
+6764,Not interested to say,False
+6765,Not interested to say,False
+6766,No,False
+6767,No,False
+6768,Not interested to say,False
+6769,Yes,True
+6770,No,False
+6771,Yes,True
+6772,No,False
+6773,Not interested to say,False
+6774,No,False
+6775,No,False
+6776,Yes,True
+6777,Not interested to say,False
+6778,No,False
+6779,No,False
+6780,No,False
+6781,Yes,True
+6782,Yes,True
+6783,No,False
+6784,Yes,True
+6785,No,False
+6786,Yes,True
+6787,Not interested to say,False
+6788,No,False
+6789,Yes,True
+6790,Yes,True
+6791,Yes,True
+6792,Not interested to say,False
+6793,Yes,True
+6794,Not interested to say,False
+6795,Yes,True
+6796,Not interested to say,False
+6797,Not interested to say,False
+6798,No,False
+6799,Yes,True
+6800,Not interested to say,False
+6801,Yes,True
+6802,No,False
+6803,No,False
+6804,No,False
+6805,Yes,True
+6806,Yes,True
+6807,Yes,True
+6808,Yes,True
+6809,No,False
+6810,Not interested to say,False
+6811,No,False
+6812,Yes,True
+6813,Yes,True
+6814,No,False
+6815,Not interested to say,False
+6816,No,False
+6817,No,False
+6818,Yes,True
+6819,No,False
+6820,No,False
+6821,No,False
+6822,Yes,True
+6823,Yes,True
+6824,Not interested to say,False
+6825,No,False
+6826,No,False
+6827,No,False
+6828,Not interested to say,False
+6829,Yes,True
+6830,No,False
+6831,Not interested to say,False
+6832,No,False
+6833,No,False
+6834,Yes,True
+6835,Not interested to say,False
+6836,Yes,True
+6837,Not interested to say,False
+6838,Not interested to say,False
+6839,Yes,True
+6840,Not interested to say,False
+6841,Yes,True
+6842,Yes,True
+6843,No,False
+6844,No,False
+6845,Yes,True
+6846,No,False
+6847,Yes,True
+6848,Yes,True
+6849,Not interested to say,False
+6850,Yes,True
+6851,No,False
+6852,No,False
+6853,No,False
+6854,No,False
+6855,Not interested to say,False
+6856,No,False
+6857,No,False
+6858,No,False
+6859,Not interested to say,False
+6860,Yes,True
+6861,No,False
+6862,No,False
+6863,No,False
+6864,Yes,True
+6865,No,False
+6866,No,False
+6867,No,False
+6868,No,False
+6869,Yes,True
+6870,Yes,True
+6871,Yes,True
+6872,No,False
+6873,Yes,True
+6874,No,False
+6875,Not interested to say,False
+6876,Not interested to say,False
+6877,No,False
+6878,Yes,True
+6879,Not interested to say,False
+6880,No,False
+6881,No,False
+6882,No,False
+6883,No,False
+6884,Yes,True
+6885,Yes,True
+6886,Yes,True
+6887,No,False
+6888,No,False
+6889,Not interested to say,False
+6890,No,False
+6891,Not interested to say,False
+6892,Yes,True
+6893,No,False
+6894,Yes,True
+6895,Yes,True
+6896,No,False
+6897,Yes,True
+6898,Not interested to say,False
+6899,Not interested to say,False
+6900,Yes,True
+6901,No,False
+6902,Not interested to say,False
+6903,No,False
+6904,No,False
+6905,Not interested to say,False
+6906,No,False
+6907,No,False
+6908,No,False
+6909,Yes,True
+6910,Not interested to say,False
+6911,Yes,True
+6912,Not interested to say,False
+6913,Yes,True
+6914,Yes,True
+6915,No,False
+6916,Not interested to say,False
+6917,No,False
+6918,No,False
+6919,Not interested to say,False
+6920,Not interested to say,False
+6921,Yes,True
+6922,Yes,True
+6923,No,False
+6924,Yes,True
+6925,Not interested to say,False
+6926,Yes,True
+6927,Yes,True
+6928,No,False
+6929,No,False
+6930,Yes,True
+6931,Not interested to say,False
+6932,No,False
+6933,No,False
+6934,No,False
+6935,Yes,True
+6936,Yes,True
+6937,Yes,True
+6938,Yes,True
+6939,Yes,True
+6940,Not interested to say,False
+6941,Not interested to say,False
+6942,No,False
+6943,Yes,True
+6944,No,False
+6945,No,False
+6946,No,False
+6947,Yes,True
+6948,No,False
+6949,Not interested to say,False
+6950,Not interested to say,False
+6951,Yes,True
+6952,Not interested to say,False
+6953,No,False
+6954,No,False
+6955,Not interested to say,False
+6956,No,False
+6957,No,False
+6958,Not interested to say,False
+6959,Yes,True
+6960,Yes,True
+6961,Yes,True
+6962,No,False
+6963,Not interested to say,False
+6964,Yes,True
+6965,No,False
+6966,Not interested to say,False
+6967,No,False
+6968,Yes,True
+6969,No,False
+6970,No,False
+6971,Not interested to say,False
+6972,Not interested to say,False
+6973,Not interested to say,False
+6974,Yes,True
+6975,No,False
+6976,Not interested to say,False
+6977,Not interested to say,False
+6978,Yes,True
+6979,No,False
+6980,Not interested to say,False
+6981,No,False
+6982,Yes,True
+6983,Yes,True
+6984,Not interested to say,False
+6985,Yes,True
+6986,Yes,True
+6987,No,False
+6988,Yes,True
+6989,Yes,True
+6990,Not interested to say,False
+6991,Yes,True
+6992,No,False
+6993,Yes,True
+6994,Not interested to say,False
+6995,No,False
+6996,No,False
+6997,Yes,True
+6998,Yes,True
+6999,Not interested to say,False
+7000,No,False
+7001,Not interested to say,False
+7002,No,False
+7003,Yes,True
+7004,No,False
+7005,No,False
+7006,No,False
+7007,No,False
+7008,Not interested to say,False
+7009,No,False
+7010,No,False
+7011,Yes,True
+7012,Not interested to say,False
+7013,No,False
+7014,No,False
+7015,No,False
+7016,Not interested to say,False
+7017,No,False
+7018,Yes,True
+7019,Yes,True
+7020,Not interested to say,False
+7021,Yes,True
+7022,No,False
+7023,Yes,True
+7024,Not interested to say,False
+7025,No,False
+7026,Not interested to say,False
+7027,Yes,True
+7028,No,False
+7029,Not interested to say,False
+7030,Not interested to say,False
+7031,No,False
+7032,Not interested to say,False
+7033,Not interested to say,False
+7034,No,False
+7035,Yes,True
+7036,Yes,True
+7037,Yes,True
+7038,No,False
+7039,No,False
+7040,No,False
+7041,No,False
+7042,No,False
+7043,Not interested to say,False
+7044,No,False
+7045,No,False
+7046,No,False
+7047,No,False
+7048,No,False
+7049,Yes,True
+7050,No,False
+7051,Yes,True
+7052,Yes,True
+7053,No,False
+7054,No,False
+7055,Not interested to say,False
+7056,No,False
+7057,No,False
+7058,No,False
+7059,No,False
+7060,No,False
+7061,Yes,True
+7062,Not interested to say,False
+7063,Yes,True
+7064,No,False
+7065,Not interested to say,False
+7066,No,False
+7067,No,False
+7068,Yes,True
+7069,Not interested to say,False
+7070,No,False
+7071,No,False
+7072,No,False
+7073,No,False
+7074,No,False
+7075,Yes,True
+7076,Yes,True
+7077,Yes,True
+7078,Yes,True
+7079,No,False
+7080,No,False
+7081,No,False
+7082,No,False
+7083,No,False
+7084,No,False
+7085,No,False
+7086,Not interested to say,False
+7087,Not interested to say,False
+7088,No,False
+7089,No,False
+7090,No,False
+7091,Not interested to say,False
+7092,Not interested to say,False
+7093,No,False
+7094,No,False
+7095,No,False
+7096,Yes,True
+7097,Yes,True
+7098,No,False
+7099,Yes,True
+7100,No,False
+7101,No,False
+7102,No,False
+7103,Yes,True
+7104,Yes,True
+7105,No,False
+7106,No,False
+7107,Yes,True
+7108,Yes,True
+7109,No,False
+7110,Yes,True
+7111,No,False
+7112,No,False
+7113,No,False
+7114,Yes,True
+7115,Not interested to say,False
+7116,Yes,True
+7117,Yes,True
+7118,Not interested to say,False
+7119,Not interested to say,False
+7120,No,False
+7121,No,False
+7122,Not interested to say,False
+7123,Yes,True
+7124,Not interested to say,False
+7125,Not interested to say,False
+7126,No,False
+7127,Not interested to say,False
+7128,No,False
+7129,Yes,True
+7130,Yes,True
+7131,Yes,True
+7132,No,False
+7133,No,False
+7134,No,False
+7135,Not interested to say,False
+7136,No,False
+7137,Yes,True
+7138,No,False
+7139,No,False
+7140,No,False
+7141,Yes,True
+7142,Yes,True
+7143,No,False
+7144,Yes,True
+7145,Not interested to say,False
+7146,Yes,True
+7147,Yes,True
+7148,Not interested to say,False
+7149,No,False
+7150,No,False
+7151,Yes,True
+7152,Not interested to say,False
+7153,No,False
+7154,Yes,True
+7155,Yes,True
+7156,Yes,True
+7157,Not interested to say,False
+7158,Yes,True
+7159,Not interested to say,False
+7160,No,False
+7161,Not interested to say,False
+7162,Yes,True
+7163,No,False
+7164,Not interested to say,False
+7165,No,False
+7166,No,False
+7167,Yes,True
+7168,No,False
+7169,No,False
+7170,Yes,True
+7171,No,False
+7172,No,False
+7173,No,False
+7174,Not interested to say,False
+7175,No,False
+7176,No,False
+7177,Not interested to say,False
+7178,Not interested to say,False
+7179,No,False
+7180,No,False
+7181,No,False
+7182,Yes,True
+7183,Yes,True
+7184,Yes,True
+7185,No,False
+7186,Not interested to say,False
+7187,Not interested to say,False
+7188,No,False
+7189,Yes,True
+7190,No,False
+7191,No,False
+7192,No,False
+7193,No,False
+7194,No,False
+7195,Not interested to say,False
+7196,Not interested to say,False
+7197,No,False
+7198,No,False
+7199,Not interested to say,False
+7200,No,False
+7201,No,False
+7202,Yes,True
+7203,Not interested to say,False
+7204,No,False
+7205,No,False
+7206,No,False
+7207,No,False
+7208,No,False
+7209,No,False
+7210,Not interested to say,False
+7211,Not interested to say,False
+7212,No,False
+7213,Not interested to say,False
+7214,Yes,True
+7215,Not interested to say,False
+7216,Yes,True
+7217,No,False
+7218,Not interested to say,False
+7219,Yes,True
+7220,Yes,True
+7221,No,False
+7222,No,False
+7223,No,False
+7224,No,False
+7225,Not interested to say,False
+7226,No,False
+7227,No,False
+7228,No,False
+7229,No,False
+7230,Not interested to say,False
+7231,No,False
+7232,Yes,True
+7233,No,False
+7234,Yes,True
+7235,Not interested to say,False
+7236,Yes,True
+7237,Yes,True
+7238,Not interested to say,False
+7239,No,False
+7240,Not interested to say,False
+7241,Yes,True
+7242,No,False
+7243,Yes,True
+7244,Not interested to say,False
+7245,No,False
+7246,No,False
+7247,Yes,True
+7248,No,False
+7249,No,False
+7250,Yes,True
+7251,Yes,True
+7252,Not interested to say,False
+7253,No,False
+7254,No,False
+7255,No,False
+7256,Yes,True
+7257,No,False
+7258,No,False
+7259,No,False
+7260,No,False
+7261,Yes,True
+7262,No,False
+7263,No,False
+7264,Not interested to say,False
+7265,No,False
+7266,Yes,True
+7267,Yes,True
+7268,Yes,True
+7269,Yes,True
+7270,No,False
+7271,Not interested to say,False
+7272,No,False
+7273,No,False
+7274,Yes,True
+7275,No,False
+7276,No,False
+7277,Yes,True
+7278,Not interested to say,False
+7279,Yes,True
+7280,Yes,True
+7281,Yes,True
+7282,Yes,True
+7283,Not interested to say,False
+7284,No,False
+7285,No,False
+7286,Yes,True
+7287,Not interested to say,False
+7288,Not interested to say,False
+7289,Not interested to say,False
+7290,No,False
+7291,Not interested to say,False
+7292,No,False
+7293,No,False
+7294,No,False
+7295,Not interested to say,False
+7296,No,False
+7297,Yes,True
+7298,Yes,True
+7299,No,False
+7300,Not interested to say,False
+7301,Not interested to say,False
+7302,No,False
+7303,Yes,True
+7304,Not interested to say,False
+7305,Not interested to say,False
+7306,Not interested to say,False
+7307,No,False
+7308,Yes,True
+7309,No,False
+7310,Not interested to say,False
+7311,Yes,True
+7312,Yes,True
+7313,Not interested to say,False
+7314,No,False
+7315,Yes,True
+7316,Not interested to say,False
+7317,No,False
+7318,No,False
+7319,Yes,True
+7320,Not interested to say,False
+7321,Yes,True
+7322,Yes,True
+7323,No,False
+7324,No,False
+7325,No,False
+7326,No,False
+7327,No,False
+7328,Not interested to say,False
+7329,Yes,True
+7330,Not interested to say,False
+7331,No,False
+7332,Not interested to say,False
+7333,No,False
+7334,Yes,True
+7335,No,False
+7336,Yes,True
+7337,Not interested to say,False
+7338,No,False
+7339,Yes,True
+7340,Not interested to say,False
+7341,No,False
+7342,No,False
+7343,Not interested to say,False
+7344,Yes,True
+7345,No,False
+7346,Not interested to say,False
+7347,No,False
+7348,No,False
+7349,Yes,True
+7350,Not interested to say,False
+7351,Yes,True
+7352,Yes,True
+7353,No,False
+7354,No,False
+7355,Yes,True
+7356,No,False
+7357,No,False
+7358,Not interested to say,False
+7359,No,False
+7360,No,False
+7361,Not interested to say,False
+7362,Yes,True
+7363,Yes,True
+7364,Not interested to say,False
+7365,No,False
+7366,Yes,True
+7367,No,False
+7368,Yes,True
+7369,Yes,True
+7370,Not interested to say,False
+7371,No,False
+7372,No,False
+7373,Not interested to say,False
+7374,No,False
+7375,Yes,True
+7376,Yes,True
+7377,No,False
+7378,No,False
+7379,Not interested to say,False
+7380,No,False
+7381,Not interested to say,False
+7382,Not interested to say,False
+7383,No,False
+7384,Yes,True
+7385,No,False
+7386,Yes,True
+7387,Yes,True
+7388,Yes,True
+7389,Not interested to say,False
+7390,Not interested to say,False
+7391,No,False
+7392,No,False
+7393,Not interested to say,False
+7394,Not interested to say,False
+7395,Not interested to say,False
+7396,Yes,True
+7397,Yes,True
+7398,No,False
+7399,No,False
+7400,No,False
+7401,Yes,True
+7402,Yes,True
+7403,Not interested to say,False
+7404,Yes,True
+7405,Not interested to say,False
+7406,No,False
+7407,Yes,True
+7408,No,False
+7409,No,False
+7410,No,False
+7411,No,False
+7412,No,False
+7413,Not interested to say,False
+7414,No,False
+7415,Not interested to say,False
+7416,No,False
+7417,Yes,True
+7418,Yes,True
+7419,Yes,True
+7420,Yes,True
+7421,No,False
+7422,Not interested to say,False
+7423,Not interested to say,False
+7424,No,False
+7425,No,False
+7426,Yes,True
+7427,Yes,True
+7428,Not interested to say,False
+7429,Not interested to say,False
+7430,No,False
+7431,Yes,True
+7432,Yes,True
+7433,Yes,True
+7434,Yes,True
+7435,No,False
+7436,No,False
+7437,No,False
+7438,Not interested to say,False
+7439,No,False
+7440,Not interested to say,False
+7441,No,False
+7442,Yes,True
+7443,Not interested to say,False
+7444,Not interested to say,False
+7445,No,False
+7446,Not interested to say,False
+7447,Yes,True
+7448,Yes,True
+7449,Yes,True
+7450,Yes,True
+7451,Not interested to say,False
+7452,No,False
+7453,Yes,True
+7454,No,False
+7455,Not interested to say,False
+7456,No,False
+7457,Yes,True
+7458,No,False
+7459,No,False
+7460,Not interested to say,False
+7461,Not interested to say,False
+7462,No,False
+7463,Not interested to say,False
+7464,Yes,True
+7465,Not interested to say,False
+7466,No,False
+7467,No,False
+7468,Yes,True
+7469,Yes,True
+7470,Not interested to say,False
+7471,Yes,True
+7472,Yes,True
+7473,No,False
+7474,Yes,True
+7475,Yes,True
+7476,No,False
+7477,No,False
+7478,Yes,True
+7479,Not interested to say,False
+7480,Yes,True
+7481,No,False
+7482,No,False
+7483,No,False
+7484,Not interested to say,False
+7485,No,False
+7486,Yes,True
+7487,Yes,True
+7488,Yes,True
+7489,Yes,True
+7490,Yes,True
+7491,Not interested to say,False
+7492,Yes,True
+7493,Not interested to say,False
+7494,Yes,True
+7495,No,False
+7496,No,False
+7497,Yes,True
+7498,Not interested to say,False
+7499,Not interested to say,False
+7500,Not interested to say,False
+7501,No,False
+7502,Not interested to say,False
+7503,No,False
+7504,No,False
+7505,Not interested to say,False
+7506,Not interested to say,False
+7507,No,False
+7508,Not interested to say,False
+7509,Yes,True
+7510,Yes,True
+7511,Not interested to say,False
+7512,No,False
+7513,No,False
+7514,No,False
+7515,No,False
+7516,No,False
+7517,No,False
+7518,No,False
+7519,Yes,True
+7520,No,False
+7521,No,False
+7522,No,False
+7523,Yes,True
+7524,Not interested to say,False
+7525,No,False
+7526,No,False
+7527,Yes,True
+7528,Not interested to say,False
+7529,Yes,True
+7530,No,False
+7531,No,False
+7532,Not interested to say,False
+7533,Yes,True
+7534,No,False
+7535,Yes,True
+7536,Yes,True
+7537,No,False
+7538,Not interested to say,False
+7539,No,False
+7540,No,False
+7541,Yes,True
+7542,No,False
+7543,Yes,True
+7544,No,False
+7545,No,False
+7546,No,False
+7547,Not interested to say,False
+7548,Yes,True
+7549,Not interested to say,False
+7550,Not interested to say,False
+7551,Yes,True
+7552,No,False
+7553,Yes,True
+7554,Not interested to say,False
+7555,No,False
+7556,Yes,True
+7557,No,False
+7558,Not interested to say,False
+7559,No,False
+7560,No,False
+7561,No,False
+7562,No,False
+7563,Yes,True
+7564,Yes,True
+7565,No,False
+7566,Not interested to say,False
+7567,No,False
+7568,No,False
+7569,Yes,True
+7570,Not interested to say,False
+7571,No,False
+7572,Yes,True
+7573,No,False
+7574,Yes,True
+7575,Not interested to say,False
+7576,Not interested to say,False
+7577,No,False
+7578,No,False
+7579,Not interested to say,False
+7580,No,False
+7581,No,False
+7582,No,False
+7583,Not interested to say,False
+7584,No,False
+7585,Yes,True
+7586,No,False
+7587,Yes,True
+7588,No,False
+7589,Yes,True
+7590,Yes,True
+7591,Yes,True
+7592,No,False
+7593,No,False
+7594,No,False
+7595,Not interested to say,False
+7596,Not interested to say,False
+7597,Yes,True
+7598,Not interested to say,False
+7599,Not interested to say,False
+7600,Yes,True
+7601,Yes,True
+7602,Yes,True
+7603,No,False
+7604,Yes,True
+7605,Yes,True
+7606,Yes,True
+7607,Yes,True
+7608,Yes,True
+7609,Yes,True
+7610,Yes,True
+7611,Yes,True
+7612,Yes,True
+7613,Not interested to say,False
+7614,No,False
+7615,No,False
+7616,No,False
+7617,Not interested to say,False
+7618,No,False
+7619,No,False
+7620,Not interested to say,False
+7621,No,False
+7622,No,False
+7623,No,False
+7624,Yes,True
+7625,No,False
+7626,No,False
+7627,Yes,True
+7628,Not interested to say,False
+7629,No,False
+7630,Yes,True
+7631,Yes,True
+7632,No,False
+7633,No,False
+7634,Not interested to say,False
+7635,Not interested to say,False
+7636,Yes,True
+7637,Not interested to say,False
+7638,No,False
+7639,Not interested to say,False
+7640,No,False
+7641,No,False
+7642,Yes,True
+7643,No,False
+7644,Yes,True
+7645,Yes,True
+7646,Not interested to say,False
+7647,No,False
+7648,No,False
+7649,No,False
+7650,Not interested to say,False
+7651,Yes,True
+7652,No,False
+7653,Yes,True
+7654,Yes,True
+7655,No,False
+7656,No,False
+7657,No,False
+7658,No,False
+7659,No,False
+7660,Not interested to say,False
+7661,No,False
+7662,No,False
+7663,No,False
+7664,No,False
+7665,No,False
+7666,No,False
+7667,Yes,True
+7668,Not interested to say,False
+7669,Yes,True
+7670,No,False
+7671,No,False
+7672,Not interested to say,False
+7673,No,False
+7674,Yes,True
+7675,No,False
+7676,No,False
+7677,Yes,True
+7678,No,False
+7679,No,False
+7680,No,False
+7681,Not interested to say,False
+7682,Yes,True
+7683,No,False
+7684,Yes,True
+7685,Yes,True
+7686,Yes,True
+7687,Yes,True
+7688,Not interested to say,False
+7689,Yes,True
+7690,Yes,True
+7691,No,False
+7692,Yes,True
+7693,Not interested to say,False
+7694,No,False
+7695,Yes,True
+7696,No,False
+7697,No,False
+7698,Not interested to say,False
+7699,Yes,True
+7700,No,False
+7701,No,False
+7702,Yes,True
+7703,Yes,True
+7704,No,False
+7705,Yes,True
+7706,No,False
+7707,Yes,True
+7708,Yes,True
+7709,No,False
+7710,No,False
+7711,Yes,True
+7712,Not interested to say,False
+7713,No,False
+7714,Yes,True
+7715,Not interested to say,False
+7716,No,False
+7717,No,False
+7718,No,False
+7719,Not interested to say,False
+7720,Not interested to say,False
+7721,Yes,True
+7722,No,False
+7723,No,False
+7724,No,False
+7725,No,False
+7726,No,False
+7727,No,False
+7728,No,False
+7729,Not interested to say,False
+7730,Yes,True
+7731,No,False
+7732,Yes,True
+7733,No,False
+7734,No,False
+7735,Not interested to say,False
+7736,Not interested to say,False
+7737,Not interested to say,False
+7738,No,False
+7739,No,False
+7740,Not interested to say,False
+7741,Not interested to say,False
+7742,No,False
+7743,No,False
+7744,Not interested to say,False
+7745,No,False
+7746,Yes,True
+7747,Yes,True
+7748,No,False
+7749,Not interested to say,False
+7750,Not interested to say,False
+7751,Yes,True
+7752,Yes,True
+7753,Yes,True
+7754,No,False
+7755,Not interested to say,False
+7756,No,False
+7757,Not interested to say,False
+7758,No,False
+7759,No,False
+7760,Yes,True
+7761,No,False
+7762,Yes,True
+7763,Yes,True
+7764,No,False
+7765,Yes,True
+7766,Not interested to say,False
+7767,No,False
+7768,Not interested to say,False
+7769,No,False
+7770,Not interested to say,False
+7771,No,False
+7772,Not interested to say,False
+7773,No,False
+7774,Not interested to say,False
+7775,Yes,True
+7776,Not interested to say,False
+7777,Not interested to say,False
+7778,No,False
+7779,Not interested to say,False
+7780,Not interested to say,False
+7781,No,False
+7782,Not interested to say,False
+7783,No,False
+7784,Not interested to say,False
+7785,No,False
+7786,No,False
+7787,Not interested to say,False
+7788,Yes,True
+7789,Not interested to say,False
+7790,Yes,True
+7791,Not interested to say,False
+7792,Yes,True
+7793,Not interested to say,False
+7794,No,False
+7795,No,False
+7796,No,False
+7797,Yes,True
+7798,No,False
+7799,Yes,True
+7800,No,False
+7801,Yes,True
+7802,No,False
+7803,Yes,True
+7804,No,False
+7805,Yes,True
+7806,No,False
+7807,No,False
+7808,Yes,True
+7809,Yes,True
+7810,Yes,True
+7811,No,False
+7812,Yes,True
+7813,Not interested to say,False
+7814,Yes,True
+7815,No,False
+7816,No,False
+7817,No,False
+7818,No,False
+7819,Yes,True
+7820,Yes,True
+7821,No,False
+7822,Not interested to say,False
+7823,No,False
+7824,No,False
+7825,No,False
+7826,No,False
+7827,Yes,True
+7828,Yes,True
+7829,No,False
+7830,Yes,True
+7831,Yes,True
+7832,No,False
+7833,Not interested to say,False
+7834,Yes,True
+7835,Yes,True
+7836,No,False
+7837,Yes,True
+7838,No,False
+7839,No,False
+7840,No,False
+7841,Not interested to say,False
+7842,Yes,True
+7843,No,False
+7844,Yes,True
+7845,No,False
+7846,No,False
+7847,No,False
+7848,Yes,True
+7849,Not interested to say,False
+7850,No,False
+7851,Not interested to say,False
+7852,No,False
+7853,Not interested to say,False
+7854,No,False
+7855,No,False
+7856,Not interested to say,False
+7857,No,False
+7858,No,False
+7859,No,False
+7860,Not interested to say,False
+7861,Not interested to say,False
+7862,No,False
+7863,Not interested to say,False
+7864,No,False
+7865,Not interested to say,False
+7866,Yes,True
+7867,No,False
+7868,No,False
+7869,No,False
+7870,Not interested to say,False
+7871,Not interested to say,False
+7872,No,False
+7873,No,False
+7874,Yes,True
+7875,Not interested to say,False
+7876,Yes,True
+7877,Yes,True
+7878,No,False
+7879,Not interested to say,False
+7880,Not interested to say,False
+7881,Not interested to say,False
+7882,No,False
+7883,Not interested to say,False
+7884,Yes,True
+7885,Yes,True
+7886,No,False
+7887,No,False
+7888,No,False
+7889,Yes,True
+7890,No,False
+7891,No,False
+7892,No,False
+7893,Yes,True
+7894,No,False
+7895,No,False
+7896,No,False
+7897,No,False
+7898,Yes,True
+7899,Not interested to say,False
+7900,Yes,True
+7901,No,False
+7902,Not interested to say,False
+7903,Yes,True
+7904,Yes,True
+7905,Yes,True
+7906,No,False
+7907,Yes,True
+7908,Not interested to say,False
+7909,Not interested to say,False
+7910,Not interested to say,False
+7911,Not interested to say,False
+7912,No,False
+7913,No,False
+7914,Yes,True
+7915,No,False
+7916,No,False
+7917,Not interested to say,False
+7918,Not interested to say,False
+7919,No,False
+7920,No,False
+7921,No,False
+7922,Yes,True
+7923,Yes,True
+7924,Yes,True
+7925,Yes,True
+7926,No,False
+7927,No,False
+7928,No,False
+7929,Yes,True
+7930,Not interested to say,False
+7931,Yes,True
+7932,No,False
+7933,No,False
+7934,No,False
+7935,Not interested to say,False
+7936,Not interested to say,False
+7937,Not interested to say,False
+7938,Not interested to say,False
+7939,No,False
+7940,No,False
+7941,No,False
+7942,Yes,True
+7943,Yes,True
+7944,Yes,True
+7945,Yes,True
+7946,Not interested to say,False
+7947,Yes,True
+7948,Yes,True
+7949,Not interested to say,False
+7950,No,False
+7951,No,False
+7952,No,False
+7953,Not interested to say,False
+7954,Not interested to say,False
+7955,Yes,True
+7956,Not interested to say,False
+7957,Not interested to say,False
+7958,Yes,True
+7959,Yes,True
+7960,No,False
+7961,Not interested to say,False
+7962,No,False
+7963,Yes,True
+7964,No,False
+7965,No,False
+7966,Yes,True
+7967,No,False
+7968,No,False
+7969,Not interested to say,False
+7970,Yes,True
+7971,Not interested to say,False
+7972,No,False
+7973,Yes,True
+7974,No,False
+7975,No,False
+7976,No,False
+7977,No,False
+7978,Not interested to say,False
+7979,Not interested to say,False
+7980,Yes,True
+7981,No,False
+7982,No,False
+7983,No,False
+7984,Not interested to say,False
+7985,Not interested to say,False
+7986,No,False
+7987,Yes,True
+7988,No,False
+7989,Not interested to say,False
+7990,Not interested to say,False
+7991,Yes,True
+7992,No,False
+7993,No,False
+7994,Yes,True
+7995,Not interested to say,False
+7996,No,False
+7997,No,False
+7998,Not interested to say,False
+7999,Not interested to say,False
+8000,No,False
+8001,Yes,True
+8002,Not interested to say,False
+8003,Not interested to say,False
+8004,Not interested to say,False
+8005,Yes,True
+8006,No,False
+8007,Not interested to say,False
+8008,No,False
+8009,No,False
+8010,Yes,True
+8011,No,False
+8012,No,False
+8013,No,False
+8014,No,False
+8015,No,False
+8016,No,False
+8017,Yes,True
+8018,Yes,True
+8019,No,False
+8020,No,False
+8021,Not interested to say,False
+8022,Not interested to say,False
+8023,No,False
+8024,No,False
+8025,Not interested to say,False
+8026,No,False
+8027,Yes,True
+8028,Yes,True
+8029,No,False
+8030,No,False
+8031,Yes,True
+8032,No,False
+8033,Not interested to say,False
+8034,Not interested to say,False
+8035,Yes,True
+8036,Not interested to say,False
+8037,No,False
+8038,Not interested to say,False
+8039,Yes,True
+8040,No,False
+8041,Yes,True
+8042,No,False
+8043,Yes,True
+8044,No,False
+8045,Not interested to say,False
+8046,Yes,True
+8047,Yes,True
+8048,No,False
+8049,Not interested to say,False
+8050,Yes,True
+8051,Yes,True
+8052,No,False
+8053,Not interested to say,False
+8054,Yes,True
+8055,No,False
+8056,Yes,True
+8057,Yes,True
+8058,No,False
+8059,Not interested to say,False
+8060,Yes,True
+8061,Yes,True
+8062,No,False
+8063,No,False
+8064,Yes,True
+8065,No,False
+8066,No,False
+8067,No,False
+8068,No,False
+8069,No,False
+8070,No,False
+8071,Not interested to say,False
+8072,Yes,True
+8073,Yes,True
+8074,No,False
+8075,No,False
+8076,Yes,True
+8077,Not interested to say,False
+8078,No,False
+8079,Yes,True
+8080,No,False
+8081,Not interested to say,False
+8082,No,False
+8083,No,False
+8084,Not interested to say,False
+8085,No,False
+8086,No,False
+8087,No,False
+8088,Yes,True
+8089,Yes,True
+8090,No,False
+8091,No,False
+8092,No,False
+8093,No,False
+8094,No,False
+8095,Not interested to say,False
+8096,No,False
+8097,No,False
+8098,Not interested to say,False
+8099,Yes,True
+8100,Yes,True
+8101,Yes,True
+8102,Yes,True
+8103,No,False
+8104,Yes,True
+8105,Yes,True
+8106,Yes,True
+8107,Not interested to say,False
+8108,Not interested to say,False
+8109,Yes,True
+8110,Yes,True
+8111,Yes,True
+8112,Yes,True
+8113,Yes,True
+8114,No,False
+8115,No,False
+8116,No,False
+8117,Not interested to say,False
+8118,No,False
+8119,Yes,True
+8120,Not interested to say,False
+8121,No,False
+8122,No,False
+8123,Not interested to say,False
+8124,No,False
+8125,No,False
+8126,No,False
+8127,No,False
+8128,Not interested to say,False
+8129,Yes,True
+8130,No,False
+8131,No,False
+8132,No,False
+8133,No,False
+8134,Yes,True
+8135,Not interested to say,False
+8136,Yes,True
+8137,Not interested to say,False
+8138,Yes,True
+8139,No,False
+8140,Yes,True
+8141,No,False
+8142,Yes,True
+8143,No,False
+8144,No,False
+8145,No,False
+8146,Yes,True
+8147,Not interested to say,False
+8148,No,False
+8149,No,False
+8150,Yes,True
+8151,No,False
+8152,Not interested to say,False
+8153,Yes,True
+8154,No,False
+8155,Not interested to say,False
+8156,No,False
+8157,No,False
+8158,No,False
+8159,No,False
+8160,No,False
+8161,Yes,True
+8162,No,False
+8163,No,False
+8164,No,False
+8165,No,False
+8166,Not interested to say,False
+8167,Yes,True
+8168,Not interested to say,False
+8169,No,False
+8170,Not interested to say,False
+8171,No,False
+8172,Yes,True
+8173,Not interested to say,False
+8174,Yes,True
+8175,Not interested to say,False
+8176,No,False
+8177,Yes,True
+8178,No,False
+8179,Not interested to say,False
+8180,No,False
+8181,No,False
+8182,No,False
+8183,Yes,True
+8184,Not interested to say,False
+8185,Yes,True
+8186,No,False
+8187,No,False
+8188,Not interested to say,False
+8189,No,False
+8190,Not interested to say,False
+8191,Yes,True
+8192,No,False
+8193,No,False
+8194,No,False
+8195,Not interested to say,False
+8196,Yes,True
+8197,No,False
+8198,Yes,True
+8199,No,False
+8200,No,False
+8201,Yes,True
+8202,Not interested to say,False
+8203,No,False
+8204,No,False
+8205,Yes,True
+8206,Yes,True
+8207,Not interested to say,False
+8208,Not interested to say,False
+8209,Yes,True
+8210,Not interested to say,False
+8211,Not interested to say,False
+8212,No,False
+8213,Yes,True
+8214,No,False
+8215,No,False
+8216,No,False
+8217,No,False
+8218,Yes,True
+8219,No,False
+8220,No,False
+8221,No,False
+8222,Yes,True
+8223,Yes,True
+8224,No,False
+8225,Not interested to say,False
+8226,No,False
+8227,Not interested to say,False
+8228,Not interested to say,False
+8229,Not interested to say,False
+8230,No,False
+8231,No,False
+8232,No,False
+8233,Not interested to say,False
+8234,Not interested to say,False
+8235,Not interested to say,False
+8236,Yes,True
+8237,No,False
+8238,No,False
+8239,Not interested to say,False
+8240,Not interested to say,False
+8241,Not interested to say,False
+8242,No,False
+8243,Yes,True
+8244,No,False
+8245,No,False
+8246,No,False
+8247,Not interested to say,False
+8248,Yes,True
+8249,Yes,True
+8250,No,False
+8251,No,False
+8252,No,False
+8253,No,False
+8254,Yes,True
+8255,Not interested to say,False
+8256,Yes,True
+8257,Yes,True
+8258,No,False
+8259,No,False
+8260,Yes,True
+8261,No,False
+8262,No,False
+8263,Yes,True
+8264,Yes,True
+8265,Not interested to say,False
+8266,Yes,True
+8267,No,False
+8268,No,False
+8269,No,False
+8270,Yes,True
+8271,Not interested to say,False
+8272,Not interested to say,False
+8273,Yes,True
+8274,No,False
+8275,Not interested to say,False
+8276,Yes,True
+8277,Not interested to say,False
+8278,No,False
+8279,Yes,True
+8280,No,False
+8281,Yes,True
+8282,No,False
+8283,No,False
+8284,No,False
+8285,No,False
+8286,Yes,True
+8287,Yes,True
+8288,No,False
+8289,Not interested to say,False
+8290,Yes,True
+8291,Yes,True
+8292,Not interested to say,False
+8293,Yes,True
+8294,Yes,True
+8295,Yes,True
+8296,Yes,True
+8297,Yes,True
+8298,No,False
+8299,No,False
+8300,No,False
+8301,Not interested to say,False
+8302,Yes,True
+8303,Not interested to say,False
+8304,No,False
+8305,Yes,True
+8306,No,False
+8307,Not interested to say,False
+8308,No,False
+8309,No,False
+8310,No,False
+8311,No,False
+8312,No,False
+8313,Yes,True
+8314,Not interested to say,False
+8315,Not interested to say,False
+8316,No,False
+8317,Yes,True
+8318,Not interested to say,False
+8319,No,False
+8320,No,False
+8321,Yes,True
+8322,Not interested to say,False
+8323,Yes,True
+8324,No,False
+8325,No,False
+8326,No,False
+8327,No,False
+8328,Yes,True
+8329,No,False
+8330,Yes,True
+8331,No,False
+8332,No,False
+8333,No,False
+8334,No,False
+8335,Not interested to say,False
+8336,No,False
+8337,No,False
+8338,No,False
+8339,No,False
+8340,Yes,True
+8341,Yes,True
+8342,Not interested to say,False
+8343,No,False
+8344,No,False
+8345,Not interested to say,False
+8346,Yes,True
+8347,No,False
+8348,Yes,True
+8349,No,False
+8350,No,False
+8351,No,False
+8352,No,False
+8353,Yes,True
+8354,No,False
+8355,No,False
+8356,No,False
+8357,No,False
+8358,No,False
+8359,No,False
+8360,No,False
+8361,Yes,True
+8362,Yes,True
+8363,No,False
+8364,Not interested to say,False
+8365,No,False
+8366,No,False
+8367,No,False
+8368,Not interested to say,False
+8369,Yes,True
+8370,Yes,True
+8371,Yes,True
+8372,Yes,True
+8373,No,False
+8374,No,False
+8375,Not interested to say,False
+8376,Not interested to say,False
+8377,No,False
+8378,Not interested to say,False
+8379,Not interested to say,False
+8380,Not interested to say,False
+8381,No,False
+8382,No,False
+8383,No,False
+8384,No,False
+8385,Not interested to say,False
+8386,Yes,True
+8387,No,False
+8388,No,False
+8389,No,False
+8390,Yes,True
+8391,No,False
+8392,No,False
+8393,Yes,True
+8394,Not interested to say,False
+8395,No,False
+8396,No,False
+8397,No,False
+8398,Yes,True
+8399,Not interested to say,False
+8400,Not interested to say,False
+8401,Yes,True
+8402,Yes,True
+8403,Not interested to say,False
+8404,Yes,True
+8405,Yes,True
+8406,No,False
+8407,Not interested to say,False
+8408,No,False
+8409,No,False
+8410,Yes,True
+8411,Not interested to say,False
+8412,No,False
+8413,Yes,True
+8414,Yes,True
+8415,No,False
+8416,No,False
+8417,No,False
+8418,No,False
+8419,No,False
+8420,Not interested to say,False
+8421,Yes,True
+8422,Not interested to say,False
+8423,No,False
+8424,No,False
+8425,Not interested to say,False
+8426,No,False
+8427,No,False
+8428,Not interested to say,False
+8429,Yes,True
+8430,No,False
+8431,No,False
+8432,No,False
+8433,Yes,True
+8434,Not interested to say,False
+8435,No,False
+8436,No,False
+8437,Yes,True
+8438,No,False
+8439,No,False
+8440,Yes,True
+8441,No,False
+8442,Yes,True
+8443,No,False
+8444,No,False
+8445,Not interested to say,False
+8446,Yes,True
+8447,Yes,True
+8448,No,False
+8449,No,False
+8450,Yes,True
+8451,No,False
+8452,No,False
+8453,No,False
+8454,No,False
+8455,No,False
+8456,Not interested to say,False
+8457,Yes,True
+8458,Not interested to say,False
+8459,Yes,True
+8460,No,False
+8461,Yes,True
+8462,No,False
+8463,No,False
+8464,No,False
+8465,No,False
+8466,Yes,True
+8467,Yes,True
+8468,Yes,True
+8469,No,False
+8470,No,False
+8471,Yes,True
+8472,No,False
+8473,Not interested to say,False
+8474,Yes,True
+8475,No,False
+8476,Yes,True
+8477,Yes,True
+8478,No,False
+8479,No,False
+8480,Not interested to say,False
+8481,Not interested to say,False
+8482,Yes,True
+8483,Not interested to say,False
+8484,No,False
+8485,No,False
+8486,No,False
+8487,No,False
+8488,Not interested to say,False
+8489,Yes,True
+8490,Yes,True
+8491,Not interested to say,False
+8492,Yes,True
+8493,No,False
+8494,No,False
+8495,Yes,True
+8496,Yes,True
+8497,No,False
+8498,No,False
+8499,No,False
+8500,Not interested to say,False
+8501,Not interested to say,False
+8502,No,False
+8503,No,False
+8504,Yes,True
+8505,Yes,True
+8506,Not interested to say,False
+8507,No,False
+8508,No,False
+8509,No,False
+8510,No,False
+8511,Yes,True
+8512,Yes,True
+8513,Not interested to say,False
+8514,Yes,True
+8515,No,False
+8516,No,False
+8517,Not interested to say,False
+8518,No,False
+8519,No,False
+8520,Yes,True
+8521,Yes,True
+8522,Yes,True
+8523,Yes,True
+8524,No,False
+8525,No,False
+8526,Yes,True
+8527,Yes,True
+8528,Not interested to say,False
+8529,No,False
+8530,Yes,True
+8531,No,False
+8532,Yes,True
+8533,No,False
+8534,No,False
+8535,Yes,True
+8536,Yes,True
+8537,Not interested to say,False
+8538,No,False
+8539,Not interested to say,False
+8540,No,False
+8541,No,False
+8542,Yes,True
+8543,Yes,True
+8544,No,False
+8545,No,False
+8546,No,False
+8547,Yes,True
+8548,No,False
+8549,No,False
+8550,No,False
+8551,No,False
+8552,Not interested to say,False
+8553,Yes,True
+8554,Not interested to say,False
+8555,Yes,True
+8556,Yes,True
+8557,No,False
+8558,No,False
+8559,No,False
+8560,No,False
+8561,No,False
+8562,Yes,True
+8563,Yes,True
+8564,Not interested to say,False
+8565,Yes,True
+8566,Yes,True
+8567,No,False
+8568,Yes,True
+8569,Not interested to say,False
+8570,No,False
+8571,Yes,True
+8572,Yes,True
+8573,No,False
+8574,No,False
+8575,Not interested to say,False
+8576,No,False
+8577,No,False
+8578,No,False
+8579,No,False
+8580,No,False
+8581,No,False
+8582,Yes,True
+8583,No,False
+8584,Not interested to say,False
+8585,Yes,True
+8586,Yes,True
+8587,Not interested to say,False
+8588,No,False
+8589,Yes,True
+8590,Not interested to say,False
+8591,Yes,True
+8592,No,False
+8593,No,False
+8594,Not interested to say,False
+8595,Not interested to say,False
+8596,Not interested to say,False
+8597,No,False
+8598,Not interested to say,False
+8599,Yes,True
+8600,Yes,True
+8601,Yes,True
+8602,No,False
+8603,No,False
+8604,No,False
+8605,Yes,True
+8606,No,False
+8607,Not interested to say,False
+8608,Yes,True
+8609,Yes,True
+8610,Yes,True
+8611,No,False
+8612,Not interested to say,False
+8613,Yes,True
+8614,Yes,True
+8615,No,False
+8616,Yes,True
+8617,Yes,True
+8618,No,False
+8619,Not interested to say,False
+8620,No,False
+8621,Not interested to say,False
+8622,No,False
+8623,Not interested to say,False
+8624,Not interested to say,False
+8625,Yes,True
+8626,Not interested to say,False
+8627,No,False
+8628,No,False
+8629,Not interested to say,False
+8630,Not interested to say,False
+8631,No,False
+8632,No,False
+8633,Not interested to say,False
+8634,Yes,True
+8635,Not interested to say,False
+8636,Yes,True
+8637,No,False
+8638,Yes,True
+8639,Not interested to say,False
+8640,Not interested to say,False
+8641,Not interested to say,False
+8642,Not interested to say,False
+8643,No,False
+8644,No,False
+8645,Yes,True
+8646,Not interested to say,False
+8647,No,False
+8648,Yes,True
+8649,Not interested to say,False
+8650,Yes,True
+8651,Not interested to say,False
+8652,No,False
+8653,No,False
+8654,Yes,True
+8655,No,False
+8656,Not interested to say,False
+8657,Not interested to say,False
+8658,Not interested to say,False
+8659,Not interested to say,False
+8660,Not interested to say,False
+8661,No,False
+8662,No,False
+8663,Not interested to say,False
+8664,Not interested to say,False
+8665,Yes,True
+8666,Not interested to say,False
+8667,Not interested to say,False
+8668,Yes,True
+8669,Yes,True
+8670,No,False
+8671,No,False
+8672,No,False
+8673,Yes,True
+8674,Not interested to say,False
+8675,No,False
+8676,Yes,True
+8677,No,False
+8678,Not interested to say,False
+8679,Not interested to say,False
+8680,Not interested to say,False
+8681,Yes,True
+8682,No,False
+8683,No,False
+8684,No,False
+8685,Yes,True
+8686,Not interested to say,False
+8687,Not interested to say,False
+8688,No,False
+8689,Yes,True
+8690,No,False
+8691,Yes,True
+8692,Yes,True
+8693,Not interested to say,False
+8694,Yes,True
+8695,Yes,True
+8696,No,False
+8697,Not interested to say,False
+8698,No,False
+8699,Not interested to say,False
+8700,Yes,True
+8701,Yes,True
+8702,Not interested to say,False
+8703,Yes,True
+8704,Yes,True
+8705,No,False
+8706,Yes,True
+8707,Not interested to say,False
+8708,No,False
+8709,No,False
+8710,No,False
+8711,Not interested to say,False
+8712,Yes,True
+8713,No,False
+8714,Yes,True
+8715,Not interested to say,False
+8716,No,False
+8717,Yes,True
+8718,Not interested to say,False
+8719,No,False
+8720,Yes,True
+8721,No,False
+8722,Not interested to say,False
+8723,Yes,True
+8724,Not interested to say,False
+8725,Yes,True
+8726,Not interested to say,False
+8727,Not interested to say,False
+8728,Yes,True
+8729,Not interested to say,False
+8730,No,False
+8731,Yes,True
+8732,Yes,True
+8733,Yes,True
+8734,No,False
+8735,Yes,True
+8736,Yes,True
+8737,No,False
+8738,Yes,True
+8739,No,False
+8740,Not interested to say,False
+8741,No,False
+8742,Yes,True
+8743,No,False
+8744,Yes,True
+8745,Yes,True
+8746,No,False
+8747,Not interested to say,False
+8748,Not interested to say,False
+8749,No,False
+8750,No,False
+8751,Not interested to say,False
+8752,Yes,True
+8753,No,False
+8754,Not interested to say,False
+8755,Yes,True
+8756,Yes,True
+8757,No,False
+8758,No,False
+8759,Yes,True
+8760,Yes,True
+8761,Not interested to say,False
+8762,Not interested to say,False
+8763,No,False
+8764,Yes,True
+8765,No,False
+8766,Not interested to say,False
+8767,Not interested to say,False
+8768,Not interested to say,False
+8769,Not interested to say,False
+8770,No,False
+8771,Yes,True
+8772,Yes,True
+8773,Yes,True
+8774,Not interested to say,False
+8775,No,False
+8776,Yes,True
+8777,No,False
+8778,Yes,True
+8779,Not interested to say,False
+8780,No,False
+8781,Yes,True
+8782,No,False
+8783,No,False
+8784,No,False
+8785,No,False
+8786,No,False
+8787,Yes,True
+8788,No,False
+8789,Yes,True
+8790,Yes,True
+8791,No,False
+8792,Yes,True
+8793,No,False
+8794,No,False
+8795,Not interested to say,False
+8796,Not interested to say,False
+8797,No,False
+8798,No,False
+8799,No,False
+8800,Not interested to say,False
+8801,No,False
+8802,Yes,True
+8803,Yes,True
+8804,Yes,True
+8805,Not interested to say,False
+8806,No,False
+8807,Yes,True
+8808,Not interested to say,False
+8809,Yes,True
+8810,Not interested to say,False
+8811,No,False
+8812,Not interested to say,False
+8813,Yes,True
+8814,Yes,True
+8815,No,False
+8816,No,False
+8817,Yes,True
+8818,Yes,True
+8819,No,False
+8820,No,False
+8821,Yes,True
+8822,No,False
+8823,No,False
+8824,Not interested to say,False
+8825,No,False
+8826,Yes,True
+8827,Yes,True
+8828,Yes,True
+8829,No,False
+8830,Not interested to say,False
+8831,No,False
+8832,No,False
+8833,No,False
+8834,No,False
+8835,Not interested to say,False
+8836,No,False
+8837,No,False
+8838,Not interested to say,False
+8839,Not interested to say,False
+8840,No,False
+8841,Not interested to say,False
+8842,Yes,True
+8843,No,False
+8844,No,False
+8845,No,False
+8846,No,False
+8847,Not interested to say,False
+8848,No,False
+8849,Yes,True
+8850,No,False
+8851,Not interested to say,False
+8852,Yes,True
+8853,Not interested to say,False
+8854,Not interested to say,False
+8855,No,False
+8856,No,False
+8857,Yes,True
+8858,Yes,True
+8859,No,False
+8860,No,False
+8861,Not interested to say,False
+8862,No,False
+8863,Yes,True
+8864,Not interested to say,False
+8865,No,False
+8866,Not interested to say,False
+8867,Not interested to say,False
+8868,Yes,True
+8869,Yes,True
+8870,Not interested to say,False
+8871,Not interested to say,False
+8872,No,False
+8873,No,False
+8874,No,False
+8875,No,False
+8876,Yes,True
+8877,Not interested to say,False
+8878,No,False
+8879,Yes,True
+8880,No,False
+8881,Not interested to say,False
+8882,Yes,True
+8883,No,False
+8884,Not interested to say,False
+8885,Not interested to say,False
+8886,No,False
+8887,No,False
+8888,Not interested to say,False
+8889,Yes,True
+8890,Not interested to say,False
+8891,Not interested to say,False
+8892,Not interested to say,False
+8893,Not interested to say,False
+8894,No,False
+8895,Yes,True
+8896,No,False
+8897,Not interested to say,False
+8898,No,False
+8899,No,False
+8900,No,False
+8901,Yes,True
+8902,No,False
+8903,Yes,True
+8904,Not interested to say,False
+8905,Yes,True
+8906,No,False
+8907,Not interested to say,False
+8908,No,False
+8909,Yes,True
+8910,Yes,True
+8911,Not interested to say,False
+8912,Not interested to say,False
+8913,Yes,True
+8914,Not interested to say,False
+8915,Yes,True
+8916,No,False
+8917,Yes,True
+8918,Not interested to say,False
+8919,Not interested to say,False
+8920,No,False
+8921,No,False
+8922,No,False
+8923,No,False
+8924,Not interested to say,False
+8925,Yes,True
+8926,Yes,True
+8927,Yes,True
+8928,No,False
+8929,Yes,True
+8930,Yes,True
+8931,No,False
+8932,Yes,True
+8933,No,False
+8934,Not interested to say,False
+8935,Yes,True
+8936,No,False
+8937,Yes,True
+8938,No,False
+8939,No,False
+8940,Yes,True
+8941,No,False
+8942,Yes,True
+8943,No,False
+8944,No,False
+8945,No,False
+8946,No,False
+8947,No,False
+8948,Yes,True
+8949,Yes,True
+8950,Yes,True
+8951,Yes,True
+8952,Not interested to say,False
+8953,No,False
+8954,No,False
+8955,Not interested to say,False
+8956,No,False
+8957,Yes,True
+8958,Not interested to say,False
+8959,Yes,True
+8960,Not interested to say,False
+8961,Not interested to say,False
+8962,No,False
+8963,No,False
+8964,Yes,True
+8965,Yes,True
+8966,Not interested to say,False
+8967,No,False
+8968,No,False
+8969,No,False
+8970,No,False
+8971,Yes,True
+8972,No,False
+8973,No,False
+8974,Not interested to say,False
+8975,No,False
+8976,Not interested to say,False
+8977,No,False
+8978,No,False
+8979,Not interested to say,False
+8980,Yes,True
+8981,Not interested to say,False
+8982,Not interested to say,False
+8983,No,False
+8984,No,False
+8985,No,False
+8986,Yes,True
+8987,Not interested to say,False
+8988,Yes,True
+8989,Not interested to say,False
+8990,Not interested to say,False
+8991,Yes,True
+8992,No,False
+8993,No,False
+8994,No,False
+8995,No,False
+8996,No,False
+8997,No,False
+8998,No,False
+8999,No,False
+9000,No,False
+9001,Yes,True
+9002,Yes,True
+9003,Yes,True
+9004,Yes,True
+9005,No,False
+9006,No,False
+9007,Not interested to say,False
+9008,No,False
+9009,No,False
+9010,Yes,True
+9011,No,False
+9012,Yes,True
+9013,No,False
+9014,Yes,True
+9015,Yes,True
+9016,No,False
+9017,Not interested to say,False
+9018,Not interested to say,False
+9019,Yes,True
+9020,No,False
+9021,No,False
+9022,Yes,True
+9023,Yes,True
+9024,No,False
+9025,Yes,True
+9026,No,False
+9027,No,False
+9028,Not interested to say,False
+9029,No,False
+9030,No,False
+9031,No,False
+9032,No,False
+9033,Not interested to say,False
+9034,Not interested to say,False
+9035,Yes,True
+9036,No,False
+9037,No,False
+9038,Not interested to say,False
+9039,No,False
+9040,Yes,True
+9041,Yes,True
+9042,No,False
+9043,Not interested to say,False
+9044,No,False
+9045,Yes,True
+9046,Yes,True
+9047,Not interested to say,False
+9048,Not interested to say,False
+9049,No,False
+9050,Yes,True
+9051,Yes,True
+9052,No,False
+9053,No,False
+9054,No,False
+9055,Yes,True
+9056,Not interested to say,False
+9057,Yes,True
+9058,No,False
+9059,No,False
+9060,No,False
+9061,No,False
+9062,No,False
+9063,No,False
+9064,Yes,True
+9065,Yes,True
+9066,Not interested to say,False
+9067,Not interested to say,False
+9068,No,False
+9069,Yes,True
+9070,Yes,True
+9071,Yes,True
+9072,No,False
+9073,No,False
+9074,Yes,True
+9075,No,False
+9076,No,False
+9077,Not interested to say,False
+9078,No,False
+9079,No,False
+9080,Not interested to say,False
+9081,No,False
+9082,No,False
+9083,No,False
+9084,No,False
+9085,No,False
+9086,Yes,True
+9087,No,False
+9088,No,False
+9089,No,False
+9090,Yes,True
+9091,Yes,True
+9092,No,False
+9093,Not interested to say,False
+9094,Not interested to say,False
+9095,Not interested to say,False
+9096,Not interested to say,False
+9097,Yes,True
+9098,Yes,True
+9099,No,False
+9100,Yes,True
+9101,Not interested to say,False
+9102,No,False
+9103,Yes,True
+9104,No,False
+9105,No,False
+9106,Yes,True
+9107,Yes,True
+9108,No,False
+9109,No,False
+9110,Not interested to say,False
+9111,Yes,True
+9112,No,False
+9113,Not interested to say,False
+9114,No,False
+9115,No,False
+9116,Not interested to say,False
+9117,Yes,True
+9118,Yes,True
+9119,Not interested to say,False
+9120,Not interested to say,False
+9121,Yes,True
+9122,Yes,True
+9123,No,False
+9124,No,False
+9125,Yes,True
+9126,No,False
+9127,Yes,True
+9128,No,False
+9129,No,False
+9130,No,False
+9131,No,False
+9132,Not interested to say,False
+9133,No,False
+9134,No,False
+9135,Yes,True
+9136,No,False
+9137,No,False
+9138,No,False
+9139,No,False
+9140,Yes,True
+9141,No,False
+9142,No,False
+9143,No,False
+9144,No,False
+9145,Not interested to say,False
+9146,Not interested to say,False
+9147,No,False
+9148,Not interested to say,False
+9149,Not interested to say,False
+9150,No,False
+9151,No,False
+9152,Not interested to say,False
+9153,Yes,True
+9154,No,False
+9155,Yes,True
+9156,Yes,True
+9157,No,False
+9158,Yes,True
+9159,No,False
+9160,Not interested to say,False
+9161,No,False
+9162,No,False
+9163,Yes,True
+9164,Not interested to say,False
+9165,Yes,True
+9166,Yes,True
+9167,Not interested to say,False
+9168,Yes,True
+9169,No,False
+9170,No,False
+9171,Yes,True
+9172,No,False
+9173,Yes,True
+9174,Yes,True
+9175,Not interested to say,False
+9176,No,False
+9177,Yes,True
+9178,Not interested to say,False
+9179,No,False
+9180,Yes,True
+9181,Yes,True
+9182,Yes,True
+9183,No,False
+9184,No,False
+9185,Yes,True
+9186,Not interested to say,False
+9187,Yes,True
+9188,No,False
+9189,No,False
+9190,Yes,True
+9191,Yes,True
+9192,Yes,True
+9193,No,False
+9194,No,False
+9195,No,False
+9196,No,False
+9197,Not interested to say,False
+9198,Not interested to say,False
+9199,No,False
+9200,No,False
+9201,No,False
+9202,Yes,True
+9203,Yes,True
+9204,Not interested to say,False
+9205,Not interested to say,False
+9206,Not interested to say,False
+9207,Yes,True
+9208,No,False
+9209,Yes,True
+9210,No,False
+9211,Not interested to say,False
+9212,Not interested to say,False
+9213,No,False
+9214,No,False
+9215,Yes,True
+9216,Not interested to say,False
+9217,Yes,True
+9218,No,False
+9219,Yes,True
+9220,No,False
+9221,No,False
+9222,No,False
+9223,Not interested to say,False
+9224,Yes,True
+9225,Yes,True
+9226,Not interested to say,False
+9227,No,False
+9228,No,False
+9229,Yes,True
+9230,No,False
+9231,Yes,True
+9232,No,False
+9233,No,False
+9234,Yes,True
+9235,No,False
+9236,No,False
+9237,Yes,True
+9238,Yes,True
+9239,No,False
+9240,Not interested to say,False
+9241,No,False
+9242,Yes,True
+9243,No,False
+9244,Not interested to say,False
+9245,No,False
+9246,No,False
+9247,No,False
+9248,Yes,True
+9249,Yes,True
+9250,Yes,True
+9251,No,False
+9252,Yes,True
+9253,Not interested to say,False
+9254,No,False
+9255,No,False
+9256,Yes,True
+9257,Yes,True
+9258,Not interested to say,False
+9259,Yes,True
+9260,Yes,True
+9261,Yes,True
+9262,Not interested to say,False
+9263,Yes,True
+9264,Yes,True
+9265,Yes,True
+9266,Yes,True
+9267,No,False
+9268,No,False
+9269,No,False
+9270,No,False
+9271,Not interested to say,False
+9272,No,False
+9273,Not interested to say,False
+9274,No,False
+9275,No,False
+9276,No,False
+9277,No,False
+9278,No,False
+9279,No,False
+9280,Yes,True
+9281,Yes,True
+9282,Yes,True
+9283,No,False
+9284,No,False
+9285,Yes,True
+9286,Not interested to say,False
+9287,Not interested to say,False
+9288,No,False
+9289,Not interested to say,False
+9290,No,False
+9291,Yes,True
+9292,Yes,True
+9293,Not interested to say,False
+9294,Yes,True
+9295,No,False
+9296,No,False
+9297,Yes,True
+9298,No,False
+9299,Yes,True
+9300,Not interested to say,False
+9301,No,False
+9302,No,False
+9303,No,False
+9304,Yes,True
+9305,Yes,True
+9306,Yes,True
+9307,Yes,True
+9308,No,False
+9309,No,False
+9310,Yes,True
+9311,Yes,True
+9312,Yes,True
+9313,No,False
+9314,Yes,True
+9315,No,False
+9316,No,False
+9317,Not interested to say,False
+9318,No,False
+9319,Not interested to say,False
+9320,Not interested to say,False
+9321,Yes,True
+9322,Not interested to say,False
+9323,Yes,True
+9324,No,False
+9325,Yes,True
+9326,Yes,True
+9327,No,False
+9328,Not interested to say,False
+9329,Not interested to say,False
+9330,No,False
+9331,Not interested to say,False
+9332,No,False
+9333,No,False
+9334,Yes,True
+9335,Yes,True
+9336,No,False
+9337,Yes,True
+9338,Not interested to say,False
+9339,Not interested to say,False
+9340,Yes,True
+9341,No,False
+9342,No,False
+9343,No,False
+9344,Yes,True
+9345,No,False
+9346,No,False
+9347,No,False
+9348,No,False
+9349,Not interested to say,False
+9350,Not interested to say,False
+9351,Not interested to say,False
+9352,Not interested to say,False
+9353,No,False
+9354,No,False
+9355,Yes,True
+9356,Yes,True
+9357,No,False
+9358,No,False
+9359,No,False
+9360,Yes,True
+9361,Not interested to say,False
+9362,Yes,True
+9363,No,False
+9364,Yes,True
+9365,No,False
+9366,No,False
+9367,No,False
+9368,Not interested to say,False
+9369,No,False
+9370,Yes,True
+9371,No,False
+9372,Yes,True
+9373,No,False
+9374,No,False
+9375,No,False
+9376,Not interested to say,False
+9377,No,False
+9378,Yes,True
+9379,No,False
+9380,No,False
+9381,No,False
+9382,No,False
+9383,No,False
+9384,No,False
+9385,No,False
+9386,Yes,True
+9387,No,False
+9388,No,False
+9389,Not interested to say,False
+9390,No,False
+9391,No,False
+9392,Yes,True
+9393,No,False
+9394,No,False
+9395,No,False
+9396,No,False
+9397,No,False
+9398,No,False
+9399,Yes,True
+9400,Yes,True
+9401,No,False
+9402,No,False
+9403,No,False
+9404,Yes,True
+9405,No,False
+9406,Not interested to say,False
+9407,Not interested to say,False
+9408,No,False
+9409,No,False
+9410,No,False
+9411,No,False
+9412,Yes,True
+9413,Yes,True
+9414,Not interested to say,False
+9415,Yes,True
+9416,No,False
+9417,No,False
+9418,No,False
+9419,Yes,True
+9420,No,False
+9421,Not interested to say,False
+9422,Not interested to say,False
+9423,Yes,True
+9424,Yes,True
+9425,Not interested to say,False
+9426,No,False
+9427,Yes,True
+9428,No,False
+9429,No,False
+9430,No,False
+9431,No,False
+9432,Yes,True
+9433,No,False
+9434,Not interested to say,False
+9435,Not interested to say,False
+9436,Not interested to say,False
+9437,Yes,True
+9438,No,False
+9439,Yes,True
+9440,Not interested to say,False
+9441,No,False
+9442,No,False
+9443,Not interested to say,False
+9444,Yes,True
+9445,Yes,True
+9446,No,False
+9447,Not interested to say,False
+9448,No,False
+9449,Not interested to say,False
+9450,Yes,True
+9451,Yes,True
+9452,No,False
+9453,Yes,True
+9454,Not interested to say,False
+9455,Not interested to say,False
+9456,Yes,True
+9457,Yes,True
+9458,No,False
+9459,Yes,True
+9460,Yes,True
+9461,No,False
+9462,No,False
+9463,No,False
+9464,Yes,True
+9465,Yes,True
+9466,No,False
+9467,Yes,True
+9468,No,False
+9469,No,False
+9470,No,False
+9471,No,False
+9472,Yes,True
+9473,No,False
+9474,Yes,True
+9475,Not interested to say,False
+9476,No,False
+9477,Yes,True
+9478,Yes,True
+9479,No,False
+9480,Not interested to say,False
+9481,Yes,True
+9482,No,False
+9483,No,False
+9484,No,False
+9485,Yes,True
+9486,No,False
+9487,Not interested to say,False
+9488,Not interested to say,False
+9489,Not interested to say,False
+9490,No,False
+9491,No,False
+9492,No,False
+9493,No,False
+9494,No,False
+9495,Yes,True
+9496,Yes,True
+9497,Yes,True
+9498,Not interested to say,False
+9499,Not interested to say,False
+9500,Not interested to say,False
+9501,No,False
+9502,No,False
+9503,Yes,True
+9504,No,False
+9505,Not interested to say,False
+9506,Yes,True
+9507,Not interested to say,False
+9508,No,False
+9509,Yes,True
+9510,Yes,True
+9511,Yes,True
+9512,Yes,True
+9513,Not interested to say,False
+9514,Yes,True
+9515,Yes,True
+9516,No,False
+9517,Yes,True
+9518,No,False
+9519,No,False
+9520,Not interested to say,False
+9521,Yes,True
+9522,Not interested to say,False
+9523,No,False
+9524,No,False
+9525,No,False
+9526,Not interested to say,False
+9527,Yes,True
+9528,Not interested to say,False
+9529,No,False
+9530,Not interested to say,False
+9531,Yes,True
+9532,Not interested to say,False
+9533,No,False
+9534,Yes,True
+9535,Yes,True
+9536,Yes,True
+9537,Yes,True
+9538,No,False
+9539,Not interested to say,False
+9540,No,False
+9541,Yes,True
+9542,No,False
+9543,Not interested to say,False
+9544,Not interested to say,False
+9545,Yes,True
+9546,No,False
+9547,No,False
+9548,No,False
+9549,Not interested to say,False
+9550,No,False
+9551,Not interested to say,False
+9552,No,False
+9553,Yes,True
+9554,No,False
+9555,No,False
+9556,Yes,True
+9557,Yes,True
+9558,No,False
+9559,Yes,True
+9560,Yes,True
+9561,Yes,True
+9562,No,False
+9563,No,False
+9564,Yes,True
+9565,No,False
+9566,No,False
+9567,No,False
+9568,No,False
+9569,No,False
+9570,No,False
+9571,No,False
+9572,Not interested to say,False
+9573,Yes,True
+9574,Yes,True
+9575,Yes,True
+9576,Yes,True
+9577,Yes,True
+9578,No,False
+9579,Not interested to say,False
+9580,Yes,True
+9581,Yes,True
+9582,No,False
+9583,No,False
+9584,No,False
+9585,No,False
+9586,Not interested to say,False
+9587,No,False
+9588,No,False
+9589,No,False
+9590,Yes,True
+9591,No,False
+9592,No,False
+9593,No,False
+9594,Yes,True
+9595,Not interested to say,False
+9596,Yes,True
+9597,No,False
+9598,Yes,True
+9599,Not interested to say,False
+9600,No,False
+9601,No,False
+9602,Yes,True
+9603,No,False
+9604,Not interested to say,False
+9605,Yes,True
+9606,Yes,True
+9607,No,False
+9608,Yes,True
+9609,No,False
+9610,Not interested to say,False
+9611,No,False
+9612,Not interested to say,False
+9613,Yes,True
+9614,Yes,True
+9615,No,False
+9616,Yes,True
+9617,Not interested to say,False
+9618,No,False
+9619,No,False
+9620,No,False
+9621,Yes,True
+9622,Yes,True
+9623,No,False
+9624,No,False
+9625,No,False
+9626,No,False
+9627,Yes,True
+9628,No,False
+9629,No,False
+9630,No,False
+9631,No,False
+9632,Not interested to say,False
+9633,Not interested to say,False
+9634,Yes,True
+9635,Yes,True
+9636,No,False
+9637,No,False
+9638,Not interested to say,False
+9639,Not interested to say,False
+9640,Yes,True
+9641,Yes,True
+9642,Not interested to say,False
+9643,Not interested to say,False
+9644,No,False
+9645,Yes,True
+9646,No,False
+9647,No,False
+9648,Yes,True
+9649,Yes,True
+9650,No,False
+9651,Not interested to say,False
+9652,No,False
+9653,No,False
+9654,Yes,True
+9655,No,False
+9656,No,False
+9657,Yes,True
+9658,Yes,True
+9659,No,False
+9660,No,False
+9661,No,False
+9662,Not interested to say,False
+9663,No,False
+9664,No,False
+9665,Not interested to say,False
+9666,Yes,True
+9667,Not interested to say,False
+9668,No,False
+9669,Yes,True
+9670,Yes,True
+9671,No,False
+9672,Yes,True
+9673,No,False
+9674,Yes,True
+9675,No,False
+9676,Not interested to say,False
+9677,Not interested to say,False
+9678,Not interested to say,False
+9679,Yes,True
+9680,No,False
+9681,No,False
+9682,Not interested to say,False
+9683,No,False
+9684,Yes,True
+9685,Yes,True
+9686,Yes,True
+9687,Yes,True
+9688,Not interested to say,False
+9689,Yes,True
+9690,No,False
+9691,No,False
+9692,Yes,True
+9693,Not interested to say,False
+9694,Yes,True
+9695,Not interested to say,False
+9696,No,False
+9697,Yes,True
+9698,Yes,True
+9699,No,False
+9700,No,False
+9701,Yes,True
+9702,Not interested to say,False
+9703,No,False
+9704,No,False
+9705,Not interested to say,False
+9706,Yes,True
+9707,No,False
+9708,No,False
+9709,Not interested to say,False
+9710,Yes,True
+9711,Yes,True
+9712,No,False
+9713,Yes,True
+9714,Yes,True
+9715,No,False
+9716,No,False
+9717,Not interested to say,False
+9718,Not interested to say,False
+9719,No,False
+9720,Not interested to say,False
+9721,No,False
+9722,Not interested to say,False
+9723,Not interested to say,False
+9724,Yes,True
+9725,No,False
+9726,Yes,True
+9727,Not interested to say,False
+9728,Yes,True
+9729,No,False
+9730,No,False
+9731,Yes,True
+9732,Yes,True
+9733,Yes,True
+9734,Yes,True
+9735,No,False
+9736,Yes,True
+9737,Yes,True
+9738,Not interested to say,False
+9739,No,False
+9740,Yes,True
+9741,No,False
+9742,No,False
+9743,Not interested to say,False
+9744,Not interested to say,False
+9745,No,False
+9746,Yes,True
+9747,Yes,True
+9748,Yes,True
+9749,No,False
+9750,Yes,True
+9751,Not interested to say,False
+9752,Yes,True
+9753,No,False
+9754,Not interested to say,False
+9755,No,False
+9756,No,False
+9757,Yes,True
+9758,Not interested to say,False
+9759,Not interested to say,False
+9760,No,False
+9761,Not interested to say,False
+9762,Yes,True
+9763,Yes,True
+9764,Not interested to say,False
+9765,No,False
+9766,No,False
+9767,No,False
+9768,No,False
+9769,No,False
+9770,Not interested to say,False
+9771,Not interested to say,False
+9772,No,False
+9773,Yes,True
+9774,No,False
+9775,Yes,True
+9776,No,False
+9777,No,False
+9778,No,False
+9779,No,False
+9780,Yes,True
+9781,Not interested to say,False
+9782,Yes,True
+9783,No,False
+9784,Yes,True
+9785,No,False
+9786,Not interested to say,False
+9787,Not interested to say,False
+9788,Not interested to say,False
+9789,Not interested to say,False
+9790,No,False
+9791,No,False
+9792,No,False
+9793,No,False
+9794,Yes,True
+9795,Not interested to say,False
+9796,Yes,True
+9797,No,False
+9798,No,False
+9799,No,False
+9800,Yes,True
+9801,Not interested to say,False
+9802,No,False
+9803,Yes,True
+9804,Yes,True
+9805,No,False
+9806,Not interested to say,False
+9807,Not interested to say,False
+9808,Yes,True
+9809,No,False
+9810,Yes,True
+9811,Not interested to say,False
+9812,No,False
+9813,No,False
+9814,Yes,True
+9815,Yes,True
+9816,No,False
+9817,No,False
+9818,No,False
+9819,No,False
+9820,Yes,True
+9821,Not interested to say,False
+9822,No,False
+9823,No,False
+9824,No,False
+9825,No,False
+9826,Yes,True
+9827,Not interested to say,False
+9828,No,False
+9829,No,False
+9830,No,False
+9831,No,False
+9832,No,False
+9833,No,False
+9834,Yes,True
+9835,Yes,True
+9836,No,False
+9837,Not interested to say,False
+9838,No,False
+9839,No,False
+9840,No,False
+9841,No,False
+9842,No,False
+9843,Yes,True
+9844,No,False
+9845,Yes,True
+9846,Yes,True
+9847,No,False
+9848,No,False
+9849,Not interested to say,False
+9850,Not interested to say,False
+9851,No,False
+9852,No,False
+9853,No,False
+9854,Not interested to say,False
+9855,Not interested to say,False
+9856,No,False
+9857,No,False
+9858,No,False
+9859,No,False
+9860,Not interested to say,False
+9861,No,False
+9862,No,False
+9863,No,False
+9864,Not interested to say,False
+9865,No,False
+9866,Yes,True
+9867,No,False
+9868,Not interested to say,False
+9869,Not interested to say,False
+9870,No,False
+9871,No,False
+9872,Not interested to say,False
+9873,Not interested to say,False
+9874,Yes,True
+9875,No,False
+9876,Yes,True
+9877,Yes,True
+9878,Not interested to say,False
+9879,No,False
+9880,Not interested to say,False
+9881,Yes,True
+9882,Yes,True
+9883,No,False
+9884,No,False
+9885,Yes,True
+9886,Not interested to say,False
+9887,Not interested to say,False
+9888,No,False
+9889,Yes,True
+9890,Yes,True
+9891,No,False
+9892,No,False
+9893,No,False
+9894,Not interested to say,False
+9895,No,False
+9896,No,False
+9897,No,False
+9898,No,False
+9899,No,False
+9900,Yes,True
+9901,No,False
+9902,Yes,True
+9903,Not interested to say,False
+9904,Yes,True
+9905,Not interested to say,False
+9906,Not interested to say,False
+9907,No,False
+9908,Not interested to say,False
+9909,Not interested to say,False
+9910,Yes,True
+9911,Yes,True
+9912,No,False
+9913,Yes,True
+9914,Yes,True
+9915,Yes,True
+9916,No,False
+9917,Not interested to say,False
+9918,No,False
+9919,No,False
+9920,Yes,True
+9921,No,False
+9922,No,False
+9923,No,False
+9924,Yes,True
+9925,Yes,True
+9926,No,False
+9927,No,False
+9928,Not interested to say,False
+9929,Yes,True
+9930,Not interested to say,False
+9931,Yes,True
+9932,Yes,True
+9933,Yes,True
+9934,No,False
+9935,Not interested to say,False
+9936,No,False
+9937,No,False
+9938,No,False
+9939,No,False
+9940,No,False
+9941,Yes,True
+9942,No,False
+9943,Not interested to say,False
+9944,No,False
+9945,Yes,True
+9946,No,False
+9947,Not interested to say,False
+9948,No,False
+9949,Not interested to say,False
+9950,No,False
+9951,Yes,True
+9952,Not interested to say,False
+9953,No,False
+9954,Not interested to say,False
+9955,No,False
+9956,No,False
+9957,No,False
+9958,Yes,True
+9959,No,False
+9960,Yes,True
+9961,Yes,True
+9962,No,False
+9963,Not interested to say,False
+9964,No,False
+9965,No,False
+9966,No,False
+9967,No,False
+9968,Yes,True
+9969,No,False
+9970,No,False
+9971,No,False
+9972,Not interested to say,False
+9973,Not interested to say,False
+9974,No,False
+9975,No,False
+9976,No,False
+9977,Yes,True
+9978,No,False
+9979,Yes,True
+9980,No,False
+9981,No,False
+9982,Not interested to say,False
+9983,Yes,True
+9984,No,False
+9985,No,False
+9986,Not interested to say,False
+9987,Yes,True
+9988,No,False
+9989,Yes,True
+9990,Not interested to say,False
+9991,Yes,True
+9992,No,False
+9993,No,False
+9994,No,False
+9995,No,False
+9996,Not interested to say,False
+9997,No,False
+9998,No,False
+9999,No,False
+10000,Not interested to say,False

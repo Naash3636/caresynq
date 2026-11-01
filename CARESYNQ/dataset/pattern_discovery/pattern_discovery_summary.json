@@ -1,0 +1,16 @@
+{
+    "total_records": 10000,
+    "features_used": 27,
+    "tested_cluster_counts": [
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "selected_exploratory_clusters": 6,
+    "best_silhouette_score": 0.1673,
+    "model": "KMeans",
+    "purpose": "Exploratory questionnaire pattern discovery",
+    "clinical_prediction": false
+}

@@ -1,0 +1,12 @@
+Column,Missing Values,Unique Values,Data Type
+Timestamp,0,10000,str
+Age,0,5,str
+Feeling sad or Tearful,0,3,str
+Irritable towards baby & partner,39,3,str
+Trouble sleeping at night,0,3,str
+Problems concentrating or making decision,80,3,str
+Overeating or loss of appetite,0,3,str
+Feeling anxious,0,2,str
+Feeling of guilt,63,3,str
+Problems of bonding with baby,0,3,str
+Suicide attempt,0,3,str

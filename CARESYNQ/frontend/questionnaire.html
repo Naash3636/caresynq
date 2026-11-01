@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wellbeing Questionnaire | CARESYNQ</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <style>
+        .questionnaire {
+            max-width: 850px;
+            margin: 45px auto;
+        }
+
+        .question-card {
+            background: white;
+            border: 1px solid #eee5f5;
+            border-radius: 16px;
+            padding: 22px;
+            margin: 18px 0;
+        }
+
+        .question-card label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .question-card select {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #ded5e9;
+            border-radius: 9px;
+            background: white;
+        }
+
+        .notice {
+            padding: 18px;
+            border-radius: 12px;
+            background: #f5f0fb;
+            margin-bottom: 22px;
+            line-height: 1.6;
+        }
+
+        .submit-button {
+            border: 0;
+            cursor: pointer;
+        }
+
+        .error-message {
+            color: #b42318;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a class="brand" href="/">care<span>synq</span><b>+</b></a>
+
+    <div class="navlinks">
+        <a href="/mother">Dashboard</a>
+        <a href="/activity">Activity</a>
+        <a href="/logout">Log out</a>
+    </div>
+</nav>
+
+<main class="container questionnaire">
+
+    <span class="eyebrow">OPTIONAL WELLBEING REFLECTION</span>
+
+    <h1>How have you been feeling?</h1>
+
+    <p class="muted">
+        Answer these questions only if you feel comfortable.
+        You can skip this questionnaire.
+    </p>
+
+    <div class="notice">
+        <strong>Before you begin</strong>
+        <p>
+            This questionnaire is an exploratory prototype.
+            Its machine-learning analysis identifies response patterns only.
+            It does not diagnose postpartum depression or provide a clinical risk score.
+        </p>
+    </div>
+
+    {% if error %}
+        <p class="error-message">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST">
+
+        <div class="question-card">
+            <label>Age group</label>
+            <select name="age_group" required>
+                <option value="">Select age group</option>
+                <option value="25-30">25–30</option>
+                <option value="30-35">30–35</option>
+                <option value="35-40">35–40</option>
+                <option value="40-45">40–45</option>
+                <option value="45-50">45–50</option>
+            </select>
+        </div>
+
+        <div class="question-card">
+    <label>1. Have you been feeling sad or tearful?</label>
+    <select name="sad" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>2. Have you been experiencing frequent mood changes?</label>
+    <select name="mood_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>3. Have you been feeling overwhelmed by motherhood?</label>
+    <select name="overwhelmed" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>4. Have you lost interest in activities you previously enjoyed?</label>
+    <select name="lost_interest" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>5. Have you been feeling lonely even when people are around you?</label>
+    <select name="lonely" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>6. Have you been feeling unusually irritable or frustrated?</label>
+    <select name="irritable" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>7. Have you been experiencing frequent crying episodes?</label>
+    <select name="crying" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>8. Have you been feeling emotionally disconnected from others?</label>
+    <select name="disconnected" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>9. Have you been struggling to feel happy about things?</label>
+    <select name="happiness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>10. Have you been feeling guilty about your parenting?</label>
+    <select name="guilt" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>11. Have you been feeling anxious without a clear reason?</label>
+    <select name="anxiety" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>12. Have you been worrying excessively about your baby's health?</label>
+    <select name="baby_health_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>13. Have you been experiencing panic or sudden intense fear?</label>
+    <select name="panic" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>14. Have you been finding it difficult to concentrate?</label>
+    <select name="concentration" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>15. Have you been experiencing racing thoughts?</label>
+    <select name="racing_thoughts" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>16. Have you been finding it difficult to control your worries?</label>
+    <select name="controlling_worries" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>17. Have you been feeling afraid of being alone with your baby?</label>
+    <select name="afraid_alone" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>18. Have unwanted or frightening thoughts been disturbing you?</label>
+    <select name="unwanted_thoughts" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>19. Have you been feeling that you cannot cope with daily responsibilities?</label>
+    <select name="coping_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>20. Have you experienced a sudden change in your thoughts or behaviour that concerns you?</label>
+    <select name="thought_behaviour_change" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+
+
+<div class="question-card">
+    <label>21. Have you been experiencing difficulty falling asleep?</label>
+    <select name="falling_asleep" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>22. Have you been waking up frequently during the night?</label>
+    <select name="night_waking" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>23. Have you been feeling exhausted even after sleeping?</label>
+    <select name="exhausted_after_sleep" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>24. Have you been struggling to get enough sleep?</label>
+    <select name="insufficient_sleep" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>25. Have you been feeling sleepy during the daytime?</label>
+    <select name="daytime_sleepiness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>26. Have you been finding it difficult to rest when your baby is sleeping?</label>
+    <select name="difficulty_resting" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>27. Have you been experiencing frequent headaches associated with tiredness or lack of sleep?</label>
+    <select name="sleep_headaches" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>28. Have you been feeling physically weak or low on energy?</label>
+    <select name="low_energy" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>29. Have you been experiencing difficulty maintaining a regular sleep routine?</label>
+    <select name="sleep_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>30. Has your tiredness been interfering with your daily activities?</label>
+    <select name="fatigue_activities" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>31. Have you been experiencing abdominal pain?</label>
+    <select name="abdominal_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>32. Have you been experiencing pain around your delivery stitches or incision?</label>
+    <select name="stitch_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>33. Have you been experiencing back pain?</label>
+    <select name="back_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>34. Have you been experiencing pelvic discomfort?</label>
+    <select name="pelvic_discomfort" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>35. Have you been experiencing heavy or concerning vaginal bleeding?</label>
+    <select name="excessive_bleeding" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>36. Have you noticed unusual or unpleasant-smelling vaginal discharge?</label>
+    <select name="unusual_discharge" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>37. Have you experienced pain or burning while urinating?</label>
+    <select name="urination_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>38. Have you experienced difficulty controlling your bladder?</label>
+    <select name="bladder_control" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>39. Have you been experiencing constipation?</label>
+    <select name="constipation" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>40. Have you been experiencing swelling in your legs or feet?</label>
+    <select name="leg_swelling" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>41. Have you been experiencing difficulty breastfeeding?</label>
+    <select name="breastfeeding_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>42. Have you been experiencing nipple pain during feeding?</label>
+    <select name="nipple_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>43. Have you experienced breast swelling or engorgement?</label>
+    <select name="breast_engorgement" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>44. Have you noticed redness, warmth or pain in your breast?</label>
+    <select name="breast_redness_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>45. Have you been worried about whether your baby is getting enough milk?</label>
+    <select name="milk_supply_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>46. Have you been skipping meals because of childcare responsibilities?</label>
+    <select name="skipping_meals" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>47. Have you been drinking less water than you feel you need?</label>
+    <select name="low_water_intake" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>48. Have you noticed a significant change in your appetite?</label>
+    <select name="appetite_change" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>49. Have you been worried about your nutritional intake?</label>
+    <select name="nutrition_concern" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>50. Have you experienced difficulty finding a comfortable feeding position?</label>
+    <select name="feeding_position" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>51. Have you been finding it difficult to understand your baby's crying?</label>
+    <select name="baby_crying" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>52. Have you been feeling uncertain about how to care for your baby?</label>
+    <select name="baby_care_uncertainty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>53. Have you been finding it difficult to establish a feeding routine for your baby?</label>
+    <select name="baby_feeding_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>54. Have you been worried about your baby's weight gain?</label>
+    <select name="baby_weight_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>55. Have you been concerned about your baby's sleeping pattern?</label>
+    <select name="baby_sleep_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>56. Have you been finding it difficult to soothe your baby?</label>
+    <select name="soothing_baby" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>57. Have you been worried about your baby's health or development?</label>
+    <select name="baby_development_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>58. Have you been finding it difficult to manage your baby's daily care?</label>
+    <select name="daily_baby_care" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>59. Have you been feeling worried about handling your baby safely?</label>
+    <select name="baby_safety_worry" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>60. Have you been struggling to balance your baby's needs with your own recovery?</label>
+    <select name="baby_self_balance" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>61. Do you feel that you receive enough support from your partner or family?</label>
+    <select name="family_support" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>62. Do you feel comfortable asking others for help?</label>
+    <select name="asking_help" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>63. Have you been feeling unsupported in your parenting responsibilities?</label>
+    <select name="unsupported_parenting" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>64. Have disagreements with family members been affecting your wellbeing?</label>
+    <select name="family_disagreements" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>65. Have you been feeling isolated from friends or relatives?</label>
+    <select name="social_isolation" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>66. Do you have someone you can talk to when you feel emotionally distressed?</label>
+    <select name="emotional_support_person" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>67. Have you been experiencing pressure from others about how you should raise your baby?</label>
+    <select name="parenting_pressure" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>68. Do you feel that your concerns are being listened to by your family?</label>
+    <select name="family_listening" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>69. Have you been struggling to find time for yourself?</label>
+    <select name="personal_time" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>70. Do you feel safe and respected in your home environment?</label>
+    <select name="home_safety" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>71. Have you been finding it difficult to maintain personal hygiene?</label>
+    <select name="personal_hygiene" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>72. Have you been struggling to manage household responsibilities?</label>
+    <select name="household_tasks" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>73. Have you been finding it difficult to attend your medical appointments?</label>
+    <select name="medical_appointments" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>74. Have you been avoiding physical activity because of discomfort or fear?</label>
+    <select name="physical_activity_fear" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>75. Have you been finding it difficult to follow your prescribed medication routine?</label>
+    <select name="medication_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>76. Have you been neglecting your own health needs while caring for your baby?</label>
+    <select name="neglecting_health" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>77. Have you been finding it difficult to return to your usual daily routine?</label>
+    <select name="daily_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>78. Have you been experiencing difficulty managing your time?</label>
+    <select name="time_management" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>79. Have you been avoiding social activities because of your recovery?</label>
+    <select name="avoiding_social_activities" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>80. Have you been finding it difficult to make time for adequate meals and rest?</label>
+    <select name="meals_and_rest" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>81. Have you experienced a fever or chills since delivery?</label>
+    <select name="fever_chills" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>82. Have you experienced severe or persistent headaches?</label>
+    <select name="severe_headaches" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>83. Have you experienced blurred vision or changes in your eyesight?</label>
+    <select name="vision_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>84. Have you experienced chest pain or difficulty breathing?</label>
+    <select name="chest_breathing" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>85. Have you experienced pain, redness or swelling in one leg?</label>
+    <select name="one_leg_swelling" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>86. Have you noticed that a delivery wound or incision is becoming increasingly painful or red?</label>
+    <select name="wound_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>87. Have you experienced dizziness or fainting?</label>
+    <select name="dizziness_fainting" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>88. Have you experienced persistent nausea or vomiting?</label>
+    <select name="nausea_vomiting" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>89. Have you experienced worsening pain that is not improving with your prescribed treatment?</label>
+    <select name="worsening_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>90. Have you been concerned that your physical recovery is taking longer than expected?</label>
+    <select name="recovery_concern" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>91. Have you had thoughts of harming yourself?</label>
+    <select name="self_harm_thoughts" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>92. Have you had thoughts of harming your baby?</label>
+    <select name="baby_harm_thoughts" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>93. Have you felt unable to keep yourself or your baby safe?</label>
+    <select name="safety_concerns" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>94. Have you experienced confusion or difficulty distinguishing what is real?</label>
+    <select name="confusion_reality" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>95. Have you heard or seen things that other people could not hear or see?</label>
+    <select name="hallucination_concern" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>96. Have you been hesitant to discuss your emotional difficulties with a healthcare professional?</label>
+    <select name="hesitant_professional" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>97. Have you been unable to access the medical support you need?</label>
+    <select name="access_medical_support" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>98. Do you feel that you need additional emotional or psychological support?</label>
+    <select name="need_emotional_support" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>99. Would you like to speak with a doctor or maternal health professional about your concerns?</label>
+    <select name="doctor_consultation" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>100. Do you feel that you need more support during your postpartum recovery?</label>
+    <select name="postpartum_support" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>101. Did you experience any complications during pregnancy?</label>
+    <select name="pregnancy_complications" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>102. Did you experience high blood pressure during pregnancy?</label>
+    <select name="pregnancy_bp" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>103. Were you diagnosed with gestational diabetes?</label>
+    <select name="gestational_diabetes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>104. Did you experience an emergency during childbirth?</label>
+    <select name="delivery_emergency" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>105. Did you undergo a cesarean section?</label>
+    <select name="cesarean_delivery" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>106. Did you experience excessive blood loss during delivery?</label>
+    <select name="delivery_blood_loss" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>107. Did you require a blood transfusion during or after delivery?</label>
+    <select name="blood_transfusion" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>108. Did you experience a difficult or traumatic childbirth experience?</label>
+    <select name="traumatic_childbirth" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>109. Did your baby require admission to a neonatal intensive care unit (NICU)?</label>
+    <select name="baby_nicu" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>110. Did you receive adequate information about your recovery before leaving the hospital?</label>
+    <select name="discharge_information" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>111. Have you noticed unusual hair loss since childbirth?</label>
+    <select name="postpartum_hair_loss" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>112. Have you experienced excessive sweating since delivery?</label>
+    <select name="postpartum_sweating" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>113. Have you experienced sudden hot flashes or unusual sensations of heat?</label>
+    <select name="hot_flashes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>114. Have you noticed changes in your skin since childbirth?</label>
+    <select name="skin_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Minor changes">Minor changes</option>
+        <option value="Significant changes">Significant changes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>115. Have you experienced vaginal dryness after childbirth?</label>
+    <select name="vaginal_dryness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>116. Have you noticed changes in your menstrual cycle after delivery?</label>
+    <select name="menstrual_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+        <option value="My period has not returned">My period has not returned</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>117. Have you experienced unexpected changes in your body weight after delivery?</label>
+    <select name="weight_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Weight gain">Weight gain</option>
+        <option value="Weight loss">Weight loss</option>
+        <option value="Not sure">Not sure</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>118. Have you noticed changes in how your body regulates temperature?</label>
+    <select name="temperature_changes" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>119. Have you experienced increased joint or muscle stiffness since childbirth?</label>
+    <select name="joint_muscle_stiffness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>120. Have you noticed unexpected changes in your physical appearance that concern you?</label>
+    <select name="appearance_concerns" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>121. Do you experience urine leakage when coughing, sneezing or laughing?</label>
+    <select name="urine_leakage" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Frequently">Frequently</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>122. Do you experience a sudden or urgent need to urinate?</label>
+    <select name="urine_urgency" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Frequently">Frequently</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>123. Do you experience a feeling of heaviness or pressure in your pelvic area?</label>
+    <select name="pelvic_pressure" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>124. Have you experienced difficulty passing stools since delivery?</label>
+    <select name="bowel_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>125. Have you experienced pain while passing stools?</label>
+    <select name="bowel_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>126. Have you noticed a bulging or dragging sensation in your vaginal area?</label>
+    <select name="vaginal_bulging" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>127. Do you experience difficulty standing or walking for extended periods?</label>
+    <select name="standing_walking" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Frequently">Frequently</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>128. Do you experience pain when lifting or carrying your baby?</label>
+    <select name="lifting_pain" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Frequently">Frequently</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>129. Have you experienced difficulty climbing stairs since childbirth?</label>
+    <select name="stair_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>130. Have you experienced abdominal muscle weakness or difficulty engaging your core?</label>
+    <select name="abdominal_weakness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>131. Do you feel emotionally connected to your baby?</label>
+    <select name="baby_emotional_connection" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>132. Do you enjoy spending time with your baby?</label>
+    <select name="enjoy_baby_time" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>133. Do you feel confident responding to your baby's needs?</label>
+    <select name="baby_response_confidence" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>134. Do you find it difficult to recognize when your baby is hungry, tired or uncomfortable?</label>
+    <select name="baby_cue_recognition" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>135. Do you feel anxious when someone else takes care of your baby?</label>
+    <select name="separation_anxiety" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>136. Have you found it difficult to enjoy physical closeness with your baby?</label>
+    <select name="baby_physical_closeness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>137. Do you feel confident holding and handling your baby?</label>
+    <select name="baby_handling_confidence" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>138. Do you feel worried that you might not be a good mother?</label>
+    <select name="motherhood_self_doubt" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>139. Have you been comparing your parenting abilities with those of other mothers?</label>
+    <select name="parenting_comparison" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>140. Do you feel comfortable expressing affection toward your baby?</label>
+    <select name="expressing_baby_affection" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>141. Has your relationship with your partner changed since childbirth?</label>
+    <select name="relationship_change" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Positively">Positively</option>
+        <option value="Negatively">Negatively</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>142. Do you feel emotionally supported by your partner?</label>
+    <select name="partner_emotional_support" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>143. Have disagreements with your partner increased since childbirth?</label>
+    <select name="partner_disagreements" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>144. Do you feel comfortable discussing your postpartum difficulties with your partner?</label>
+    <select name="partner_open_communication" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>145. Have you experienced pressure to resume sexual activity before feeling ready?</label>
+    <select name="sexual_pressure" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>146. Are you concerned about pain or discomfort during sexual activity after childbirth?</label>
+    <select name="sexual_discomfort_concern" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+        <option value="Not applicable">Not applicable</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>147. Do you feel that childcare responsibilities are shared fairly?</label>
+    <select name="shared_childcare" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>148. Have you felt emotionally distant from your partner?</label>
+    <select name="partner_emotional_distance" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>149. Do you feel that your partner understands the physical demands of postpartum recovery?</label>
+    <select name="partner_recovery_understanding" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>150. Do you feel safe discussing your personal boundaries with your partner?</label>
+    <select name="partner_boundaries" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>151. Have you been experiencing recurring distressing memories of childbirth?</label>
+    <select name="childbirth_memories" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>152. Have you been avoiding reminders of a difficult childbirth experience?</label>
+    <select name="avoiding_birth_reminders" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>153. Have you been feeling emotionally numb?</label>
+    <select name="emotional_numbness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>154. Have you been experiencing sudden feelings of helplessness?</label>
+    <select name="helplessness" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>155. Have you felt that you have lost your sense of personal identity?</label>
+    <select name="identity_change" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>156. Have you been experiencing difficulty making everyday decisions?</label>
+    <select name="decision_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>157. Have you felt excessively responsible for everything that happens to your baby?</label>
+    <select name="excessive_responsibility" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>158. Have you been experiencing repeated fears that something bad will happen to your baby?</label>
+    <select name="repeated_baby_fears" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>159. Have you felt that you are not meeting the expectations placed on you as a mother?</label>
+    <select name="motherhood_expectations" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>160. Have you been experiencing difficulty feeling confident in yourself since childbirth?</label>
+    <select name="postpartum_self_confidence" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>161. Have you attended a postpartum medical check-up since delivery?</label>
+    <select name="postpartum_checkup" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Scheduled">Scheduled</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>162. Have you received clear information about warning signs that require medical attention?</label>
+    <select name="warning_sign_information" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>163. Have you had difficulty accessing a doctor when you needed medical advice?</label>
+    <select name="doctor_access_difficulty" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>164. Have financial concerns prevented you from seeking medical care?</label>
+    <select name="financial_health_barrier" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>165. Have transportation difficulties affected your ability to attend medical appointments?</label>
+    <select name="transport_health_barrier" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>166. Have you received information about postpartum contraception and family planning?</label>
+    <select name="family_planning_information" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>167. Have you been advised about when it is safe to resume exercise after childbirth?</label>
+    <select name="exercise_guidance" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>168. Have you received guidance about pelvic floor recovery?</label>
+    <select name="pelvic_floor_guidance" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>169. Have you received adequate guidance about breastfeeding or infant feeding?</label>
+    <select name="feeding_guidance" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>170. Would you prefer regular follow-up reminders for your postpartum health appointments?</label>
+    <select name="followup_reminders" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>171. Have you been able to include nutritious foods in your daily meals?</label>
+    <select name="nutritious_food" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>172. Have you been experiencing a lack of appetite for several days?</label>
+    <select name="persistent_low_appetite" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>173. Have you been able to engage in light physical activity when medically appropriate?</label>
+    <select name="light_physical_activity" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>174. Have you been spending time outdoors or getting fresh air?</label>
+    <select name="outdoor_time" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>175. Have you been experiencing difficulty maintaining a balanced daily routine?</label>
+    <select name="balanced_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>176. Have you been using relaxation techniques to manage stress?</label>
+    <select name="relaxation_techniques" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>177. Have you been able to spend time on hobbies or activities you enjoy?</label>
+    <select name="hobbies_time" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>178. Have you been experiencing difficulty maintaining a healthy hydration routine?</label>
+    <select name="hydration_routine" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>179. Have you been experiencing frequent physical exhaustion after simple activities?</label>
+    <select name="activity_exhaustion" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>180. Have you been able to take regular breaks during the day?</label>
+    <select name="regular_breaks" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>181. Have cultural or family expectations affected your postpartum recovery?</label>
+    <select name="cultural_expectations" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>182. Have you felt judged by others about your parenting decisions?</label>
+    <select name="parenting_judgement" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>183. Have financial responsibilities increased your stress since childbirth?</label>
+    <select name="financial_stress" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>184. Have you been worried about the cost of your baby's healthcare?</label>
+    <select name="baby_healthcare_cost" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>185. Have household financial difficulties affected your access to nutritious food?</label>
+    <select name="food_financial_barrier" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>186. Have you experienced pressure to return to work before feeling physically or emotionally ready?</label>
+    <select name="return_work_pressure" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>187. Are you concerned about balancing work responsibilities with childcare?</label>
+    <select name="work_childcare_balance" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+        <option value="Not applicable">Not applicable</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>188. Have you experienced discrimination or unfair treatment related to motherhood?</label>
+    <select name="motherhood_discrimination" required>
+        <option value="">Select an answer</option>
+        <option value="No">No</option>
+        <option value="Sometimes">Sometimes</option>
+        <option value="Yes">Yes</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>189. Have you been able to access reliable information about postpartum health in a language you understand?</label>
+    <select name="health_information_access" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>190. Would joining a postpartum mother support group be helpful to you?</label>
+    <select name="support_group_interest" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+
+<div class="question-card">
+    <label>191. Do you feel that your current postpartum recovery needs are being met?</label>
+    <select name="recovery_needs_met" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Partially">Partially</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>192. Would you like personalized guidance based on your postpartum recovery progress?</label>
+    <select name="personalized_guidance" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>193. Would you find daily health check-in reminders useful?</label>
+    <select name="daily_checkin_interest" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>194. Would you like to track changes in your physical recovery over time?</label>
+    <select name="physical_recovery_tracking" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>195. Would you like to track your emotional wellbeing over time?</label>
+    <select name="emotional_tracking" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>196. Would you prefer receiving educational information about postpartum recovery?</label>
+    <select name="recovery_education" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>197. Would you like assistance identifying which health concerns should be discussed with a doctor?</label>
+    <select name="health_concern_guidance" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>198. Would you prefer having a healthcare professional review your recovery progress regularly?</label>
+    <select name="professional_progress_review" required>
+        <option value="">Select an answer</option>
+        <option value="Yes">Yes</option>
+        <option value="Maybe">Maybe</option>
+        <option value="No">No</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>199. What is your biggest concern about your postpartum recovery right now?</label>
+    <select name="biggest_recovery_concern" required>
+        <option value="">Select an answer</option>
+        <option value="Physical health">Physical health</option>
+        <option value="Mental health">Mental health</option>
+        <option value="Sleep">Sleep</option>
+        <option value="Breastfeeding">Breastfeeding</option>
+        <option value="Baby care">Baby care</option>
+        <option value="Family support">Family support</option>
+        <option value="Financial concerns">Financial concerns</option>
+        <option value="Other">Other</option>
+    </select>
+</div>
+<div class="question-card">
+    <label>200. What type of additional support would make the biggest difference in your recovery?</label>
+    <select name="most_needed_support" required>
+        <option value="">Select an answer</option>
+        <option value="Medical support">Medical support</option>
+        <option value="Mental health support">Mental health support</option>
+        <option value="Breastfeeding guidance">Breastfeeding guidance</option>
+        <option value="Baby care guidance">Baby care guidance</option>
+        <option value="Family support">Family support</option>
+        <option value="Nutrition guidance">Nutrition guidance</option>
+        <option value="Rest and recovery support">Rest and recovery support</option>
+        <option value="Other">Other</option>
+        </select>
+        </div>
+
+        <div style="text-align: center; margin: 30px 0;">
+            <button class="btn btn-primary submit-button" type="submit">
+                Submit questionnaire
+            </button>
+        </div>
+
+        </form>
+
+</main>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.querySelector("form");
+    const allCards = Array.from(
+        form.querySelectorAll(".question-card")
+    );
+
+    // Exclude the age-group card
+    const questionCards = allCards.filter(card => {
+        return !card.querySelector('[name="age_group"]');
+    });
+
+    // Keep three essential safety questions in every set
+    const safetyNames = [
+        "self_harm_thoughts",
+        "baby_harm_thoughts",
+        "safety_concerns"
+    ];
+
+    const safetyCards = questionCards.filter(card => {
+        const field = card.querySelector("select");
+        return field && safetyNames.includes(field.name);
+    });
+
+    // Remaining questions form the random selection pool
+    const randomPool = questionCards.filter(card => {
+        return !safetyCards.includes(card);
+    });
+
+    // Shuffle the remaining questions
+    for (let i = randomPool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [randomPool[i], randomPool[j]] =
+            [randomPool[j], randomPool[i]];
+    }
+
+    // 3 safety questions + 12 random questions = 15
+    const selectedCards = [
+        ...safetyCards,
+        ...randomPool.slice(0, 12)
+    ];
+
+    // Hide and disable unselected questions
+    questionCards.forEach(card => {
+        const selected = selectedCards.includes(card);
+
+        card.style.display = selected ? "block" : "none";
+
+        card.querySelectorAll("input, select, textarea").forEach(field => {
+            field.disabled = !selected;
+        });
+    });
+
+    // Add question counter
+    const counter = document.createElement("p");
+    counter.textContent = "15 questions selected from your question bank";
+    counter.style.fontWeight = "600";
+    counter.style.marginBottom = "15px";
+
+    form.prepend(counter);
+
+});
+</script>
+</body>
+</html>
+
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questionnaire Results | CARESYNQ</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <style>
+        .result-container {
+            max-width: 750px;
+            margin: 65px auto;
+        }
+
+        .result-card {
+            background: white;
+            border: 1px solid #e9e0f1;
+            border-radius: 18px;
+            padding: 30px;
+            margin-top: 25px;
+        }
+
+        .cluster-number {
+            font-size: 42px;
+            font-weight: 700;
+            color: #8060c4;
+            margin: 15px 0;
+        }
+
+        .result-notice {
+            background: #f5f0fb;
+            padding: 18px;
+            border-radius: 12px;
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        .notice {
+            background: #faf8fc;
+            padding: 14px;
+            border-radius: 10px;
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a class="brand" href="/">care<span>synq</span><b>+</b></a>
+
+    <div class="navlinks">
+        <a href="/mother">Dashboard</a>
+        <a href="/activity">Activity</a>
+        <a href="/logout">Log out</a>
+    </div>
+</nav>
+
+<main class="container result-container">
+
+    <span class="eyebrow">QUESTIONNAIRE COMPLETED</span>
+
+    <h1>Your responses have been saved.</h1>
+
+    <div class="result-card">
+
+        <h2>Exploratory response pattern</h2>
+
+        {% if cluster_id is not none %}
+
+            <p class="muted">
+                Your submitted responses were grouped into:
+            </p>
+
+            <div class="cluster-number">
+                Group {{ cluster_id }}
+            </div>
+
+            <p>
+                This group represents similarities between questionnaire
+                responses in the model's training data.
+            </p>
+
+        {% else %}
+
+            <p>
+                Your responses have been saved successfully.
+                There were not enough compatible answers to generate
+                an exploratory machine-learning pattern this time.
+            </p>
+
+        {% endif %}
+
+        <div class="result-notice">
+            <strong>Understanding this result</strong>
+
+            <p>
+                This exploratory prototype does not diagnose postpartum
+                depression, calculate a clinical risk score, or replace
+                professional medical advice.
+            </p>
+
+            <p>
+                If you have concerns about your wellbeing, please speak
+                with a qualified healthcare professional.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="result-card">
+
+        <h2>Your personal support guide ♡</h2>
+
+        <p class="muted">
+            Gentle suggestions based on the responses you chose to share.
+        </p>
+
+        {% for tip in support_tips %}
+            <div class="notice">
+                ♡ {{ tip }}
+            </div>
+        {% endfor %}
+
+    </div>
+
+    <div class="result-notice">
+        <strong>Remember</strong>
+
+        <p>
+            You deserve support and care. These suggestions are for
+            general wellbeing support only.
+        </p>
+    </div>
+
+    <br>
+
+    <a href="/mother" class="btn btn-primary">
+        Return to dashboard
+    </a>
+
+</main>
+
+</body>
+</html>

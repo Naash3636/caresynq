@@ -1,0 +1,33 @@
+Feature,Data_Type,Missing_Values,Unique_Values
+Age_Numeric,float64,0,5
+Feeling sad or Tearful_No,int64,0,2
+Feeling sad or Tearful_Sometimes,int64,0,2
+Feeling sad or Tearful_Yes,int64,0,2
+Feeling sad or Tearful_<NA>,int64,0,1
+Irritable towards baby & partner_No,int64,0,2
+Irritable towards baby & partner_Sometimes,int64,0,2
+Irritable towards baby & partner_Yes,int64,0,2
+Irritable towards baby & partner_<NA>,int64,0,2
+Trouble sleeping at night_No,int64,0,2
+Trouble sleeping at night_Two Or More Days A Week,int64,0,2
+Trouble sleeping at night_Yes,int64,0,2
+Trouble sleeping at night_<NA>,int64,0,1
+Problems concentrating or making decision_No,int64,0,2
+Problems concentrating or making decision_Often,int64,0,2
+Problems concentrating or making decision_Yes,int64,0,2
+Problems concentrating or making decision_<NA>,int64,0,2
+Overeating or loss of appetite_No,int64,0,2
+Overeating or loss of appetite_Not at all,int64,0,2
+Overeating or loss of appetite_Yes,int64,0,2
+Overeating or loss of appetite_<NA>,int64,0,1
+Feeling anxious_No,int64,0,2
+Feeling anxious_Yes,int64,0,2
+Feeling anxious_<NA>,int64,0,1
+Feeling of guilt_Maybe,int64,0,2
+Feeling of guilt_No,int64,0,2
+Feeling of guilt_Yes,int64,0,2
+Feeling of guilt_<NA>,int64,0,2
+Problems of bonding with baby_No,int64,0,2
+Problems of bonding with baby_Sometimes,int64,0,2
+Problems of bonding with baby_Yes,int64,0,2
+Problems of bonding with baby_<NA>,int64,0,1

@@ -1,0 +1,61 @@
+CARESYNQ - DETAILED DATA ANALYSIS REPORT
+=======================================================
+Total records: 10000
+Total columns: 12
+Duplicate records: 0
+Total missing cells: 182
+
+QUESTIONNAIRE COLUMNS
+
+Feeling sad or Tearful
+  Yes: 3573 (35.73%)
+  No: 3548 (35.48%)
+  Sometimes: 2879 (28.79%)
+
+Irritable towards baby & partner
+  Yes: 3698 (36.98%)
+  No: 3276 (32.76%)
+  Sometimes: 2987 (29.87%)
+  Missing: 39 (0.39%)
+
+Trouble sleeping at night
+  Two or more days a week: 4275 (42.75%)
+  Yes: 2971 (29.71%)
+  No: 2754 (27.54%)
+
+Problems concentrating or making decision
+  No: 3771 (37.71%)
+  Often: 3169 (31.69%)
+  Yes: 2980 (29.80%)
+  Missing: 80 (0.80%)
+
+Overeating or loss of appetite
+  No: 5676 (56.76%)
+  Yes: 2186 (21.86%)
+  Not at all: 2138 (21.38%)
+
+Feeling anxious
+  Yes: 6500 (65.00%)
+  No: 3500 (35.00%)
+
+Feeling of guilt
+  No: 4117 (41.17%)
+  Maybe: 3483 (34.83%)
+  Yes: 2337 (23.37%)
+  Missing: 63 (0.63%)
+
+Problems of bonding with baby
+  No: 3688 (36.88%)
+  Sometimes: 3549 (35.49%)
+  Yes: 2763 (27.63%)
+
+Suicide attempt
+  No: 4661 (46.61%)
+  Yes: 3083 (30.83%)
+  Not interested to say: 2256 (22.56%)
+
+ANALYSIS LIMITATIONS
+This report describes the supplied questionnaire dataset.
+Response frequencies are not clinical diagnoses.
+No clinical prediction accuracy is established by this analysis.
+Missing responses must not be interpreted as negative responses.

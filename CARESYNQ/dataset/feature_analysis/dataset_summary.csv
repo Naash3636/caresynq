@@ -1,0 +1,12 @@
+,source_row_id,Timestamp,Age,Feeling sad or Tearful,Irritable towards baby & partner,Trouble sleeping at night,Problems concentrating or making decision,Overeating or loss of appetite,Feeling anxious,Feeling of guilt,Problems of bonding with baby,Suicide attempt
+count,10000.0,10000,10000,10000,9961,10000,9920,10000,10000,9937,10000,10000
+unique,,,5,3,3,3,3,3,2,3,3,3
+top,,,40-45,Yes,Yes,Two or more days a week,No,No,Yes,No,No,No
+freq,,,2378,3573,3698,4275,3771,5676,6500,4117,3688,4661
+mean,5000.5,2022-06-18 07:21:30,,,,,,,,,,
+min,1.0,2022-06-14 20:02:00,,,,,,,,,,
+25%,2500.75,2022-06-16 13:41:45,,,,,,,,,,
+50%,5000.5,2022-06-18 07:21:30,,,,,,,,,,
+75%,7500.25,2022-06-20 01:01:15,,,,,,,,,,
+max,10000.0,2022-06-21 18:41:00,,,,,,,,,,
+std,2886.8956799071675,,,,,,,,,,,

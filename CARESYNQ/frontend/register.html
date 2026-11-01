@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Create account | CARESYNQ</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="auth-bg">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+
+        <a class="brand" href="/">
+            care<span>synq</span><b>+</b>
+        </a>
+
+        <a href="/" class="text-link">
+            ← Back home
+        </a>
+
+    </nav>
+
+    <!-- REGISTRATION CARD -->
+    <main class="auth-card">
+
+        <span class="eyebrow">GET STARTED</span>
+
+        <h1>Your space, your pace.</h1>
+
+        <p class="muted">
+            Create a mother account to explore the prototype.
+        </p>
+
+        <!-- ERROR MESSAGE -->
+        {% if error %}
+        <div class="alert error">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        <!-- REGISTRATION FORM -->
+        <form method="POST" action="/register">
+
+            <label>Your name</label>
+
+            <input
+                name="name"
+                placeholder="Full name"
+                required
+            >
+
+            <label>Email address</label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+            >
+
+            <label>Create password</label>
+
+            <input
+                type="password"
+                name="password"
+                minlength="8"
+                placeholder="At least 8 characters"
+                required
+            >
+
+            <label>
+                Postpartum day
+                <span class="muted">(optional)</span>
+            </label>
+
+            <input
+                type="number"
+                name="postpartum_day"
+                min="0"
+                max="730"
+                placeholder="e.g. 14"
+            >
+
+            <!-- CONSENT CHECKBOX -->
+            <label class="checkline">
+
+                <input
+                    type="checkbox"
+                    name="consent"
+                    required
+                >
+
+                I understand this is a prototype and agree to use sample/demo tracking features.
+
+            </label>
+
+            <!-- SUBMIT BUTTON -->
+            <button
+                class="btn btn-primary full"
+                type="submit"
+            >
+                Create account <span>→</span>
+            </button>
+
+        </form>
+
+        <!-- LOGIN LINK -->
+        <p class="form-foot">
+            Already registered?
+            <a href="/login">Log in</a>
+        </p>
+
+    </main>
+
+</body>
+</html>

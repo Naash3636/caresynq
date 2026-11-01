@@ -1,0 +1,89 @@
+CARESYNQ EXPLORATORY DATA ANALYSIS
+=======================================================
+
+Total records: 10000
+Total columns: 11
+
+=============================================
+
+COLUMN: Age
+Age
+40-45    2378
+35-40    2357
+30-35    2309
+45-50    1786
+25-30    1170
+
+=============================================
+
+COLUMN: Feeling sad or Tearful
+Feeling sad or Tearful
+Yes          3573
+No           3548
+Sometimes    2879
+
+=============================================
+
+COLUMN: Irritable towards baby & partner
+Irritable towards baby & partner
+Yes          3698
+No           3276
+Sometimes    2987
+NaN            39
+
+=============================================
+
+COLUMN: Trouble sleeping at night
+Trouble sleeping at night
+Two or more days a week    4275
+Yes                        2971
+No                         2754
+
+=============================================
+
+COLUMN: Problems concentrating or making decision
+Problems concentrating or making decision
+No       3771
+Often    3169
+Yes      2980
+NaN        80
+
+=============================================
+
+COLUMN: Overeating or loss of appetite
+Overeating or loss of appetite
+No            5676
+Yes           2186
+Not at all    2138
+
+=============================================
+
+COLUMN: Feeling anxious
+Feeling anxious
+Yes    6500
+No     3500
+
+=============================================
+
+COLUMN: Feeling of guilt
+Feeling of guilt
+No       4117
+Maybe    3483
+Yes      2337
+NaN        63
+
+=============================================
+
+COLUMN: Problems of bonding with baby
+Problems of bonding with baby
+No           3688
+Sometimes    3549
+Yes          2763
+
+=============================================
+
+COLUMN: Suicide attempt
+Suicide attempt
+No                       4661
+Yes                      3083
+Not interested to say    2256

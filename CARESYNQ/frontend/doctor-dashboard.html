@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARESYNQ | Care Team Analytics</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{--purple:#8065c9;--ink:#28243a;--muted:#77738a;--line:#ebe7f2;--bg:#faf9fc;--red:#bd3f55}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif}
+.navbar{height:68px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 6%;position:sticky;top:0;z-index:10}
+.brand{font-size:23px;font-weight:800;color:#3b3150;text-decoration:none}.brand span{color:var(--purple)}.brand b{color:#df9ab6}
+.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{color:var(--muted);text-decoration:none;font-size:13px}.logout{border:1px solid var(--line);padding:10px 15px;border-radius:10px}
+.container{max-width:1320px;margin:auto;padding:34px 24px}
+.eyebrow{font-size:10px;font-weight:800;letter-spacing:2px;color:var(--purple)}
+h1{font-size:34px;margin:8px 0}h2{font-size:19px;margin:0 0 5px}h3{font-size:15px;margin:0 0 12px}
+.sub{font-size:13px;color:var(--muted);line-height:1.6}
+.pagehead{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px}
+.tag{background:#f0ebfa;color:#6c55a4;padding:7px 12px;border-radius:30px;font-size:11px;font-weight:700}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}
+.kpi,.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.kpi-label{font-size:12px;color:var(--muted)}.kpi-value{font-size:29px;font-weight:800;margin:8px 0}.kpi-foot{font-size:11px;color:var(--muted)}
+.section{margin-top:28px}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px;gap:10px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.chart{height:300px;position:relative}.chart.large{height:340px}
+.alert{border:1px solid #f1c5cc;background:#fff1f3;border-radius:15px;padding:18px 20px;margin:20px 0;color:#792c3a}
+.alert h2{color:#a22f46}.alert a{color:#9d2f45;font-weight:700}
+.note{font-size:12px;line-height:1.6;color:#6c6480;background:#f3effa;border:1px solid #e8e0f4;border-radius:13px;padding:14px 16px}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f8f6fb;color:#625a76;white-space:nowrap}
+.pill{display:inline-block;padding:5px 9px;border-radius:20px;background:#f0ebfa;color:#65519a;font-size:10px;font-weight:700}
+.pending{background:#fff4df;color:#92651b}.reviewed{background:#e8f5ef;color:#33795f}
+details summary{cursor:pointer;color:#6d55a7;font-weight:700}
+textarea{width:100%;min-height:62px;border:1px solid var(--line);border-radius:9px;padding:9px;font:inherit;font-size:12px}
+.btn{border:0;background:var(--purple);color:#fff;padding:9px 13px;border-radius:9px;cursor:pointer}
+.empty{padding:20px;text-align:center;color:var(--muted);font-size:13px}
+.footer{text-align:center;padding:28px;color:var(--muted);font-size:11px}
+@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2,.grid3{grid-template-columns:1fr}}
+@media(max-width:560px){.container{padding:22px 13px}.navbar{padding:0 4%}.kpis{grid-template-columns:1fr 1fr}.kpi{padding:13px}.kpi-value{font-size:23px}h1{font-size:27px}.pagehead{flex-direction:column}}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <a class="brand" href="/doctor">care<span>synq</span><b>+</b></a>
+  <div class="navlinks"><span class="sub">Care team workspace</span><a class="logout" href="/logout">Log out</a></div>
+</nav>
+
+<main class="container">
+  <header class="pagehead">
+    <div>
+      <div class="eyebrow">CARE TEAM WORKSPACE · ANALYTICS</div>
+      <h1>Maternal Care Intelligence</h1>
+      <div class="sub">Explore anonymous dataset patterns and review live care-team submissions.</div>
+    </div>
+    <span class="tag">Prototype · Exploratory analytics</span>
+  </header>
+
+  <div class="alert">
+    <h2>Immediate support — always available</h2>
+    <p>If a person reports current intent to self-harm, a recent attempt, or immediate danger, arrange urgent in-person assessment through your organisation's emergency protocol. Do not wait for a model result or dashboard classification.</p>
+    <strong>India emergency:</strong> <a href="tel:112">112</a>
+    &nbsp; · &nbsp; <strong>Tele-MANAS:</strong> <a href="tel:14416">14416</a>
+    <p class="sub">The CSV is anonymous historical/demo data. Its responses are not live emergency cases and cannot identify or contact a person.</p>
+  </div>
+
+  <section class="kpis">
+    <div class="kpi"><div class="kpi-label">Registered mothers</div><div class="kpi-value">{{ total_mothers|default(0) }}</div><div class="kpi-foot">Live SQLite accounts</div></div>
+    <div class="kpi"><div class="kpi-label">Activity entries</div><div class="kpi-value">{{ total_entries|default(0) }}</div><div class="kpi-foot">Live activity records</div></div>
+    <div class="kpi"><div class="kpi-label">Questionnaires awaiting review</div><div class="kpi-value">{{ pending_reviews|default(0) }}</div><div class="kpi-foot">Identifiable live submissions</div></div>
+    <div class="kpi"><div class="kpi-label">Anonymous dataset records</div><div class="kpi-value">{{ dataset_summary.total|default(0) }}</div><div class="kpi-foot">Separate from live accounts</div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Dataset quality and coverage</h2><span class="pill">CSV analysis</span></div>
+    <div class="grid3">
+      <div class="kpi"><div class="kpi-label">Missing questionnaire cells</div><div class="kpi-value">{{ dataset_summary.missing|default(0) }}</div><div class="kpi-foot">Across eight symptom columns</div></div>
+      <div class="kpi"><div class="kpi-label">Age groups</div><div class="kpi-value">{{ dataset_summary.age_groups|default(0) }}</div><div class="kpi-foot">Distinct age categories</div></div>
+      <div class="kpi"><div class="kpi-label">Dataset “Yes” responses for suicide-attempt field</div><div class="kpi-value">{{ dataset_summary.suicide_yes|default(0) }}</div><div class="kpi-foot">Anonymous aggregate only; not live cases</div></div>
+    </div>
+    <p class="sub">Missing answers are not counted as “No”. Dataset-level counts must not be used to identify or triage an individual.</p>
+  </section>
+
+  <section class="section grid2">
+    <div class="panel"><h3>Age-group distribution</h3><div class="chart"><canvas id="ageChart"></canvas></div></div>
+    <div class="panel"><h3>Suicide-attempt response distribution</h3><div class="chart"><canvas id="suicideChart"></canvas><p class="sub">“Not interested to say” means undisclosed/unknown, not No. Aggregate-only; not a list of people requiring emergency contact.</p></div></div>
+  </section>
+
+  <section class="section grid2">
+    <div class="panel"><h3>“Yes” responses by questionnaire item</h3><div class="chart"><canvas id="symptomChart"></canvas></div><p class="sub">Descriptive counts from the anonymous dataset; not clinical risk scores.</p></div>
+    <div class="panel"><h3>Missing responses by field</h3><div class="chart"><canvas id="missingChart"></canvas></div><p class="sub">A missing answer is unknown, not a negative response.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="note"><b>Interpretation:</b> These charts describe the supplied anonymous CSV only. They do not represent the registered mothers shown below, do not establish causation, and must not be used for diagnosis, treatment decisions or emergency triage.</div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Live questionnaire submissions</h2><span class="pill">{{ pending_reviews|default(0) }} pending</span></div>
+    {% if questionnaires %}
+    <div class="panel table-wrap">
+      <table>
+        <thead><tr><th>Mother</th><th>Submitted</th><th>Age group</th><th>Pattern ID</th><th>Status</th><th>Care-team review</th></tr></thead>
+        <tbody>
+        {% for q in questionnaires %}
+          <tr>
+            <td><strong>{{ q["mother_name"] }}</strong><br><span class="sub">{{ q["mother_email"] }}</span></td>
+            <td>{{ q["created_at"] }}</td>
+            <td>{{ q["age_group"] }}</td>
+            <td>{{ q["cluster_id"] if q["cluster_id"] is not none else "Not assigned" }}</td>
+            <td><span class="pill {% if q['review_status'] == 'Pending' %}pending{% else %}reviewed{% endif %}">{{ q["review_status"] or "Pending" }}</span></td>
+            <td>
+              <details>
+                <summary>Open and review</summary>
+                <pre style="white-space:pre-wrap;font-size:11px">{{ q["answers_json"] }}</pre>
+                {% if q["review_notes"] %}<p><b>Previous note:</b> {{ q["review_notes"] }}</p>{% endif %}
+                <form method="POST" action="{{ url_for('review_questionnaire', response_id=q['id']) }}">
+                  <label class="sub">Care-team note</label>
+                  <textarea name="review_notes" maxlength="2000" placeholder="Record review and follow-up actions"></textarea>
+                  <button class="btn" type="submit">Save review</button>
+                </form>
+              </details>
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <div class="panel empty">No live questionnaire submissions yet.</div>
+    {% endif %}
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Registered mother accounts</h2><span class="sub">Live application accounts only</span></div>
+    <div class="panel table-wrap">
+      <table>
+        <thead><tr><th>Name</th><th>Email</th><th>Postpartum day</th><th>Activity entries</th></tr></thead>
+        <tbody>
+        {% for m in mothers %}
+          <tr><td>{{ m["name"] }}</td><td>{{ m["email"] }}</td><td>{{ m["postpartum_day"] or "Not added" }}</td><td>{{ m["entries"] }}</td></tr>
+        {% else %}
+          <tr><td colspan="4">No registered mothers yet.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section note">
+    <b>Responsible use:</b> The anonymous dataset and exploratory model outputs are not clinically validated. Human healthcare professionals must make all individual care and emergency decisions.
+  </section>
+</main>
+
+<footer class="footer">CARESYNQ+ · Maternal care analytics · Prototype only</footer>
+
+<script>
+const symptomLabels = {{ symptom_labels | default([], true) | tojson }};
+const symptomValues = {{ symptom_yes | default([], true) | tojson }};
+const ageLabels = {{ age_labels | default([], true) | tojson }};
+const ageValues = {{ age_counts | default([], true) | tojson }};
+const suicideLabels = {{ suicide_labels | default([], true) | tojson }};
+const suicideValues = {{ suicide_counts | default([], true) | tojson }};
+const missingLabels = {{ missing_labels | default([], true) | tojson }};
+const missingValues = {{ missing_counts | default([], true) | tojson }};
+
+const baseOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { position: "bottom" } }
+};
+
+function createChart(id, type, labels, values, label, color, horizontal=false) {
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+  if (!Array.isArray(labels) || !Array.isArray(values) || labels.length === 0 || values.length === 0) {
+    canvas.parentElement.innerHTML = '<div class="empty">No data available for this chart.</div>';
+    return;
+  }
+  new Chart(canvas, {
+    type,
+    data: {
+      labels,
+      datasets: [{
+        label,
+        data: values,
+        backgroundColor: color,
+        borderColor: color,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      ...baseOptions,
+      indexAxis: horizontal ? "y" : "x",
+      scales: type === "doughnut" ? {} : {
+        x: { beginAtZero: true },
+        y: { beginAtZero: true }
+      }
+    }
+  });
+}
+
+createChart("ageChart", "bar", ageLabels, ageValues, "Dataset records", "#9a83d0");
+createChart("suicideChart", "doughnut", suicideLabels, suicideValues, "Dataset responses",
+  ["#c53c55", "#378568", "#d9a441"]);
+createChart("symptomChart", "bar", symptomLabels, symptomValues, "Yes responses", "#8065c9", true);
+createChart("missingChart", "bar", missingLabels, missingValues, "Missing responses", "#d9a441", true);
+</script>
+</body>
+</html>

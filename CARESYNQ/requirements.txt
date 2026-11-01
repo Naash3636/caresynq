@@ -1,0 +1,8 @@
+Flask>=3.0,<4.0
+Flask
+Flask-Cors
+gunicorn
+pandas
+numpy
+scikit-learn
+joblib

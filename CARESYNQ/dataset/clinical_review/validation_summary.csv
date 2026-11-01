@@ -1,0 +1,16 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+source_row_id,10000.0,,,,5000.5,2886.8956799071675,1.0,2500.75,5000.5,7500.25,10000.0
+Timestamp,10000,10000,2022-06-14 20:02:00,1,,,,,,,
+Age,10000,5,40-45,2378,,,,,,,
+Feeling sad or Tearful,10000,3,Yes,3573,,,,,,,
+Irritable towards baby & partner,9961,3,Yes,3698,,,,,,,
+Trouble sleeping at night,10000,3,Two or more days a week,4275,,,,,,,
+Problems concentrating or making decision,9920,3,No,3771,,,,,,,
+Overeating or loss of appetite,10000,3,No,5676,,,,,,,
+Feeling anxious,10000,2,Yes,6500,,,,,,,
+Feeling of guilt,9937,3,No,4117,,,,,,,
+Problems of bonding with baby,10000,3,No,3688,,,,,,,
+Suicide attempt,10000,3,No,4661,,,,,,,
+Concerning_Response_Count,10000.0,,,,3.9592,1.2847180274445456,1.0,3.0,4.0,5.0,8.0
+Safety_Review_Required,10000,2,False,6917,,,,,,,
+Review_Category,10000,4,PRIORITY CLINICIAN REVIEW,4809,,,,,,,

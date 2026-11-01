@@ -1,0 +1,19 @@
+{
+    "total_records": 10000,
+    "original_columns": 13,
+    "questionnaire_features": [
+        "Feeling sad or Tearful",
+        "Irritable towards baby & partner",
+        "Trouble sleeping at night",
+        "Problems concentrating or making decision",
+        "Overeating or loss of appetite",
+        "Feeling anxious",
+        "Feeling of guilt",
+        "Problems of bonding with baby"
+    ],
+    "encoded_feature_count": 32,
+    "missing_values_total": 182,
+    "safety_column_separated": true,
+    "target_variable_created": false,
+    "clinical_prediction_ready": false
+}

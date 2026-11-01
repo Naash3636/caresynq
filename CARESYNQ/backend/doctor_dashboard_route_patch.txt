@@ -1,0 +1,96 @@
+CARESYNQ DOCTOR DASHBOARD BACKEND INTEGRATION
+================================================
+
+A. Add this import near the other imports in backend/app.py:
+
+from dashboard_analytics import build_dashboard_context
+
+B. Add this path near your ROOT / FRONTEND path definitions:
+
+DATASET_DIR = ROOT / "dataset"
+
+C. REPLACE only the existing doctor_dashboard() function with the following.
+   Keep your existing login_required decorator and keep your review route.
+
+@app.route("/doctor")
+@login_required("doctor")
+def doctor_dashboard():
+    # Existing live SQLite records
+    with get_db() as db:
+        mothers = db.execute("""
+            SELECT u.id, u.name, u.email, u.postpartum_day,
+                   COUNT(a.id) AS entries
+            FROM users u
+            LEFT JOIN activity a ON a.user_id = u.id
+            WHERE u.role = 'mother'
+            GROUP BY u.id
+            ORDER BY u.created_at DESC
+        """).fetchall()
+
+        total_entries = db.execute(
+            "SELECT COUNT(*) FROM activity"
+        ).fetchone()[0]
+
+        questionnaires = db.execute("""
+            SELECT q.id, q.user_id, q.age_group, q.answers_json,
+                   q.cluster_id, q.created_at, q.review_status,
+                   q.review_notes, q.reviewed_at,
+                   u.name AS mother_name, u.email AS mother_email
+            FROM questionnaire_responses q
+            JOIN users u ON q.user_id = u.id
+            ORDER BY q.created_at DESC
+        """).fetchall()
+
+        pending_reviews = db.execute("""
+            SELECT COUNT(*) FROM questionnaire_responses
+            WHERE review_status = 'Pending'
+        """).fetchone()[0]
+
+    # Aggregate anonymous dataset analysis from existing project CSV files.
+    analytics = build_dashboard_context(DATASET_DIR)
+
+    return render_template(
+        "doctor-dashboard.html",
+        mothers=mothers,
+        total_mothers=len(mothers),
+        total_entries=total_entries,
+        questionnaires=questionnaires,
+        pending_reviews=pending_reviews,
+        **analytics
+    )
+
+D. Keep (or add) the review POST route below the dashboard route:
+
+@app.route("/doctor/questionnaire/<int:response_id>/review", methods=["POST"])
+@login_required("doctor")
+def review_questionnaire(response_id):
+    notes = request.form.get("review_notes", "").strip()[:2000]
+    with get_db() as db:
+        response = db.execute(
+            "SELECT id FROM questionnaire_responses WHERE id = ?",
+            (response_id,)
+        ).fetchone()
+        if not response:
+            return "Questionnaire not found", 404
+        db.execute("""
+            UPDATE questionnaire_responses
+            SET review_status = 'Reviewed',
+                reviewed_by = ?,
+                review_notes = ?,
+                reviewed_at = CURRENT_TIMESTAMP
+            WHERE id = ?
+        """, (session["user_id"], notes, response_id))
+    return redirect(url_for("doctor_dashboard"))
+
+E. Install if needed:
+   pip install pandas numpy
+
+F. IMPORTANT:
+   - Put dashboard_analytics.py in the backend folder beside app.py.
+   - Dataset must be at CARESYNQ/dataset/post_natal_data_10000_records.csv.
+   - Keep database.py migration that adds review_status, reviewed_by,
+     review_notes, reviewed_at to questionnaire_responses.
+   - If your questionnaire table doesn't yet have these columns, run the
+     database migration before opening /doctor.
+   - The helper reads existing clinical_review and pattern_discovery CSVs
+     only if present; the core charts use the main dataset CSV.

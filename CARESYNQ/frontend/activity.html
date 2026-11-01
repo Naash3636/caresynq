@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Activity notes | CARESYNQ</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ======================================================
+         NAVIGATION BAR
+    ======================================================= -->
+
+    <nav class="navbar">
+
+        <a class="brand" href="/">
+            care<span>synq</span><b>+</b>
+        </a>
+
+        <div class="navlinks">
+            <a href="/mother">Dashboard</a>
+            <a href="/logout" class="btn btn-outline">Log out</a>
+        </div>
+
+    </nav>
+
+
+    <!-- ======================================================
+         ACTIVITY NOTES PAGE
+    ======================================================= -->
+
+    <main class="container page-wrap narrow">
+
+        <span class="eyebrow">OPTIONAL TRACKING</span>
+
+        <h1>Activity notes</h1>
+
+        <p class="lead">
+            Add a simple summary of your day. You can skip any field. Missing entries are not treated as evidence of a health problem.
+        </p>
+
+
+        <!-- ==================================================
+             SUCCESS MESSAGE
+        =================================================== -->
+
+        {% if message %}
+
+        <div class="alert success">
+            {{ message }}
+        </div>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             ACTIVITY ENTRY FORM
+        =================================================== -->
+
+        <form class="form-panel" method="POST">
+
+            <!-- DATE -->
+
+            <label>Date</label>
+
+            <input
+                type="date"
+                name="entry_date"
+                required
+            >
+
+
+            <!-- ACTIVITY TRACKING FIELDS -->
+
+            <div class="form-grid">
+
+                <!-- APP SESSIONS -->
+
+                <div>
+
+                    <label>App sessions</label>
+
+                    <input
+                        type="number"
+                        name="sessions"
+                        min="0"
+                        max="100"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <!-- TOTAL APP MINUTES -->
+
+                <div>
+
+                    <label>Approx. total app minutes</label>
+
+                    <input
+                        type="number"
+                        name="minutes"
+                        min="0"
+                        max="1440"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <!-- FEEDING LOGS -->
+
+                <div>
+
+                    <label>Feeding logs</label>
+
+                    <input
+                        type="number"
+                        name="feeding_logs"
+                        min="0"
+                        max="50"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <!-- SLEEP NOTES -->
+
+                <div>
+
+                    <label>Sleep notes</label>
+
+                    <input
+                        type="number"
+                        name="sleep_logs"
+                        min="0"
+                        max="50"
+                        value="0"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- OPTIONAL PERSONAL NOTE -->
+
+            <label>
+                Anything you'd like to note?
+                <span class="muted">(optional)</span>
+            </label>
+
+            <textarea
+                name="note"
+                rows="3"
+                maxlength="500"
+                placeholder="A short note about today..."
+            ></textarea>
+
+
+            <!-- SUBMIT BUTTON -->
+
+            <button class="btn btn-primary" type="submit">
+                Save activity note
+            </button>
+
+        </form>
+
+
+        <!-- ==================================================
+             DATABASE INFORMATION
+        =================================================== -->
+
+        <p class="muted small">
+            This demo stores the information in a local SQLite database on the server.
+        </p>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Log in | CARESYNQ</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="auth-bg">
+
+
+    <!-- ======================================================
+         NAVIGATION BAR
+    ======================================================= -->
+
+    <nav class="navbar">
+
+        <a class="brand" href="/">
+            care<span>synq</span><b>+</b>
+        </a>
+
+        <a href="/" class="text-link">
+            ← Back home
+        </a>
+
+    </nav>
+
+
+    <!-- ======================================================
+         LOGIN FORM
+    ======================================================= -->
+
+    <main class="auth-card">
+
+        <!-- LOGIN HEADER -->
+
+        <span class="eyebrow">
+            WELCOME BACK
+        </span>
+
+        <h1>Good to see you.</h1>
+
+        <p class="muted">
+            Log in to continue to your CARESYNQ space.
+        </p>
+
+
+        <!-- ==================================================
+             ERROR MESSAGE
+        =================================================== -->
+
+        {% if error %}
+
+        <div class="alert error">
+            {{ error }}
+        </div>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             LOGIN FORM FIELDS
+        =================================================== -->
+
+        <form method="POST" action="/login">
+
+            <!-- EMAIL ADDRESS -->
+
+            <label>Email address</label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+            >
+
+
+            <!-- PASSWORD -->
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+            >
+
+
+            <!-- LOGIN BUTTON -->
+
+            <button
+                class="btn btn-primary full"
+                type="submit"
+            >
+                Log in <span>→</span>
+            </button>
+
+        </form>
+
+
+        <!-- ==================================================
+             REGISTRATION LINK
+        =================================================== -->
+
+        <p class="form-foot">
+
+            New to CARESYNQ?
+
+            <a href="/register">
+                Create an account
+            </a>
+
+        </p>
+
+
+        <!-- ==================================================
+             DEMO DOCTOR LOGIN DETAILS
+        =================================================== -->
+
+        <div class="demo-hint">
+
+            <strong>Demo doctor login</strong>
+
+            <br>
+
+            doctor@caresynq.demo / 12345678
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

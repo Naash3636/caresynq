@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Patterns | CARESYNQ</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="/mother" class="brand">
+            care<span>synq</span><b>+</b>
+        </a>
+
+        <div class="navlinks">
+            <a href="/mother">Dashboard</a>
+            <a href="/activity">Activity</a>
+            <a href="/wellbeing">Wellbeing</a>
+            <a href="/logout">Log out</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <h1>Your Personal Patterns</h1>
+        <p>Explore your submitted activity and wellbeing records.</p>
+
+        <section class="overview-grid">
+
+            <article class="feature">
+                <h3>Activity Records</h3>
+                <h2>{{ total_activity }}</h2>
+                <p>Activity entries submitted</p>
+            </article>
+
+            <article class="feature">
+                <h3>Wellbeing Records</h3>
+                <h2>{{ total_wellbeing }}</h2>
+                <p>Wellbeing check-ins submitted</p>
+            </article>
+
+        </section>
+
+        <section class="feature">
+            <h2>Activity History</h2>
+
+            {% if activity_data %}
+                {% for item in activity_data %}
+                    <p>{{ item }}</p>
+                {% endfor %}
+            {% else %}
+                <p>No activity records available yet.</p>
+            {% endif %}
+        </section>
+
+        <section class="feature">
+            <h2>Wellbeing History</h2>
+
+            {% if wellbeing_data %}
+                {% for item in wellbeing_data %}
+                    <p>{{ item }}</p>
+                {% endfor %}
+            {% else %}
+                <p>No wellbeing records available yet.</p>
+            {% endif %}
+        </section>
+
+        <p>
+            These records are for personal reflection and do not provide
+            a medical diagnosis.
+        </p>
+
+    </main>
+
+</body>
+</html>
