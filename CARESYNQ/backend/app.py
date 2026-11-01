@@ -6,8 +6,8 @@ from functools import wraps
 from flask import Flask, render_template, request, redirect, url_for, session
 from werkzeug.security import check_password_hash, generate_password_hash
 from pathlib import Path
-from .database import get_db, init_db
-from .model import review_prompt
+from database import get_db, init_db
+from model import review_prompt
 import json
 import pandas as pd
 from dotenv import load_dotenv
@@ -20,14 +20,36 @@ from flask import (
     redirect,
     url_for
 )
+
+# ============================================================
+# PROJECT PATH CONFIGURATION
+# ============================================================
+
 ROOT = Path(__file__).resolve().parent.parent
 
-load_dotenv(ROOT / ".env", override=True)
 FRONTEND = ROOT / "frontend"
+
 DATASET_PATH = ROOT / "dataset" / "post_natal_data_10000_records.csv"
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES
+# ============================================================
+
+load_dotenv(ROOT / ".env", override=True)
+
 api_key = os.getenv("GEMINI_API_KEY")
+
+if not api_key:
+    raise ValueError("GEMINI_API_KEY is missing. Configure it in your .env file or deployment environment.")
+
 client = genai.Client(api_key=api_key)
-init_db()
+
+
+# ============================================================
+# FLASK APPLICATION
+# ============================================================
+
 app = Flask(
     __name__,
     template_folder=str(FRONTEND),
@@ -1079,6 +1101,7 @@ def caresynq_chatbot():
         return jsonify({
             "error": "The AI assistant is temporarily unavailable. Please try again."
         }), 500
+
 
 if __name__ == "__main__":
     app.run(debug=True)
