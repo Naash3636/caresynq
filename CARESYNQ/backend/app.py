@@ -10,7 +10,7 @@ from .database import get_db, init_db
 from .model import review_prompt
 import json
 import pandas as pd
-from dotenv import load_dotenv
+from .dotenv import load_dotenv
 
 from flask import (
     Flask,
