@@ -25,9 +25,8 @@ ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env", override=True)
 FRONTEND = ROOT / "frontend"
 DATASET_PATH = ROOT / "dataset" / "post_natal_data_10000_records.csv"
-
-ROOT = Path(__file__).resolve().parent.parent
-load_dotenv(ROOT / ".env")
+api_key = os.getenv("GEMINI_API_KEY")
+client = genai.Client(api_key=api_key)
 init_db()
 app = Flask(
     __name__,
