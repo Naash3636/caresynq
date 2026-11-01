@@ -6,7 +6,7 @@ from functools import wraps
 from flask import Flask, render_template, request, redirect, url_for, session
 from werkzeug.security import check_password_hash, generate_password_hash
 from pathlib import Path
-from database import get_db, init_db
+from .database import get_db, init_db
 from model import review_prompt
 import json
 import pandas as pd
