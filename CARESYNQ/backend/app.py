@@ -10,7 +10,7 @@ from .database import get_db, init_db
 from .model import review_prompt
 import json
 import pandas as pd
-from .dotenv import load_dotenv
+from dotenv import load_dotenv
 
 from flask import (
     Flask,
@@ -21,6 +21,8 @@ from flask import (
     url_for
 )
 ROOT = Path(__file__).resolve().parent.parent
+
+load_dotenv(ROOT / ".env", override=True)
 FRONTEND = ROOT / "frontend"
 DATASET_PATH = ROOT / "dataset" / "post_natal_data_10000_records.csv"
 
